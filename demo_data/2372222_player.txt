@@ -1,0 +1,46 @@
+id	first_name	last_name	known_name	team_id	shirt	posicion	titular	minutos
+76611	Diego Mariño	Diego Mariño	Diego Mariño	1564	1	Goalkeeper	Start	90
+234548	Álex Pozo	Álex Pozo	Álex Pozo	1564	17	Defender	Start	66
+469402	Edgar González	Edgar González	Edgar González	1564	3	Defender	Start	90
+210977	Srdjan Babic	Srdjan Babic	Srdjan Babic	1564	22	Defender	Start	90
+220871	Sergio Akieme	Sergio Akieme	Sergio Akieme	1564	15	Defender	Start	90
+233681	Lucas Robertone	Lucas Robertone	Lucas Robertone	1564	5	Midfielder	Start	77
+433952	Largie Ramazani	Largie Ramazani	Largie Ramazani	1564	7	Midfielder	Start	83
+441293	Lázaro	Lázaro	Lázaro	1564	14	Midfielder	Start	45
+132161	Adri Embarba	Adri Embarba	Adri Embarba	1564	10	Midfielder	Start	90
+463170	Iddrisu Baba	Iddrisu Baba	Iddrisu Baba	1564	4	Midfielder	Start	77
+432838	Luis Suárez	Luis Suárez	Luis Suárez	1564	9	Striker	Start	90
+454883	Álex Centelles	Álex Centelles	Álex Centelles	1564	20	Substitute	Sub	0
+248506	Arnau Puigmal	Arnau Puigmal	Arnau Puigmal	1564	8	Substitute	Sub	0
+532708	Kaiky	Kaiky	Kaiky	1564	2	Substitute	Sub	0
+500049	Bruno Iribarne	Bruno Iribarne	Bruno Iribarne	1564	37	Substitute	Sub	0
+195457	Melero	Melero	Melero	1564	11	Substitute	Sub	13
+100058	Fernando Martínez	Fernando Martínez	Fernando Martínez	1564	13	Substitute	Sub	0
+539673	Marko Milovanovic	Marko Milovanovic	Marko Milovanovic	1564	29	Substitute	Sub	7
+227162	Chumi	Chumi	Chumi	1564	21	Substitute	Sub	0
+562720	Marc Pubill	Marc Pubill	Marc Pubill	1564	18	Substitute	Sub	24
+545577	Gui	Gui	Gui	1564	28	Substitute	Sub	0
+493344	Sergio Arribas	Sergio Arribas	Sergio Arribas	1564	19	Substitute	Sub	45
+476412	Dion Lopy	Dion Lopy	Dion Lopy	1564	6	Substitute	Sub	13
+94878	Stole Dimitrievski	Stole Dimitrievski	Stole Dimitrievski	184	1	Goalkeeper	Start	90
+97624	Iván Balliu	Iván Balliu	Iván Balliu	184	20	Defender	Start	90
+89399	Aridane Hernández	Aridane Hernández	Aridane Hernández	184	5	Defender	Start	90
+178424	Alfonso Espino	Alfonso Espino	Alfonso Espino	184	12	Defender	Start	90
+77359	Florian Lejeune	Florian Lejeune	Florian Lejeune	184	24	Defender	Start	90
+433161	Óscar Valentín	Óscar Valentín	Óscar Valentín	184	23	Midfielder	Start	86
+183462	Unai López	Unai López	Unai López	184	17	Midfielder	Start	45
+165682	Álvaro García	Álvaro García	Álvaro García	184	18	Midfielder	Start	86
+434078	Isi Palazón	Isi Palazón	Isi Palazón	184	7	Midfielder	Start	90
+40721	Óscar Trejo	Óscar Trejo	Óscar Trejo	184	8	Midfielder	Start	63
+449300	Randy Nteka	Randy Nteka	Randy Nteka	184	11	Striker	Start	82
+94756	Salvi Sánchez	Salvi Sánchez	Salvi Sánchez	184	19	Substitute	Sub	27
+48847	Radamel Falcao	Radamel Falcao	Radamel Falcao	184	9	Substitute	Sub	8
+114323	José Ángel Pozo	José Ángel Pozo	José Ángel Pozo	184	6	Substitute	Sub	0
+498444	Pep Chavarría	Pep Chavarría	Pep Chavarría	184	3	Substitute	Sub	4
+441175	Pathé Ciss	Pathé Ciss	Pathé Ciss	184	21	Substitute	Sub	45
+587591	Pablo Muñoz	Pablo Muñoz	Pablo Muñoz	184	28	Substitute	Sub	0
+587592	Diego Méndez	Diego Méndez	Diego Méndez	184	29	Substitute	Sub	4
+232016	Abdul Mumin	Abdul Mumin	Abdul Mumin	184	16	Substitute	Sub	0
+84374	Bebé	Bebé	Bebé	184	10	Substitute	Sub	0
+547819	Jorge Moreno	Jorge Moreno	Jorge Moreno	184	27	Substitute	Sub	0
+462680	Miguel Morro	Miguel Morro	Miguel Morro	184	30	Substitute	Sub	0

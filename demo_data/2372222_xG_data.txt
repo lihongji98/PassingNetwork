@@ -1,0 +1,30 @@
+match_id	period	min	sec	xG	finalizacion	balon_jugado(22)_ABP(0)	tipo_jugada	gol_propia_meta(28)	x1	y1	z1	x2	y2	z2	team_id	team_name	player_id	player_name	dorsal	titular	posicion	team_receives_id	team_receives_name	goalkeeper_receives_id	goalkeeper_receives_name	xGOT
+372222-	1	3	12	0.0758423	13	22	29	0	93.5	42.9	0	100	39	11.1	184	Rayo Vallecano	449300	Randy Nteka	11	Start	Striker	1564	Almería	76611	Diego Mariño	0
+372222-	1	9	48	0.17144	13	0	26	0	81.4	50.4	0	100	56.8	81.9	184	Rayo Vallecano	434078	Isi Palazón	7	Start	Midfielder	1564	Almería	76611	Diego Mariño	0
+372222-	1	11	31	0.0471511	13	22	29	0	87	41.5	0	100	39	84.7	1564	Almería	132161	Adri Embarba	10	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	1	19	34	0.7884	16	0	9	0	88.5	50	0	100	53.2	10.1	184	Rayo Vallecano	434078	Isi Palazón	7	Start	Midfielder	1564	Almería	76611	Diego Mariño	0.9833
+372222-	1	24	6	0.0140712	13	22	0	0	71	40.1	0	100	43.5	15.3	1564	Almería	233681	Lucas Robertone	5	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	1	27	22	0.7884	16	0	9	0	88.5	50	0	100	47.2	20.3	184	Rayo Vallecano	449300	Randy Nteka	11	Start	Striker	1564	Almería	76611	Diego Mariño	0.9842
+372222-	1	29	56	0.40909	13	0	29	0	95.6	47.4	0	100	48.6	69.4	1564	Almería	463170	Iddrisu Baba	4	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	1	33	2	0.426275	15	22	29	0	91.4	61.3	0	100	50.9	18.4	1564	Almería	432838	Luis Suárez	9	Start	Striker	184	Rayo Vallecano	94878	Stole Dimitrievski	0.3003
+372222-	1	36	56	0.0112347	13	22	29	0	68.6	42.4	0	100	47.4	87.5	1564	Almería	463170	Iddrisu Baba	4	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	1	38	49	0.0943092	15	22	29	0	83.6	46.6	0	100	51.5	3.8	1564	Almería	432838	Luis Suárez	9	Start	Striker	184	Rayo Vallecano	94878	Stole Dimitrievski	0.0703
+372222-	1	44	34	0.0464212	15	22	0	0	79.3	34.2	0	100	51.7	14.6	184	Rayo Vallecano	183462	Unai López	17	Start	Midfielder	1564	Almería	76611	Diego Mariño	0.0586
+372222-	1	44	40	0.0520033	15	22	29	0	86.8	36	0	100	48.6	19	184	Rayo Vallecano	183462	Unai López	17	Start	Midfielder	1564	Almería	76611	Diego Mariño	0
+372222-	1	47	21	0.0310658	13	22	0	0	92.6	29.7	0	100	64	1.4	1564	Almería	441293	Lázaro	14	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	1	50	50	0.0522113	15	0	29	0	87	29.7	0	100	49.6	5.7	184	Rayo Vallecano	40721	Óscar Trejo	8	Start	Midfielder	1564	Almería	76611	Diego Mariño	0.0249
+372222-	2	52	20	0.0366752	13	0	29	0	89.9	55.5	0	100	50.3	50	1564	Almería	210977	Srdjan Babic	22	Start	Defender	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	53	42	0.036043	13	22	29	0	76.8	55	0	100	45.2	62.5	1564	Almería	132161	Adri Embarba	10	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	57	34	0.0170438	15	22	29	0	76	31.6	0	100	49.5	8.2	1564	Almería	433952	Largie Ramazani	7	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0.02
+372222-	2	58	37	0.0324373	15	22	29	0	94.6	28.7	0	100	48.9	29.1	1564	Almería	433952	Largie Ramazani	7	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0.0647
+372222-	2	59	13	0.0127449	15	22	29	0	74.4	24	0	100	48.9	19	1564	Almería	493344	Sergio Arribas	19	Sub	Substitute	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	61	18	0.0357159	13	0	25	0	80.5	53.7	0	100	46.1	88.9	1564	Almería	132161	Adri Embarba	10	Start	Midfielder	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	68	5	0.032613	15	22	29	0	84.7	39.1	0	100	50	19	1564	Almería	493344	Sergio Arribas	19	Sub	Substitute	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	70	57	0.019346	15	22	0	0	81.3	31.6	0	100	52.1	19	184	Rayo Vallecano	434078	Isi Palazón	7	Start	Midfielder	1564	Almería	76611	Diego Mariño	0
+372222-	2	73	40	0.0305864	13	22	29	0	86.9	51.9	0	100	63.5	11.1	1564	Almería	493344	Sergio Arribas	19	Sub	Substitute	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	78	7	0.0408087	15	22	29	0	86.1	67.2	0	100	53.9	15.8	1564	Almería	220871	Sergio Akieme	15	Start	Defender	184	Rayo Vallecano	94878	Stole Dimitrievski	0.1879
+372222-	2	79	39	0.0160157	13	22	29	0	70.9	49.6	0	100	33.3	91.7	1564	Almería	476412	Dion Lopy	6	Sub	Substitute	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	80	28	0.0350986	15	22	29	0	80.6	53.3	0	100	49.4	19	184	Rayo Vallecano	449300	Randy Nteka	11	Start	Striker	1564	Almería	76611	Diego Mariño	0
+372222-	2	81	3	0.0388373	15	22	29	0	87	73.9	0	100	51.3	19	184	Rayo Vallecano	178424	Alfonso Espino	12	Start	Defender	1564	Almería	76611	Diego Mariño	0
+372222-	2	84	1	0.0199349	15	22	29	0	86.2	70.3	0	100	50.2	19	1564	Almería	432838	Luis Suárez	9	Start	Striker	184	Rayo Vallecano	94878	Stole Dimitrievski	0
+372222-	2	90	47	0.0455094	13	22	29	0	91	41.5	0	100	92.8	20.8	1564	Almería	432838	Luis Suárez	9	Start	Striker	184	Rayo Vallecano	94878	Stole Dimitrievski	0
