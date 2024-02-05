@@ -16,17 +16,28 @@ def get_the_closest_tile(player_coordinate: PlayerCoordinate):
     tile_x = player_coordinate.x // (100 / PitchMeta.x)
     tile_y = player_coordinate.y // (100 / PitchMeta.y)
     tile_id = tile_y * PitchMeta.x - (PitchMeta.x - tile_x)
-
+    return tile_id
 
 def initialise_pitch_graph(df_all_events):
     df_shot = df_all_events[df_all_events.codigo.isin([13, 14, 15, 16])]
     df_goal = df_shot[df_shot.codigo == 16]
     df_pass = df_all_events[df_all_events["tipo"] == "pase"]
 
-    pitch_graph = {i: [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in PitchMeta.x * PitchMeta.y}
+    pitch_graph = {i: [0, 0, np.zeros(shape=[PitchMeta.x * PitchMeta.y])] for i in range(PitchMeta.x * PitchMeta.y)}
 
     for index, row in df_shot.iterrows():
-        get_the_closest_tile([row.x, row.y])
+        player_coordinate = PlayerCoordinate(row.x, row.y)
+        tile_id = get_the_closest_tile(player_coordinate)
+        pitch_graph[tile_id][0] += 1
+
+    for index, row in df_pass.iterrows():
+        origin_player_coordinate = PlayerCoordinate(row.x, row.y)
+        origin_tile_id = get_the_closest_tile(origin_player_coordinate)
+        destination_player_coordinate = PlayerCoordinate(row.end_x, row.end_y)
+        destination_tile_id = get_the_closest_tile(destination_player_coordinate) 
+        pitch_graph[origin_tile_id][2][destination_tile_id]
+
+
 
 
 def _get_tile_state_probs(shot_pass_count_dict: Dict[TileID, TileStateCount]) -> Dict[TileID, TileStateDistribution]:
