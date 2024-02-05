@@ -18,7 +18,7 @@ def get_the_closest_tile(player_coordinate: PlayerCoordinate):
 
     tile_id = PitchMeta.x * tile_y + tile_x if tile_y != 0 else tile_x
 
-    print(tile_x, tile_y, tile_id)
+    return tile_id
 
 
 def initialise_pitch_graph(_df_all_events):
@@ -29,9 +29,12 @@ def initialise_pitch_graph(_df_all_events):
     pitch_graph = {i: [0, 0, np.zeros(shape=(PitchMeta.x * PitchMeta.y))] for i in range(PitchMeta.x * PitchMeta.y)}
     surface = pitch_graph[0][2]
 
-    player_pos = PlayerCoordinate(0, 8.34)
-    get_the_closest_tile(player_pos)
-    print(player_pos)
+    for index, row in df_shot.iterrows():
+        shot_pos = PlayerCoordinate(row.x, row.y)
+        tile_id = get_the_closest_tile(shot_pos)
+        pitch_graph[tile_id][0] += 1
+
+    print(pitch_graph)
 
 
 def _get_tile_state_probs(shot_pass_count_dict: Dict[TileID, TileStateCount]) -> Dict[TileID, TileStateDistribution]:
