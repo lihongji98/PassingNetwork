@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from typing import Dict, List, Tuple
+from typing import Dict, List
 from data_type import (
     TileID, ConversionRate,
     PlayerCoordinate,
@@ -56,14 +56,14 @@ def _get_tile_state_probs(shot_pass_count_dict: Dict[TileID, TileStateCount]) ->
         shot_count = tile_state_info.shot_count
         pass_count = tile_state_info.pass_count
 
-        try:
+        if (pass_count + shot_count) != 0:
             shot_ratio = shot_count / (pass_count + shot_count)
-        except ZeroDivisionError:
+        else:
             shot_ratio = 0
 
-        try:
+        if (pass_count + shot_count) != 0:
             pass_ratio = pass_count / (pass_count + shot_count)
-        except ZeroDivisionError:
+        else:
             pass_ratio = 0
 
         tile_state_distribution = TileStateDistribution(shot_ratio, pass_ratio)
@@ -78,10 +78,10 @@ def _get_pass_distribution(pass_count_dict: Dict[TileID, np.ndarray]) -> Dict[Ti
     for index, tile_id in enumerate(pass_count_dict.keys()):
         pass_count_distribution = pass_count_dict[tile_id]
         pass_count_total = np.sum(pass_count_distribution)
-        try:
+        if pass_count_total != 0:
             pass_distribution = pass_count_distribution / pass_count_total
-        except ZeroDivisionError:
-            pass_distribution = 0
+        else:
+            pass_distribution = 0 * pass_count_distribution
 
         tile_pass_distribution_dict[tile_id] = pass_distribution
 
@@ -157,8 +157,8 @@ df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
 
 pitch_graph = initialise_pitch_graph(df_all_events)
 
-xThreat = np.zeros(shape=(PitchMeta.y * PitchMeta.x))
+xThreat = np.zeros(shape=(PitchMeta.x * PitchMeta.y))
 
-xThreat = compute_xThreat(xThreat, pitch_graph)
+xThreat = np.round(compute_xThreat(xThreat, pitch_graph), 1)
 
-print(xThreat)
+print(xThreat.reshape(PitchMeta.y, PitchMeta.x))
