@@ -56,7 +56,7 @@ def _get_scoring_percentage(shot_goal_count_dict: Dict[TileID, TileShotGoalCount
     return tile_conversion_rate_dict
 
 
-def compute_xThreat(pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):     # List[shot, goal, pass_count_surface]
+def _get_xThreat_materials(pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):
     shot_pass_count_dict = {}
     for tile_id in pitch_graph.keys():
         shot_count = pitch_graph[tile_id][0]
@@ -77,11 +77,33 @@ def compute_xThreat(pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):    
         shot_goal_count_dict[tile_id] = TileShotGoalCount(shot_count, goal_count)
     tile_conversion_rate_dict = _get_scoring_percentage(shot_goal_count_dict)
 
+    return tile_state_distribution_dict, tile_pass_distribution_dict, tile_conversion_rate_dict
+
+
+def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):
+    # List[shot, goal, pass_count_surface]
+    state_probs_shot_pass, transmission_matrix, state_probs_shot_goal = _get_xThreat_materials(pitch_graph)
+
+    assert xThreat.shape[0] == len(pitch_graph.keys()), "xThreat shape does not match pitch graph key number"
+
+    for tile_id in pitch_graph.keys():
+        assert transmission_matrix[tile_id].shape == xThreat.shape, "Transmission matrix does not match xThreat shape"
+
+        pass_payoff = np.sum(transmission_matrix[tile_id] * xThreat)
+        pass_value = state_probs_shot_pass[tile_id].pass_prob * pass_payoff
+
+        shot_value = state_probs_shot_pass[tile_id].shot_prob * state_probs_shot_goal[tile_id]
+
+        xThreat[tile_id] = pass_value + shot_value
+
+    return xThreat
+
 
 df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
 pd.set_option('display.max_columns', None)
 print(set(df_all_events.tipo.values))
 # gol, disparo_parado
+
 # regate_conseguido
 
 df_shot = df_all_events[df_all_events.tipo.isin(["gol", "disparo_parado"])]
@@ -97,5 +119,3 @@ print(df_key_events.type.unique())
 df_shot_attempt = df_key_events[df_key_events.tipo.isin(["miss", "attempt_saved", "goal"])]
 df_goal = df_shot_attempt[df_shot_attempt.type == "goal"]
 print()
-
-
