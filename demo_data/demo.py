@@ -8,11 +8,7 @@ from data_type import (
     TileStateDistribution,
     TileShotGoalCount
 )
-from config import PitchMeta 
-
-def main():
-    compute_xThreat(pitch_graph)
-    return pitch_graph
+from config import PitchMeta
 
 
 def get_the_closest_tile(player_coordinate: PlayerCoordinate):
@@ -27,14 +23,10 @@ def initialise_pitch_graph(df_all_events):
     df_goal = df_shot[df_shot.codigo == 16]
     df_pass = df_all_events[df_all_events["tipo"] == "pase"]
 
-    pitch_graph = {i : [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in PitchMeta.x * PitchMeta.y}
-    
-    pitch_
-    for index, row in df_shot.iterrows():
-        tile_id = get_the_closest_tile([row.x, row.y])
-        
-        
+    pitch_graph = {i: [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in PitchMeta.x * PitchMeta.y}
 
+    for index, row in df_shot.iterrows():
+        get_the_closest_tile([row.x, row.y])
 
 
 def _get_tile_state_probs(shot_pass_count_dict: Dict[TileID, TileStateCount]) -> Dict[TileID, TileStateDistribution]:
@@ -78,7 +70,8 @@ def _get_scoring_percentage(shot_goal_count_dict: Dict[TileID, TileShotGoalCount
     return tile_conversion_rate_dict
 
 
-def compute_xThreat(pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):     # List[shot, goal, pass_count_surface]
+def _get_xThreat_materials(
+        pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):  # List[shot, goal, pass_count_surface]
     shot_pass_count_dict = {}
     for tile_id in pitch_graph.keys():
         shot_count = pitch_graph[tile_id][0]
@@ -102,7 +95,7 @@ def compute_xThreat(pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):     
     return tile_state_distribution_dict, tile_pass_distribution_dict, tile_conversion_rate_dict
 
 
-def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):
+def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):
     # List[shot, goal, pass_count_surface]
     state_probs_shot_pass, transmission_matrix, state_probs_shot_goal = _get_xThreat_materials(pitch_graph)
 
@@ -121,13 +114,9 @@ def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, Tuple[int, in
     return xThreat
 
 
+def main():
+    pitch_graph = compute_xThreat(pitch_graph)
+    return pitch_graph
+
+
 df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
-
-
-
-
-
-
-
-
-
