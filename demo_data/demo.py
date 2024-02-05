@@ -99,6 +99,27 @@ def compute_xThreat(pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):     
         shot_goal_count_dict[tile_id] = TileShotGoalCount(shot_count, goal_count)
     tile_conversion_rate_dict = _get_scoring_percentage(shot_goal_count_dict)
 
+    return tile_state_distribution_dict, tile_pass_distribution_dict, tile_conversion_rate_dict
+
+
+def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):
+    # List[shot, goal, pass_count_surface]
+    state_probs_shot_pass, transmission_matrix, state_probs_shot_goal = _get_xThreat_materials(pitch_graph)
+
+    assert xThreat.shape[0] == len(pitch_graph.keys()), "xThreat shape does not match pitch graph key number"
+
+    for tile_id in pitch_graph.keys():
+        assert transmission_matrix[tile_id].shape == xThreat.shape, "Transmission matrix does not match xThreat shape"
+
+        pass_payoff = np.sum(transmission_matrix[tile_id] * xThreat)
+        pass_value = state_probs_shot_pass[tile_id].pass_prob * pass_payoff
+
+        shot_value = state_probs_shot_pass[tile_id].shot_prob * state_probs_shot_goal[tile_id]
+
+        xThreat[tile_id] = pass_value + shot_value
+
+    return xThreat
+
 
 df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
 
