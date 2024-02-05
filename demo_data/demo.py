@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from typing import Dict, Tuple
+from typing import Dict, List
 from data_type import (
     TileID, ConversionRate,
     PlayerCoordinate,
@@ -8,11 +8,33 @@ from data_type import (
     TileStateDistribution,
     TileShotGoalCount
 )
+from config import PitchMeta 
+
+def main():
+    compute_xThreat(pitch_graph)
+    return pitch_graph
 
 
 def get_the_closest_tile(player_coordinate: PlayerCoordinate):
     # the pitch size is 100 * 100, and converted to 16 * 12
-    player_x, player_y = player_coordinate.x / 100, player_coordinate.y / 100
+    tile_x = player_coordinate.x // (100 / PitchMeta.x)
+    tile_y = player_coordinate.y // (100 / PitchMeta.y)
+    tile_id = tile_y * PitchMeta.x - (PitchMeta.x - tile_x)
+
+
+def initialise_pitch_graph(df_all_events):
+    df_shot = df_all_events[df_all_events.codigo.isin([13, 14, 15, 16])]
+    df_goal = df_shot[df_shot.codigo == 16]
+    df_pass = df_all_events[df_all_events["tipo"] == "pase"]
+
+    pitch_graph = {i : [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in PitchMeta.x * PitchMeta.y}
+    
+    pitch_
+    for index, row in df_shot.iterrows():
+        tile_id = get_the_closest_tile([row.x, row.y])
+        
+        
+
 
 
 def _get_tile_state_probs(shot_pass_count_dict: Dict[TileID, TileStateCount]) -> Dict[TileID, TileStateDistribution]:
@@ -56,7 +78,7 @@ def _get_scoring_percentage(shot_goal_count_dict: Dict[TileID, TileShotGoalCount
     return tile_conversion_rate_dict
 
 
-def compute_xThreat(pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):     # List[shot, goal, pass_count_surface]
+def compute_xThreat(pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):     # List[shot, goal, pass_count_surface]
     shot_pass_count_dict = {}
     for tile_id in pitch_graph.keys():
         shot_count = pitch_graph[tile_id][0]
@@ -79,23 +101,12 @@ def compute_xThreat(pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):    
 
 
 df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
-pd.set_option('display.max_columns', None)
-print(set(df_all_events.tipo.values))
-# gol, disparo_parado
-# regate_conseguido
-
-df_shot = df_all_events[df_all_events.tipo.isin(["gol", "disparo_parado"])]
-df_pass = df_all_events[df_all_events["tipo"] == "pase"]
-# df_dribble = df_all_events[df_all_events["tipo"] == "regate_conseguido"]
-
-df_xg = pd.read_csv("2372222_xG_data.txt", sep="\t")
-# print(df_shot)
 
 
-df_key_events = pd.read_csv("2372222_key_event.txt", sep="\t")
-print(df_key_events.type.unique())
-df_shot_attempt = df_key_events[df_key_events.tipo.isin(["miss", "attempt_saved", "goal"])]
-df_goal = df_shot_attempt[df_shot_attempt.type == "goal"]
-print()
+
+
+
+
+
 
 

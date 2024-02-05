@@ -2,7 +2,6 @@ from typing import TypeAlias
 from dataclasses import dataclass
 import numpy as np
 
-
 @dataclass
 class PlayerCoordinate:
     x: float
