@@ -27,9 +27,9 @@ def initialise_pitch_graph(df_all_events):
     df_goal = df_shot[df_shot.codigo == 16]
     df_pass = df_all_events[df_all_events["tipo"] == "pase"]
 
-    pitch_graph = {i : [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in PitchMeta.x * PitchMeta.y}
+    pitch_graph = {i : [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in range(PitchMeta.x * PitchMeta.y)}
     
-    pitch_
+    pitch_graph
     for index, row in df_shot.iterrows():
         tile_id = get_the_closest_tile([row.x, row.y])
         
@@ -102,7 +102,7 @@ def compute_xThreat(pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):     
     return tile_state_distribution_dict, tile_pass_distribution_dict, tile_conversion_rate_dict
 
 
-def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):
+def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):
     # List[shot, goal, pass_count_surface]
     state_probs_shot_pass, transmission_matrix, state_probs_shot_goal = _get_xThreat_materials(pitch_graph)
 
@@ -126,7 +126,8 @@ df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
 
 
 
-
+if __name__ == "__main__":
+    main()
 
 
 
