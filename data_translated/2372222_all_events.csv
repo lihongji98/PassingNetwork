@@ -1,0 +1,1571 @@
+,code,type,team,player,x,y,minute,second,period,match,team_name,player_name,outcome,phase,tipo.1,end_x,end_y,extra
+0,1,pass,184,449300,50.1,50.0,0,0,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,32.1,62.1,0
+1,1,failed_pass,184,77359,29.0,63.8,0,2,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,76.0,101.1,0
+2,5,ball_out,1564,432838,23.8,0.0,0,6,1,2372222,Almería,Luis Suárez,1,0,347,0.0,0.0,0
+3,5,ball_out,184,77359,76.2,100.0,0,6,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,347,0.0,0.0,0
+4,1,pass,1564,234548,24.2,0.0,0,17,1,2372222,Almería,Álex Pozo,1,0,0,34.7,5.3,0
+5,1,failed_pass,1564,441293,34.7,5.3,0,18,1,2372222,Almería,Lázaro,0,0,0,38.0,15.8,0
+6,1,failed_pass,184,183462,60.3,83.7,0,19,1,2372222,Rayo Vallecano,Unai López,0,0,0,70.2,91.3,0
+7,1,failed_pass,1564,234548,24.6,12.0,0,21,1,2372222,Almería,Álex Pozo,0,0,0,36.1,12.9,0
+8,49,ball_recovery,184,433161,61.6,88.8,0,22,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+9,1,pass,184,433161,60.9,87.0,0,22,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,63.2,94.2,0
+10,1,pass,184,178424,63.1,94.4,0,24,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,69.3,94.9,0
+11,1,failed_pass,184,165682,69.3,94.9,0,24,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,69.3,86.1,0
+12,49,ball_recovery,1564,233681,30.4,14.3,0,25,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+13,1,pass,1564,233681,33.3,4.7,0,27,1,2372222,Almería,Lucas Robertone,1,0,0,44.6,5.9,0
+14,4,foul_received,1564,432838,42.3,6.8,0,29,1,2372222,Almería,Luis Suárez,1,0,152,0.0,0.0,0
+15,4,foul_committed,184,77359,57.7,93.2,0,29,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,152,0.0,0.0,0
+16,1,pass,1564,233681,42.9,6.7,0,37,1,2372222,Almería,Lucas Robertone,1,0,0,27.0,25.6,0
+17,1,pass,1564,469402,26.2,28.3,0,39,1,2372222,Almería,Edgar González,1,0,0,29.8,67.5,0
+18,1,pass,1564,210977,30.4,67.8,0,43,1,2372222,Almería,Srdjan Babic,1,0,0,41.4,94.4,0
+19,1,failed_pass,1564,463170,41.6,94.4,0,46,1,2372222,Almería,Iddrisu Baba,0,0,0,42.8,94.7,0
+20,74,pass_block,184,183462,55.7,4.9,0,46,1,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+21,5,ball_out,184,183462,51.5,0.0,0,48,1,2372222,Rayo Vallecano,Unai López,0,0,347,0.0,0.0,0
+22,5,ball_out,1564,220871,48.5,100.0,0,48,1,2372222,Almería,Sergio Akieme,1,0,347,0.0,0.0,0
+23,1,pass,1564,220871,59.1,100.0,1,3,1,2372222,Almería,Sergio Akieme,1,0,0,66.7,96.5,0
+24,1,pass,1564,132161,66.7,96.5,1,5,1,2372222,Almería,Adri Embarba,1,0,0,58.1,97.4,0
+25,45,dribble_received,184,183462,37.9,5.5,1,7,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+26,3,dribble_successful,1564,220871,62.1,94.5,1,7,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+27,1,failed_pass,1564,220871,57.9,97.4,1,9,1,2372222,Almería,Sergio Akieme,0,0,0,70.5,99.0,0
+28,49,ball_recovery,184,89399,23.0,4.0,1,12,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+29,1,failed_pass,184,89399,22.8,3.3,1,12,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,39.1,2.3,0
+30,61,touched_ball,1564,220871,60.0,98.0,1,13,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+31,5,ball_out,184,434078,42.2,0.0,1,14,1,2372222,Rayo Vallecano,Isi Palazón,1,0,347,0.0,0.0,0
+32,5,ball_out,1564,220871,57.8,100.0,1,14,1,2372222,Almería,Sergio Akieme,0,0,347,0.0,0.0,0
+33,1,pass,184,97624,46.7,0.0,1,37,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,61.7,5.2,0
+34,44,aerial_duel,184,434078,61.9,5.3,1,38,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+35,44,aerial_duel,1564,463170,38.1,94.7,1,38,1,2372222,Almería,Iddrisu Baba,0,0,0,0.0,0.0,0
+36,1,pass,184,434078,61.8,6.0,1,38,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,69.4,6.9,0
+37,61,touched_ball,184,449300,67.9,7.6,1,40,1,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+38,61,touched_ball,1564,220871,34.1,94.7,1,41,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+39,49,ball_recovery,1564,233681,35.7,86.2,1,41,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+40,1,pass,1564,233681,35.9,83.8,1,41,1,2372222,Almería,Lucas Robertone,1,0,0,19.7,80.3,0
+41,1,pass,1564,210977,19.7,80.3,1,44,1,2372222,Almería,Srdjan Babic,1,0,0,7.4,56.0,0
+42,1,pass,1564,76611,7.9,47.9,1,52,1,2372222,Almería,Diego Mariño,1,0,0,9.5,25.8,0
+43,1,pass,1564,469402,9.7,24.4,1,54,1,2372222,Almería,Edgar González,1,0,0,24.9,57.8,0
+44,1,pass,1564,463170,18.8,54.3,1,57,1,2372222,Almería,Iddrisu Baba,1,0,0,12.6,75.4,0
+45,1,pass,1564,210977,23.8,72.1,2,3,1,2372222,Almería,Srdjan Babic,1,0,0,14.3,32.5,0
+46,1,pass,1564,469402,24.6,26.2,2,7,1,2372222,Almería,Edgar González,1,0,0,34.1,24.1,0
+47,61,touched_ball,1564,433952,30.1,17.6,2,9,1,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+48,49,ball_recovery,184,433161,70.4,90.4,2,10,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+49,1,pass,184,433161,70.4,90.4,2,10,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,58.7,90.8,0
+50,1,failed_pass,184,178424,52.8,94.6,2,13,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,53.4,92.1,0
+51,61,touched_ball,1564,441293,42.5,7.4,2,13,1,2372222,Almería,Lázaro,1,0,0,0.0,0.0,0
+52,1,pass,184,183462,47.2,83.0,2,15,1,2372222,Rayo Vallecano,Unai López,1,0,0,29.2,53.1,0
+53,1,pass,184,89399,28.5,47.8,2,18,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,43.6,4.2,0
+54,1,pass,184,97624,64.0,4.5,2,25,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,63.1,11.6,0
+55,1,pass,184,434078,58.3,7.2,2,28,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,43.9,16.7,0
+56,1,pass,184,183462,44.1,26.3,2,31,1,2372222,Rayo Vallecano,Unai López,1,0,0,40.3,64.1,0
+57,1,pass,184,77359,42.4,67.4,2,34,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,58.3,94.6,0
+58,1,pass,184,178424,58.9,91.7,2,36,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,59.2,72.5,0
+59,1,pass,184,433161,59.2,71.7,2,37,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,55.9,82.3,0
+60,1,pass,184,178424,55.6,81.5,2,38,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,45.1,50.4,0
+61,1,pass,184,89399,45.1,49.6,2,40,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,56.5,27.0,0
+62,1,pass,184,183462,61.2,14.3,2,45,1,2372222,Rayo Vallecano,Unai López,1,0,0,59.0,5.6,0
+63,1,pass,184,97624,60.4,8.0,2,46,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,52.6,33.1,0
+64,1,pass,184,89399,53.6,44.4,2,51,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,58.9,76.3,0
+65,1,pass,184,433161,58.4,78.3,2,56,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,46.4,70.5,0
+66,1,pass,184,77359,45.5,67.2,2,59,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,46.8,31.7,0
+67,1,pass,184,183462,59.8,26.6,3,3,1,2372222,Rayo Vallecano,Unai López,1,0,0,66.4,5.2,0
+68,1,pass,184,434078,69.1,4.2,3,8,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,80.3,4.7,0
+69,1,pass,184,97624,82.4,4.5,3,11,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,91.9,44.2,0
+70,13,chance_missed,184,449300,93.5,42.9,3,12,1,2372222,Rayo Vallecano,Randy Nteka,1,22,0,0.0,0.0,0
+71,5,ball_out,1564,469402,0.0,61.9,3,13,1,2372222,Almería,Edgar González,1,0,346,0.0,0.0,0
+72,5,ball_out,184,449300,100.0,38.1,3,13,1,2372222,Rayo Vallecano,Randy Nteka,0,0,346,0.0,0.0,0
+73,1,pass,1564,76611,4.6,53.1,3,40,1,2372222,Almería,Diego Mariño,1,0,0,7.3,27.6,0
+74,1,pass,1564,469402,7.3,27.6,3,42,1,2372222,Almería,Edgar González,1,0,0,10.6,8.5,0
+75,1,failed_pass,1564,234548,10.8,8.6,3,44,1,2372222,Almería,Álex Pozo,0,0,0,12.4,8.8,0
+76,61,touched_ball,184,165682,72.8,88.0,3,44,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,0.0,0.0,0
+77,1,pass,184,178424,58.2,87.0,3,48,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,59.0,72.3,0
+78,1,failed_pass,184,434078,58.8,70.7,3,49,1,2372222,Rayo Vallecano,Isi Palazón,0,0,0,59.2,60.7,0
+79,1,failed_pass,1564,433952,53.7,41.8,3,53,1,2372222,Almería,Largie Ramazani,0,0,0,68.7,51.8,0
+80,61,touched_ball,184,89399,29.6,50.9,3,54,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+81,49,ball_recovery,184,434078,42.9,48.6,3,55,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+82,1,pass,184,434078,45.0,46.0,3,58,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,45.8,20.5,0
+83,1,pass,184,97624,61.8,6.5,4,3,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,63.6,19.2,0
+84,1,pass,184,434078,60.6,23.0,4,5,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,52.5,29.7,0
+85,1,pass,184,183462,52.8,31.0,4,7,1,2372222,Rayo Vallecano,Unai López,1,0,0,42.7,67.6,0
+86,1,pass,184,77359,42.7,69.4,4,11,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,54.9,75.0,0
+87,1,pass,184,40721,55.1,77.0,4,11,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,44.3,69.0,0
+88,1,pass,184,77359,44.3,69.0,4,13,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,54.5,90.9,0
+89,1,pass,184,178424,54.1,79.0,4,15,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,36.4,8.7,0
+90,1,pass,184,183462,36.4,7.1,4,20,1,2372222,Rayo Vallecano,Unai López,1,0,0,48.7,2.5,0
+91,1,pass,184,97624,48.7,2.5,4,22,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,42.0,6.9,0
+92,1,pass,184,183462,41.8,12.0,4,24,1,2372222,Rayo Vallecano,Unai López,1,0,0,34.5,67.6,0
+93,1,pass,184,77359,38.9,70.3,4,28,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,67.4,94.4,0
+94,1,pass,184,165682,68.8,94.4,4,30,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,64.8,87.5,0
+95,1,pass,184,40721,66.4,89.3,4,34,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,73.2,85.7,0
+96,1,pass,184,178424,73.4,85.1,4,35,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,73.1,89.3,0
+97,1,pass,184,40721,73.1,89.9,4,36,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,83.0,93.7,0
+98,1,failed_pass,184,165682,84.3,94.8,4,38,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,88.1,92.9,0
+99,74,pass_block,1564,234548,16.5,7.3,4,38,1,2372222,Almería,Álex Pozo,1,0,0,0.0,0.0,0
+100,5,ball_out,1564,234548,15.6,0.0,4,40,1,2372222,Almería,Álex Pozo,0,0,347,0.0,0.0,0
+101,5,ball_out,184,165682,84.4,100.0,4,40,1,2372222,Rayo Vallecano,Álvaro García,1,0,347,0.0,0.0,0
+102,1,pass,184,178424,85.6,100.0,4,53,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,78.6,87.1,0
+103,1,failed_pass,184,165682,78.5,87.1,4,54,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,94.3,93.8,0
+104,12,clearance,1564,234548,5.8,10.3,4,56,1,2372222,Almería,Álex Pozo,1,0,0,6.4,8.6,0
+105,61,touched_ball,184,178424,93.2,95.8,4,56,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+106,5,ball_out,1564,234548,4.8,0.0,4,57,1,2372222,Almería,Álex Pozo,1,0,347,0.0,0.0,0
+107,5,ball_out,184,165682,95.2,100.0,4,57,1,2372222,Rayo Vallecano,Álvaro García,0,0,347,0.0,0.0,0
+108,1,pass,1564,234548,6.1,0.0,5,4,1,2372222,Almería,Álex Pozo,1,0,0,5.1,12.9,0
+109,1,pass,1564,233681,5.1,12.9,5,6,1,2372222,Almería,Lucas Robertone,1,0,0,3.8,6.4,0
+110,1,pass,1564,234548,3.8,6.4,5,7,1,2372222,Almería,Álex Pozo,1,0,0,3.2,11.6,0
+111,61,touched_ball,1564,233681,2.9,12.2,5,8,1,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+112,6,corner_kick,1564,233681,5.0,12.8,5,9,1,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+113,6,corner_kick,184,178424,95.0,87.2,5,9,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+114,1,failed_pass,184,183462,99.5,99.5,5,37,1,2372222,Rayo Vallecano,Unai López,0,0,0,92.0,73.2,0
+115,12,clearance,1564,234548,4.4,30.7,5,38,1,2372222,Almería,Álex Pozo,1,0,0,12.7,18.0,0
+116,1,pass,184,165682,87.7,83.7,5,40,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,89.9,93.1,0
+117,1,failed_pass,184,183462,88.1,92.8,5,43,1,2372222,Rayo Vallecano,Unai López,0,0,0,96.9,51.6,0
+118,52,goalkeeper_catches_ball,1564,76611,2.3,46.9,5,44,1,2372222,Almería,Diego Mariño,0,0,0,0.0,0.0,0
+119,1,pass,1564,76611,14.6,47.6,5,48,1,2372222,Almería,Diego Mariño,1,0,0,24.5,77.2,0
+120,1,pass,1564,220871,44.1,69.6,5,56,1,2372222,Almería,Sergio Akieme,1,0,0,41.0,78.8,0
+121,1,pass,1564,463170,41.9,82.1,5,58,1,2372222,Almería,Iddrisu Baba,1,0,0,59.2,95.9,0
+122,1,pass,1564,441293,47.2,83.9,6,2,1,2372222,Almería,Lázaro,1,0,0,37.3,61.2,0
+123,1,pass,1564,210977,38.4,52.8,6,5,1,2372222,Almería,Srdjan Babic,1,0,0,38.1,36.1,0
+124,1,pass,1564,469402,38.1,36.1,6,9,1,2372222,Almería,Edgar González,1,0,0,54.9,7.4,0
+125,1,pass,1564,234548,55.3,7.4,6,11,1,2372222,Almería,Álex Pozo,1,0,0,65.7,31.8,0
+126,1,pass,1564,433952,65.8,31.8,6,12,1,2372222,Almería,Largie Ramazani,1,0,0,87.5,39.5,0
+127,61,touched_ball,1564,132161,87.5,39.5,6,15,1,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+128,52,goalkeeper_catches_ball,184,94878,9.4,48.7,6,17,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+129,1,pass,184,94878,13.4,44.7,6,21,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,29.3,81.5,0
+130,3,failed_dribble,184,40721,43.4,92.5,6,24,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+131,7,tackle,1564,233681,56.6,7.5,6,25,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+132,49,ball_recovery,1564,234548,44.4,8.2,6,26,1,2372222,Almería,Álex Pozo,1,0,0,0.0,0.0,0
+133,3,failed_dribble,1564,234548,45.1,8.5,6,27,1,2372222,Almería,Álex Pozo,0,0,0,0.0,0.0,0
+134,7,tackle,184,40721,54.9,91.5,6,27,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+135,61,touched_ball,1564,234548,44.5,6.1,6,27,1,2372222,Almería,Álex Pozo,1,0,0,0.0,0.0,0
+136,49,ball_recovery,184,40721,56.3,92.0,6,28,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+137,1,pass,184,40721,56.3,92.0,6,28,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,69.8,95.5,0
+138,3,failed_dribble,184,165682,79.6,81.4,6,32,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,0.0,0.0,0
+139,7,tackle,1564,469402,20.4,18.6,6,32,1,2372222,Almería,Edgar González,0,0,0,0.0,0.0,0
+140,61,touched_ball,184,165682,76.5,85.9,6,32,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,0.0,0.0,0
+141,1,pass,184,40721,74.7,87.1,6,35,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,69.9,68.8,0
+142,1,pass,184,183462,70.2,71.6,6,37,1,2372222,Rayo Vallecano,Unai López,1,0,0,76.3,73.2,0
+143,61,touched_ball,184,40721,76.3,73.4,6,37,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+144,12,clearance,1564,234548,18.0,28.9,6,38,1,2372222,Almería,Álex Pozo,1,0,0,25.2,39.4,0
+145,49,ball_recovery,1564,463170,25.2,39.4,6,38,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+146,1,pass,1564,463170,25.3,40.0,6,41,1,2372222,Almería,Iddrisu Baba,1,0,0,36.0,53.4,0
+147,1,pass,1564,132161,63.6,60.0,6,47,1,2372222,Almería,Adri Embarba,1,0,0,76.5,78.5,0
+148,4,foul_committed,1564,433952,77.6,77.6,6,50,1,2372222,Almería,Largie Ramazani,0,0,152,0.0,0.0,0
+149,1,pass,184,89399,22.9,29.7,7,25,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,22.3,68.3,0
+150,1,pass,184,77359,18.1,76.7,7,26,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,17.8,49.3,0
+151,1,pass,184,89399,18.4,52.8,7,30,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,24.5,68.3,0
+152,1,pass,184,77359,30.3,76.5,7,34,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,90.5,83.5,0
+153,83,unidentified,1564,234548,5.7,23.3,7,39,1,2372222,Almería,Álex Pozo,0,0,0,0.0,0.0,0
+154,1,pass,184,165682,89.2,85.0,7,41,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,86.6,74.1,0
+155,1,failed_pass,184,40721,89.4,74.1,7,43,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,88.9,55.6,0
+156,8,cut_pass,1564,463170,10.1,36.3,7,44,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+157,12,clearance,1564,469402,10.1,40.8,7,45,1,2372222,Almería,Edgar González,1,0,0,11.1,42.1,0
+158,61,touched_ball,184,449300,88.5,55.1,7,45,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+159,1,pass,184,434078,70.9,68.7,7,52,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,67.2,57.8,0
+160,1,pass,184,183462,68.0,52.2,7,55,1,2372222,Rayo Vallecano,Unai López,1,0,0,74.8,40.6,0
+161,1,pass,184,449300,70.2,30.1,7,57,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,65.0,38.0,0
+162,1,pass,184,183462,64.3,36.4,7,58,1,2372222,Rayo Vallecano,Unai López,1,0,0,68.4,20.8,0
+163,1,pass,184,449300,70.9,25.4,8,3,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,68.5,33.1,0
+164,1,pass,184,434078,68.6,30.6,8,3,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,75.1,5.1,0
+165,1,pass,184,97624,76.0,4.2,8,6,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,66.4,8.5,0
+166,1,pass,184,183462,65.1,8.5,8,8,1,2372222,Rayo Vallecano,Unai López,1,0,0,55.4,32.1,0
+167,1,pass,184,89399,54.9,33.3,8,10,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,58.0,68.5,0
+168,1,pass,184,77359,57.9,80.3,8,14,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,73.6,94.4,0
+169,1,pass,184,178424,72.3,92.2,8,17,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,62.1,79.5,0
+170,1,pass,184,77359,60.3,76.3,8,21,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,52.2,61.1,0
+171,1,pass,184,433161,53.2,57.8,8,24,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,60.9,30.6,0
+172,1,pass,184,89399,61.6,29.2,8,27,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,74.1,51.4,0
+173,1,pass,184,449300,74.7,52.5,8,29,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,75.1,43.5,0
+174,3,failed_dribble,184,40721,80.1,47.6,8,30,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+175,4,foul_received,184,40721,79.4,44.6,8,30,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,152,0.0,0.0,265
+176,4,foul_committed,1564,210977,20.6,55.4,8,30,1,2372222,Almería,Srdjan Babic,0,0,152,0.0,0.0,265
+177,13,chance_missed,184,434078,81.4,50.4,9,48,1,2372222,Rayo Vallecano,Isi Palazón,1,26,0,0.0,0.0,0
+178,5,ball_out,1564,76611,0.0,44.8,9,49,1,2372222,Almería,Diego Mariño,1,0,346,0.0,0.0,0
+179,5,ball_out,184,434078,100.0,55.2,9,49,1,2372222,Rayo Vallecano,Isi Palazón,0,0,346,0.0,0.0,0
+180,1,pass,1564,76611,4.1,42.3,10,6,1,2372222,Almería,Diego Mariño,1,0,0,8.3,24.4,0
+181,2,offside_pass,1564,469402,8.4,22.5,10,9,1,2372222,Almería,Edgar González,1,0,0,50.9,44.5,0
+182,55,unidentified,184,89399,49.0,53.6,10,9,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+183,1,failed_pass,184,77359,42.9,66.0,10,44,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,77.1,6.3,0
+184,44,aerial_duel,1564,220871,24.2,93.8,10,46,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+185,44,aerial_duel,184,434078,75.8,6.2,10,46,1,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+186,12,clearance,1564,220871,25.2,92.3,10,46,1,2372222,Almería,Sergio Akieme,1,0,0,31.5,101.4,0
+187,5,ball_out,1564,220871,31.1,100.0,10,48,1,2372222,Almería,Sergio Akieme,0,0,347,0.0,0.0,0
+188,5,ball_out,184,434078,68.9,0.0,10,48,1,2372222,Rayo Vallecano,Isi Palazón,1,0,347,0.0,0.0,0
+189,1,failed_pass,184,97624,80.4,0.0,10,54,1,2372222,Rayo Vallecano,Iván Balliu,0,0,0,86.8,28.8,0
+190,12,clearance,1564,469402,15.3,65.8,10,57,1,2372222,Almería,Edgar González,1,0,0,40.1,89.7,0
+191,49,ball_recovery,1564,432838,40.0,89.4,10,59,1,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+192,4,foul_received,1564,432838,38.6,90.0,11,1,1,2372222,Almería,Luis Suárez,1,0,152,0.0,0.0,0
+193,4,foul_committed,184,89399,61.4,10.0,11,1,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,152,0.0,0.0,0
+194,1,pass,1564,220871,40.0,89.4,11,20,1,2372222,Almería,Sergio Akieme,1,0,0,33.5,35.4,0
+195,1,pass,1564,469402,33.4,34.2,11,23,1,2372222,Almería,Edgar González,1,0,0,42.0,32.1,0
+196,1,pass,1564,233681,41.3,21.9,11,25,1,2372222,Almería,Lucas Robertone,1,0,0,82.5,12.2,0
+197,1,pass,1564,234548,94.0,18.6,11,30,1,2372222,Almería,Álex Pozo,1,0,0,86.7,38.5,0
+198,13,chance_missed,1564,132161,87.0,41.5,11,31,1,2372222,Almería,Adri Embarba,1,22,0,0.0,0.0,0
+199,5,ball_out,1564,132161,100.0,36.2,11,32,1,2372222,Almería,Adri Embarba,0,0,346,0.0,0.0,0
+200,5,ball_out,184,77359,0.0,63.8,11,32,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,346,0.0,0.0,0
+201,1,pass,184,94878,4.3,49.6,12,1,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,61.3,62.1,0
+202,44,aerial_duel,184,449300,63.4,63.6,12,4,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+203,44,aerial_duel,1564,469402,36.6,36.4,12,4,1,2372222,Almería,Edgar González,0,0,0,0.0,0.0,0
+204,1,failed_pass,184,449300,62.1,62.5,12,4,1,2372222,Rayo Vallecano,Randy Nteka,0,0,0,65.7,63.0,0
+205,61,touched_ball,1564,469402,35.4,35.2,12,4,1,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+206,49,ball_recovery,1564,463170,30.1,40.4,12,6,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+207,1,pass,1564,463170,30.1,40.4,12,6,1,2372222,Almería,Iddrisu Baba,1,0,0,32.7,59.3,0
+208,61,touched_ball,1564,220871,32.7,59.3,12,7,1,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+209,61,touched_ball,184,434078,64.8,27.2,12,7,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+210,49,ball_recovery,184,449300,70.9,17.2,12,11,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+211,1,pass,184,449300,73.1,15.2,12,12,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,69.1,5.1,0
+212,1,pass,184,97624,69.9,3.8,12,14,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,66.0,13.0,0
+213,1,pass,184,183462,65.2,20.1,12,15,1,2372222,Rayo Vallecano,Unai López,1,0,0,75.0,30.6,0
+214,83,unidentified,1564,233681,26.2,76.9,12,17,1,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+215,1,pass,184,40721,69.0,27.2,12,18,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,74.7,25.7,0
+216,1,pass,184,449300,75.1,28.3,12,19,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,75.5,27.2,0
+217,3,dribble_successful,184,40721,83.1,29.4,12,21,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+218,45,dribble_received,1564,220871,16.9,70.6,12,21,1,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+219,3,failed_dribble,184,40721,86.6,26.4,12,21,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+220,7,tackle,1564,233681,13.4,73.6,12,22,1,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+221,1,pass,184,434078,80.1,21.4,12,25,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,76.1,11.6,0
+222,1,pass,184,97624,76.2,10.7,12,27,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,73.3,19.0,0
+223,1,pass,184,434078,73.6,18.3,12,28,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,68.4,13.0,0
+224,1,pass,184,183462,68.4,12.7,12,29,1,2372222,Rayo Vallecano,Unai López,1,0,0,74.6,3.8,0
+225,1,failed_pass,184,97624,78.1,4.2,12,33,1,2372222,Rayo Vallecano,Iván Balliu,0,0,0,89.0,36.0,0
+226,12,clearance,1564,210977,10.4,60.0,12,34,1,2372222,Almería,Srdjan Babic,1,0,0,35.2,73.5,0
+227,61,touched_ball,1564,432838,33.8,73.5,12,36,1,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+228,1,failed_pass,184,433161,69.0,34.2,12,37,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,65.1,28.8,0
+229,74,pass_block,1564,432838,30.2,73.8,12,37,1,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+230,1,pass,1564,233681,30.8,70.8,12,38,1,2372222,Almería,Lucas Robertone,1,0,0,34.9,43.6,0
+231,49,ball_recovery,1564,433952,35.1,42.4,12,40,1,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+232,1,pass,1564,433952,55.4,13.2,12,46,1,2372222,Almería,Largie Ramazani,1,0,0,34.2,8.9,0
+233,1,pass,1564,234548,35.8,9.4,12,49,1,2372222,Almería,Álex Pozo,1,0,0,31.3,31.3,0
+234,1,pass,1564,469402,32.1,33.3,12,51,1,2372222,Almería,Edgar González,1,0,0,33.6,59.0,0
+235,1,pass,1564,210977,45.1,65.5,12,56,1,2372222,Almería,Srdjan Babic,1,0,0,44.3,86.5,0
+236,1,pass,1564,463170,44.3,86.5,12,58,1,2372222,Almería,Iddrisu Baba,1,0,0,62.0,97.1,0
+237,1,pass,1564,220871,63.2,96.9,13,0,1,2372222,Almería,Sergio Akieme,1,0,0,84.0,95.4,0
+238,1,failed_pass,1564,132161,94.1,85.3,13,6,1,2372222,Almería,Adri Embarba,0,0,0,95.0,55.5,0
+239,12,clearance,184,89399,8.4,42.9,13,7,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,9.3,39.0,0
+240,61,touched_ball,1564,432838,93.8,57.5,13,7,1,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+241,49,ball_recovery,184,433161,12.2,38.9,13,9,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+242,1,failed_pass,184,433161,11.1,35.1,13,9,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,37.4,-1.8,0
+243,5,ball_out,1564,463170,61.8,100.0,13,15,1,2372222,Almería,Iddrisu Baba,1,0,347,0.0,0.0,0
+244,5,ball_out,184,433161,38.2,0.0,13,15,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,347,0.0,0.0,0
+245,1,pass,1564,220871,61.0,100.0,13,33,1,2372222,Almería,Sergio Akieme,1,0,0,62.6,92.1,0
+246,1,pass,1564,132161,56.6,85.3,13,36,1,2372222,Almería,Adri Embarba,1,0,0,46.2,59.0,0
+247,1,pass,1564,469402,46.2,59.0,13,38,1,2372222,Almería,Edgar González,1,0,0,39.6,86.3,0
+248,1,pass,1564,210977,35.7,83.6,13,41,1,2372222,Almería,Srdjan Babic,1,0,0,20.8,61.2,0
+249,1,pass,1564,76611,21.6,60.0,13,45,1,2372222,Almería,Diego Mariño,1,0,0,25.1,41.9,0
+250,1,pass,1564,469402,27.4,31.9,13,49,1,2372222,Almería,Edgar González,1,0,0,36.2,28.8,0
+251,1,pass,1564,233681,36.2,28.6,13,50,1,2372222,Almería,Lucas Robertone,1,0,0,25.5,31.3,0
+252,3,failed_dribble,1564,469402,23.3,26.8,13,52,1,2372222,Almería,Edgar González,0,0,0,0.0,0.0,0
+253,4,foul_received,1564,469402,26.0,31.6,13,53,1,2372222,Almería,Edgar González,1,0,152,0.0,0.0,0
+254,4,foul_committed,184,40721,74.0,68.4,13,53,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,152,0.0,0.0,0
+255,1,pass,1564,469402,27.8,28.9,14,17,1,2372222,Almería,Edgar González,1,0,0,25.4,76.1,0
+256,1,pass,1564,210977,24.3,73.9,14,23,1,2372222,Almería,Srdjan Babic,1,0,0,21.9,37.0,0
+257,1,pass,1564,469402,21.9,37.0,14,26,1,2372222,Almería,Edgar González,1,0,0,30.1,31.2,0
+258,1,failed_pass,1564,233681,27.6,28.6,14,27,1,2372222,Almería,Lucas Robertone,0,0,0,27.9,27.6,0
+259,74,pass_block,184,433161,71.0,75.4,14,28,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+260,1,failed_pass,1564,469402,19.4,7.4,14,31,1,2372222,Almería,Edgar González,0,0,0,41.9,9.8,0
+261,8,cut_pass,184,178424,59.2,93.3,14,33,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+262,49,ball_recovery,184,165682,61.7,86.2,14,34,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,0.0,0.0,0
+263,1,pass,184,165682,61.7,86.2,14,34,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,65.6,90.6,0
+264,1,pass,184,178424,65.9,90.6,14,36,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,67.8,71.6,0
+265,50,ball_stolen,184,40721,67.8,76.8,14,37,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+266,7,tackle,1564,463170,32.2,23.2,14,37,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+267,1,failed_pass,1564,463170,30.9,15.0,14,39,1,2372222,Almería,Iddrisu Baba,0,0,0,44.1,15.2,0
+268,1,failed_pass,184,77359,58.4,88.4,14,40,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,86.5,92.2,0
+269,44,aerial_duel,1564,233681,11.4,8.8,14,44,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+270,44,aerial_duel,184,165682,88.6,91.2,14,44,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,0.0,0.0,0
+271,49,ball_recovery,1564,233681,8.0,11.6,14,47,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+272,1,pass,1564,233681,4.4,12.8,14,47,1,2372222,Almería,Lucas Robertone,1,0,0,25.4,8.5,0
+273,3,failed_dribble,1564,441293,31.1,11.0,14,49,1,2372222,Almería,Lázaro,0,0,0,0.0,0.0,0
+274,4,foul_received,1564,441293,26.0,9.2,14,50,1,2372222,Almería,Lázaro,1,0,152,0.0,0.0,0
+275,4,foul_committed,184,433161,74.0,90.8,14,50,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,152,0.0,0.0,0
+276,1,pass,1564,234548,35.3,10.1,15,14,1,2372222,Almería,Álex Pozo,1,0,0,54.3,91.5,0
+277,1,pass,1564,220871,54.3,91.5,15,16,1,2372222,Almería,Sergio Akieme,1,0,0,83.1,95.3,0
+278,61,touched_ball,1564,432838,83.1,95.3,15,18,1,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+279,5,ball_out,1564,432838,83.4,100.0,15,20,1,2372222,Almería,Luis Suárez,0,0,347,0.0,0.0,0
+280,5,ball_out,184,433161,16.6,0.0,15,20,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,347,0.0,0.0,0
+281,1,failed_pass,184,97624,19.4,0.0,15,45,1,2372222,Rayo Vallecano,Iván Balliu,0,0,0,43.5,6.5,0
+282,1,failed_pass,1564,220871,53.6,94.6,15,46,1,2372222,Almería,Sergio Akieme,0,0,0,65.0,91.9,0
+283,1,failed_pass,184,183462,32.2,9.4,15,47,1,2372222,Rayo Vallecano,Unai López,0,0,0,59.8,65.2,0
+284,1,pass,1564,234548,40.0,30.6,15,50,1,2372222,Almería,Álex Pozo,1,0,0,53.6,64.3,0
+285,44,aerial_duel,1564,233681,53.2,66.0,15,53,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+286,44,aerial_duel,184,434078,46.8,34.0,15,53,1,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+287,1,pass,1564,233681,53.6,64.3,15,53,1,2372222,Almería,Lucas Robertone,1,0,0,55.4,75.3,0
+288,49,ball_recovery,1564,132161,55.4,75.3,15,55,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+289,1,pass,1564,132161,55.4,75.3,15,55,1,2372222,Almería,Adri Embarba,1,0,0,62.0,72.4,0
+290,1,failed_pass,1564,432838,62.0,72.4,15,56,1,2372222,Almería,Luis Suárez,0,0,0,51.9,47.0,0
+291,49,ball_recovery,184,40721,52.1,53.8,15,59,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+292,1,pass,184,40721,54.4,55.8,15,59,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,70.9,88.2,0
+293,1,failed_pass,184,165682,76.5,79.5,16,4,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,87.1,50.4,0
+294,12,clearance,1564,210977,10.8,48.4,16,5,1,2372222,Almería,Srdjan Babic,1,0,0,29.0,28.5,0
+295,1,pass,1564,441293,29.0,28.5,16,7,1,2372222,Almería,Lázaro,1,0,0,34.3,27.7,0
+296,49,ball_recovery,1564,433952,32.4,12.6,16,9,1,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+297,61,touched_ball,1564,433952,34.3,4.0,16,11,1,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+298,5,ball_out,1564,433952,34.1,0.0,16,11,1,2372222,Almería,Largie Ramazani,0,0,347,0.0,0.0,0
+299,5,ball_out,184,178424,65.9,100.0,16,11,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,347,0.0,0.0,0
+300,1,pass,184,178424,67.8,100.0,16,31,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,37.7,93.1,0
+301,1,pass,184,77359,35.9,92.4,16,34,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,35.5,58.0,0
+302,1,pass,184,89399,44.9,51.1,16,39,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,44.4,69.0,0
+303,1,pass,184,433161,44.4,70.1,16,42,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,55.9,89.7,0
+304,1,pass,184,77359,61.2,86.4,16,46,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,66.1,68.3,0
+305,1,pass,184,449300,66.5,67.6,16,47,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,62.4,73.9,0
+306,1,pass,184,40721,65.4,81.0,16,50,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,60.0,90.2,0
+307,1,pass,184,77359,57.9,85.3,16,54,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,87.7,5.4,0
+308,61,touched_ball,184,97624,90.1,4.9,16,57,1,2372222,Rayo Vallecano,Iván Balliu,0,0,0,0.0,0.0,0
+309,49,ball_recovery,1564,132161,2.3,93.5,16,59,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+310,1,failed_pass,1564,132161,2.3,93.9,17,1,1,2372222,Almería,Adri Embarba,0,0,0,17.1,97.1,0
+311,49,ball_recovery,184,434078,81.9,4.2,17,3,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+312,1,pass,184,434078,79.8,4.0,17,3,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,70.5,5.1,0
+313,1,pass,184,183462,68.9,6.2,17,5,1,2372222,Rayo Vallecano,Unai López,1,0,0,75.3,3.8,0
+314,1,pass,184,434078,74.3,4.2,17,10,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,63.8,5.6,0
+315,1,pass,184,183462,66.0,4.9,17,12,1,2372222,Rayo Vallecano,Unai López,1,0,0,93.0,65.9,0
+316,1,failed_pass,184,178424,92.4,71.2,17,15,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,88.6,55.1,0
+317,12,clearance,1564,234548,11.8,48.5,17,16,1,2372222,Almería,Álex Pozo,1,0,0,20.0,41.8,0
+318,1,pass,184,40721,77.2,59.6,17,19,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,90.6,67.0,0
+319,4,foul_received,184,449300,92.2,66.7,17,21,1,2372222,Rayo Vallecano,Randy Nteka,1,0,152,0.0,0.0,265
+320,4,foul_committed,1564,469402,7.8,33.3,17,21,1,2372222,Almería,Edgar González,0,0,152,0.0,0.0,265
+321,58,unidentified,1564,76611,0.6,49.9,19,34,1,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+322,16,goal,184,434078,88.5,50.0,19,34,1,2372222,Rayo Vallecano,Isi Palazón,1,0,9,0.0,0.0,0
+323,1,pass,1564,132161,49.8,50.1,20,40,1,2372222,Almería,Adri Embarba,1,0,0,39.1,47.0,0
+324,1,pass,1564,233681,39.9,47.0,20,42,1,2372222,Almería,Lucas Robertone,1,0,0,54.3,51.2,0
+325,1,pass,1564,132161,54.4,51.2,20,43,1,2372222,Almería,Adri Embarba,1,0,0,56.3,39.2,0
+326,4,foul_received,1564,433952,58.2,39.8,20,44,1,2372222,Almería,Largie Ramazani,1,0,152,0.0,0.0,265
+327,4,foul_committed,184,165682,41.8,60.2,20,44,1,2372222,Rayo Vallecano,Álvaro García,0,0,152,0.0,0.0,265
+328,1,pass,1564,233681,54.4,44.3,21,23,1,2372222,Almería,Lucas Robertone,1,0,0,12.1,28.0,0
+329,1,pass,1564,76611,13.8,47.5,21,29,1,2372222,Almería,Diego Mariño,1,0,0,17.7,32.4,0
+330,1,pass,1564,469402,21.5,30.9,21,32,1,2372222,Almería,Edgar González,1,0,0,29.2,30.9,0
+331,1,pass,1564,233681,29.8,49.6,21,35,1,2372222,Almería,Lucas Robertone,1,0,0,33.2,90.6,0
+332,1,pass,1564,220871,30.6,81.8,21,39,1,2372222,Almería,Sergio Akieme,1,0,0,20.7,67.0,0
+333,1,pass,1564,210977,18.3,55.7,21,41,1,2372222,Almería,Srdjan Babic,1,0,0,19.5,32.2,0
+334,1,pass,1564,469402,27.6,31.8,21,48,1,2372222,Almería,Edgar González,1,0,0,23.7,63.7,0
+335,1,pass,1564,210977,24.5,67.8,21,51,1,2372222,Almería,Srdjan Babic,1,0,0,38.3,92.7,0
+336,1,pass,1564,220871,38.5,88.3,21,57,1,2372222,Almería,Sergio Akieme,1,0,0,28.3,44.8,0
+337,1,pass,1564,469402,30.8,39.7,22,3,1,2372222,Almería,Edgar González,1,0,0,31.0,72.0,0
+338,1,pass,1564,210977,32.3,72.6,22,7,1,2372222,Almería,Srdjan Babic,1,0,0,29.9,41.6,0
+339,1,pass,1564,469402,30.3,37.4,22,11,1,2372222,Almería,Edgar González,1,0,0,32.6,66.7,0
+340,1,pass,1564,210977,33.9,69.3,22,14,1,2372222,Almería,Srdjan Babic,1,0,0,39.7,94.5,0
+341,1,pass,1564,132161,33.4,90.0,22,17,1,2372222,Almería,Adri Embarba,1,0,0,29.9,37.1,0
+342,1,failed_pass,1564,469402,48.8,15.5,22,22,1,2372222,Almería,Edgar González,0,0,0,93.6,30.6,0
+343,52,goalkeeper_catches_ball,184,94878,8.7,67.2,22,32,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+344,1,failed_pass,184,94878,15.1,55.8,22,42,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,67.0,57.6,0
+345,44,aerial_duel,1564,469402,32.1,36.6,22,46,1,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+346,44,aerial_duel,184,449300,67.9,63.4,22,46,1,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+347,1,failed_pass,1564,469402,32.7,32.5,22,46,1,2372222,Almería,Edgar González,0,0,0,45.8,35.5,0
+348,3,failed_dribble,184,183462,55.8,68.2,22,48,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+349,7,tackle,1564,433952,44.2,31.8,22,48,1,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+350,49,ball_recovery,1564,441293,39.1,29.1,22,50,1,2372222,Almería,Lázaro,1,0,0,0.0,0.0,0
+351,4,foul_received,1564,441293,40.9,30.1,22,50,1,2372222,Almería,Lázaro,1,0,152,0.0,0.0,265
+352,4,foul_committed,184,183462,59.1,69.9,22,50,1,2372222,Rayo Vallecano,Unai López,0,0,152,0.0,0.0,265
+353,1,pass,1564,233681,39.7,30.1,23,9,1,2372222,Almería,Lucas Robertone,1,0,0,59.0,96.2,0
+354,1,pass,1564,220871,59.0,96.2,23,11,1,2372222,Almería,Sergio Akieme,1,0,0,52.7,89.0,0
+355,1,pass,1564,463170,51.4,86.5,23,13,1,2372222,Almería,Iddrisu Baba,1,0,0,41.3,66.0,0
+356,1,pass,1564,210977,43.8,65.4,23,15,1,2372222,Almería,Srdjan Babic,1,0,0,45.4,26.4,0
+357,1,pass,1564,469402,45.5,22.7,23,19,1,2372222,Almería,Edgar González,1,0,0,56.7,4.0,0
+358,1,pass,1564,234548,56.2,5.8,23,21,1,2372222,Almería,Álex Pozo,1,0,0,41.3,11.7,0
+359,1,pass,1564,469402,43.7,20.4,23,25,1,2372222,Almería,Edgar González,1,0,0,34.9,51.8,0
+360,1,pass,1564,210977,33.3,60.8,23,28,1,2372222,Almería,Srdjan Babic,1,0,0,39.9,85.7,0
+361,1,pass,1564,463170,39.1,72.3,23,31,1,2372222,Almería,Iddrisu Baba,1,0,0,40.7,16.8,0
+362,1,pass,1564,234548,41.6,7.3,23,37,1,2372222,Almería,Álex Pozo,1,0,0,38.4,31.6,0
+363,1,pass,1564,233681,38.9,29.2,23,40,1,2372222,Almería,Lucas Robertone,1,0,0,38.0,8.3,0
+364,1,pass,1564,469402,56.9,10.4,23,45,1,2372222,Almería,Edgar González,1,0,0,61.0,4.1,0
+365,1,pass,1564,234548,60.8,4.7,23,47,1,2372222,Almería,Álex Pozo,1,0,0,56.0,28.3,0
+366,1,pass,1564,463170,54.0,36.1,23,52,1,2372222,Almería,Iddrisu Baba,1,0,0,51.2,60.8,0
+367,1,pass,1564,210977,58.2,69.7,23,55,1,2372222,Almería,Srdjan Babic,1,0,0,80.0,98.7,0
+368,1,failed_pass,1564,220871,85.9,89.1,24,2,1,2372222,Almería,Sergio Akieme,0,0,0,87.3,47.6,0
+369,12,clearance,184,77359,12.5,49.5,24,3,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,31.5,57.6,0
+370,13,chance_missed,1564,233681,71.0,40.1,24,6,1,2372222,Almería,Lucas Robertone,1,22,0,0.0,0.0,0
+371,10,save,184,94878,1.6,56.9,24,7,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+372,6,corner_kick,184,94878,2.2,61.8,24,8,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+373,6,corner_kick,1564,233681,97.8,38.2,24,8,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+374,1,pass,1564,233681,99.5,0.5,24,47,1,2372222,Almería,Lucas Robertone,1,0,0,94.1,4.0,0
+375,1,pass,1564,132161,94.1,4.0,24,48,1,2372222,Almería,Adri Embarba,1,0,0,80.1,72.0,0
+376,3,failed_dribble,1564,220871,81.6,74.5,24,53,1,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+377,49,ball_recovery,184,40721,8.9,19.0,24,55,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+378,4,foul_received,184,40721,8.5,17.1,24,55,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,152,0.0,0.0,0
+379,4,foul_committed,1564,220871,91.5,82.9,24,55,1,2372222,Almería,Sergio Akieme,0,0,152,0.0,0.0,0
+380,1,failed_pass,184,94878,11.5,23.7,25,30,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,61.2,16.5,0
+381,44,aerial_duel,1564,210977,36.0,84.8,25,34,1,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+382,44,aerial_duel,184,449300,64.0,15.2,25,34,1,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+383,1,pass,1564,210977,35.6,86.1,25,34,1,2372222,Almería,Srdjan Babic,1,0,0,40.5,74.6,0
+384,49,ball_recovery,1564,233681,37.8,74.4,25,35,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+385,1,failed_pass,1564,233681,37.8,74.4,25,35,1,2372222,Almería,Lucas Robertone,0,0,0,-1.1,85.1,0
+386,6,corner_kick,184,94878,99.8,15.6,25,39,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+387,6,corner_kick,1564,233681,0.2,84.4,25,39,1,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+388,1,pass,184,434078,99.7,0.5,26,12,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,96.9,71.5,0
+389,44,aerial_duel,184,89399,95.6,69.2,26,15,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+390,44,aerial_duel,1564,220871,4.4,30.8,26,15,1,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+391,1,failed_pass,184,89399,94.9,69.0,26,15,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,93.9,64.9,0
+392,4,foul_committed,1564,220871,4.8,32.9,26,15,1,2372222,Almería,Sergio Akieme,0,0,152,0.0,0.0,0
+393,16,goal,184,449300,88.5,50.0,27,22,1,2372222,Rayo Vallecano,Randy Nteka,1,0,9,0.0,0.0,0
+394,58,unidentified,1564,76611,0.6,50.0,27,22,1,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+395,1,pass,1564,132161,49.8,49.9,28,27,1,2372222,Almería,Adri Embarba,1,0,0,43.8,35.7,0
+396,61,touched_ball,1564,233681,44.1,32.7,28,28,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+397,4,foul_received,184,178424,42.2,70.6,28,28,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,152,0.0,0.0,0
+398,4,foul_committed,1564,441293,57.8,29.4,28,28,1,2372222,Almería,Lázaro,0,0,152,0.0,0.0,0
+399,1,pass,184,77359,43.4,72.1,28,50,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,85.8,85.5,0
+400,61,touched_ball,184,165682,84.3,85.3,28,53,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,0.0,0.0,0
+401,1,pass,1564,233681,22.6,26.5,28,54,1,2372222,Almería,Lucas Robertone,1,0,0,25.6,13.5,0
+402,49,ball_recovery,1564,441293,25.6,13.2,28,55,1,2372222,Almería,Lázaro,1,0,0,0.0,0.0,0
+403,1,pass,1564,441293,25.0,12.2,28,56,1,2372222,Almería,Lázaro,1,0,0,9.2,8.6,0
+404,1,pass,1564,233681,10.0,6.5,28,58,1,2372222,Almería,Lucas Robertone,1,0,0,39.7,9.8,0
+405,4,foul_received,1564,432838,42.2,8.1,29,0,1,2372222,Almería,Luis Suárez,1,0,152,0.0,0.0,265
+406,4,foul_committed,184,77359,57.8,91.9,29,0,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,152,0.0,0.0,265
+407,1,pass,1564,233681,44.4,15.9,29,30,1,2372222,Almería,Lucas Robertone,1,0,0,93.6,23.1,0
+408,3,failed_dribble,1564,132161,95.0,23.8,29,32,1,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+409,7,tackle,184,89399,5.0,76.2,29,32,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+410,6,corner_kick,184,89399,4.4,79.0,29,33,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,0.0,0.0,0
+411,6,corner_kick,1564,132161,95.6,21.0,29,33,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+412,1,pass,1564,132161,99.5,0.5,29,55,1,2372222,Almería,Adri Embarba,1,0,0,95.8,46.4,0
+413,13,chance_missed,1564,463170,95.6,47.4,29,56,1,2372222,Almería,Iddrisu Baba,1,25,0,0.0,0.0,0
+414,5,ball_out,184,89399,0.0,55.4,29,56,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,346,0.0,0.0,0
+415,5,ball_out,1564,463170,100.0,44.6,29,56,1,2372222,Almería,Iddrisu Baba,0,0,346,0.0,0.0,0
+416,1,failed_pass,184,94878,4.7,45.8,32,33,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,55.6,7.1,0
+417,44,aerial_duel,1564,463170,42.4,85.0,32,36,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+418,44,aerial_duel,184,434078,57.6,15.0,32,36,1,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+419,1,pass,1564,463170,41.9,77.5,32,36,1,2372222,Almería,Iddrisu Baba,1,0,0,63.4,82.9,0
+420,61,touched_ball,1564,432838,63.4,82.9,32,38,1,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+421,1,failed_pass,184,89399,10.3,8.7,32,42,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,15.4,6.5,0
+422,74,pass_block,1564,432838,81.3,86.9,32,42,1,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+423,61,touched_ball,1564,432838,78.7,92.7,32,46,1,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+424,1,pass,184,434078,29.9,7.1,32,47,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,30.9,11.8,0
+425,1,failed_pass,184,183462,22.4,11.8,32,48,1,2372222,Rayo Vallecano,Unai López,0,0,0,62.1,29.0,0
+426,1,pass,1564,469402,37.1,78.4,32,53,1,2372222,Almería,Edgar González,1,0,0,48.3,91.4,0
+427,49,ball_recovery,1564,220871,48.7,91.5,32,54,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+428,45,dribble_received,184,183462,34.4,14.0,32,57,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+429,3,dribble_successful,1564,220871,65.6,86.0,32,57,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+430,45,dribble_received,184,433161,28.2,20.8,32,58,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,0.0,0.0,0
+431,3,dribble_successful,1564,220871,71.8,79.2,32,58,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+432,1,pass,1564,220871,76.1,70.1,33,0,1,2372222,Almería,Sergio Akieme,1,0,0,93.8,66.3,0
+433,15,shot_blocked,1564,432838,91.4,61.3,33,2,1,2372222,Almería,Luis Suárez,1,22,0,0.0,0.0,0
+434,10,save,184,94878,5.2,42.3,33,2,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+435,4,foul_received,184,97624,8.2,28.6,33,4,1,2372222,Rayo Vallecano,Iván Balliu,1,0,152,0.0,0.0,0
+436,4,foul_committed,1564,132161,91.8,71.4,33,4,1,2372222,Almería,Adri Embarba,0,0,152,0.0,0.0,0
+437,1,failed_pass,184,94878,9.0,25.9,34,38,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,62.8,-1.5,0
+438,5,ball_out,184,94878,64.2,0.0,34,42,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,347,0.0,0.0,0
+439,5,ball_out,1564,463170,35.8,100.0,34,42,1,2372222,Almería,Iddrisu Baba,1,0,347,0.0,0.0,0
+440,1,pass,1564,220871,34.3,100.0,34,45,1,2372222,Almería,Sergio Akieme,1,0,0,23.5,86.0,0
+441,1,pass,1564,210977,24.7,78.7,34,49,1,2372222,Almería,Srdjan Babic,1,0,0,23.7,54.9,0
+442,1,pass,1564,469402,28.7,35.7,34,55,1,2372222,Almería,Edgar González,1,0,0,13.3,53.9,0
+443,1,failed_pass,1564,76611,13.6,54.6,34,58,1,2372222,Almería,Diego Mariño,0,0,0,63.3,64.6,0
+444,1,failed_pass,184,89399,38.8,35.3,35,1,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,45.3,48.2,0
+445,1,failed_pass,1564,233681,51.6,50.6,35,3,1,2372222,Almería,Lucas Robertone,0,0,0,64.8,90.8,0
+446,49,ball_recovery,184,97624,29.5,7.2,35,6,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+447,1,failed_pass,184,97624,28.1,4.5,35,6,1,2372222,Rayo Vallecano,Iván Balliu,0,0,0,63.6,8.9,0
+448,1,pass,1564,220871,40.5,88.6,35,8,1,2372222,Almería,Sergio Akieme,1,0,0,42.6,82.9,0
+449,49,ball_recovery,1564,463170,42.6,82.7,35,9,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+450,4,foul_received,1564,463170,40.6,84.3,35,10,1,2372222,Almería,Iddrisu Baba,1,0,152,0.0,0.0,0
+451,4,foul_committed,184,449300,59.4,15.7,35,10,1,2372222,Rayo Vallecano,Randy Nteka,0,0,152,0.0,0.0,0
+452,1,pass,1564,463170,41.2,78.1,35,18,1,2372222,Almería,Iddrisu Baba,1,0,0,31.4,62.1,0
+453,1,pass,1564,210977,31.2,61.5,35,20,1,2372222,Almería,Srdjan Babic,1,0,0,30.2,37.4,0
+454,1,pass,1564,469402,35.7,28.8,35,24,1,2372222,Almería,Edgar González,1,0,0,59.9,5.0,0
+455,1,pass,1564,234548,60.3,5.9,35,26,1,2372222,Almería,Álex Pozo,1,0,0,93.7,18.3,0
+456,50,ball_stolen,1564,441293,95.0,9.7,35,31,1,2372222,Almería,Lázaro,0,0,0,0.0,0.0,0
+457,7,tackle,184,178424,5.0,90.3,35,32,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+458,49,ball_recovery,184,178424,6.7,94.2,35,34,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+459,1,failed_pass,184,178424,7.0,97.5,35,34,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,45.1,72.6,0
+460,49,ball_recovery,1564,469402,55.3,28.3,35,37,1,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+461,1,pass,1564,469402,55.4,28.9,35,38,1,2372222,Almería,Edgar González,1,0,0,53.0,45.8,0
+462,1,pass,1564,210977,53.1,45.8,35,39,1,2372222,Almería,Srdjan Babic,1,0,0,56.9,74.7,0
+463,1,pass,1564,220871,56.9,68.4,35,45,1,2372222,Almería,Sergio Akieme,1,0,0,44.7,55.8,0
+464,1,pass,1564,210977,44.7,55.8,35,47,1,2372222,Almería,Srdjan Babic,1,0,0,43.6,30.6,0
+465,1,pass,1564,469402,44.2,29.4,35,49,1,2372222,Almería,Edgar González,1,0,0,57.0,4.0,0
+466,1,pass,1564,234548,57.4,4.4,35,53,1,2372222,Almería,Álex Pozo,1,0,0,41.4,15.6,0
+467,1,pass,1564,469402,44.1,18.3,35,56,1,2372222,Almería,Edgar González,1,0,0,47.2,35.5,0
+468,83,unidentified,184,183462,53.0,63.8,35,58,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+469,4,foul_received,1564,463170,38.1,35.2,36,0,1,2372222,Almería,Iddrisu Baba,1,0,152,0.0,0.0,0
+470,4,foul_committed,184,40721,61.9,64.8,36,0,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,152,0.0,0.0,0
+471,1,pass,1564,233681,40.2,38.6,36,13,1,2372222,Almería,Lucas Robertone,1,0,0,34.0,31.0,0
+472,1,pass,1564,469402,37.2,21.5,36,20,1,2372222,Almería,Edgar González,1,0,0,71.2,14.1,0
+473,1,pass,1564,433952,76.5,12.8,36,21,1,2372222,Almería,Largie Ramazani,1,0,0,68.7,4.0,0
+474,1,failed_pass,1564,234548,64.8,3.4,36,24,1,2372222,Almería,Álex Pozo,0,0,0,72.4,7.6,0
+475,49,ball_recovery,184,77359,23.4,90.9,36,25,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+476,1,failed_pass,184,77359,23.4,90.9,36,25,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,65.5,52.2,0
+477,1,pass,1564,210977,31.8,38.6,36,28,1,2372222,Almería,Srdjan Babic,1,0,0,53.7,38.0,0
+478,1,failed_pass,1564,233681,53.7,38.0,36,29,1,2372222,Almería,Lucas Robertone,0,0,0,56.5,41.0,0
+479,8,cut_pass,184,183462,39.2,55.3,36,30,1,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+480,61,touched_ball,184,40721,49.7,69.0,36,32,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+481,49,ball_recovery,1564,463170,54.3,20.3,36,35,1,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+482,1,pass,1564,463170,55.1,18.5,36,35,1,2372222,Almería,Iddrisu Baba,1,0,0,93.9,6.7,0
+483,1,failed_pass,1564,433952,97.8,19.4,36,43,1,2372222,Almería,Largie Ramazani,0,0,0,92.6,49.6,0
+484,12,clearance,184,89399,7.5,36.2,36,44,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,13.9,71.4,0
+485,3,failed_dribble,1564,441293,88.7,17.1,36,49,1,2372222,Almería,Lázaro,0,0,0,0.0,0.0,0
+486,7,tackle,184,183462,11.3,82.9,36,49,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+487,83,unidentified,184,165682,20.5,80.1,36,50,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,0.0,0.0,0
+488,1,pass,1564,441293,77.4,24.4,36,52,1,2372222,Almería,Lázaro,1,0,0,67.8,37.4,0
+489,13,chance_missed,1564,463170,68.6,42.4,36,56,1,2372222,Almería,Iddrisu Baba,1,22,0,0.0,0.0,0
+490,5,ball_out,184,165682,0.0,54.2,36,57,1,2372222,Rayo Vallecano,Álvaro García,1,0,346,0.0,0.0,0
+491,5,ball_out,1564,463170,100.0,45.8,36,57,1,2372222,Almería,Iddrisu Baba,0,0,346,0.0,0.0,0
+492,1,failed_pass,184,94878,4.2,48.6,37,19,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,56.0,101.3,0
+493,5,ball_out,184,94878,57.3,100.0,37,24,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,347,0.0,0.0,0
+494,5,ball_out,1564,463170,42.7,0.0,37,24,1,2372222,Almería,Iddrisu Baba,1,0,347,0.0,0.0,0
+495,1,pass,1564,469402,31.0,0.0,37,27,1,2372222,Almería,Edgar González,1,0,0,29.8,29.7,0
+496,1,pass,1564,210977,32.5,45.4,37,32,1,2372222,Almería,Srdjan Babic,1,0,0,37.7,72.3,0
+497,1,pass,1564,220871,39.4,74.2,37,35,1,2372222,Almería,Sergio Akieme,1,0,0,47.3,57.8,0
+498,1,pass,1564,463170,47.3,57.8,37,36,1,2372222,Almería,Iddrisu Baba,1,0,0,30.6,62.1,0
+499,1,pass,1564,210977,29.7,60.6,37,38,1,2372222,Almería,Srdjan Babic,1,0,0,30.1,32.7,0
+500,1,pass,1564,469402,34.4,26.5,37,41,1,2372222,Almería,Edgar González,1,0,0,45.4,4.6,0
+501,1,failed_pass,1564,234548,46.9,5.0,37,43,1,2372222,Almería,Álex Pozo,0,0,0,60.9,24.1,0
+502,49,ball_recovery,184,433161,40.0,81.5,37,44,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+503,1,pass,184,433161,40.0,81.5,37,45,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,54.5,79.4,0
+504,1,pass,184,40721,56.8,79.4,37,46,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,50.4,81.9,0
+505,1,failed_pass,184,433161,58.0,89.1,37,49,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,64.8,85.9,0
+506,61,touched_ball,1564,233681,37.5,16.7,37,49,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+507,2,offside_pass,184,449300,67.9,84.1,37,50,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,76.1,94.6,0
+508,55,unidentified,1564,210977,28.3,32.8,37,50,1,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+509,1,pass,1564,234548,27.0,12.0,37,59,1,2372222,Almería,Álex Pozo,1,0,0,22.3,21.5,0
+510,1,pass,1564,469402,23.5,25.8,38,2,1,2372222,Almería,Edgar González,1,0,0,7.3,48.2,0
+511,1,pass,1564,76611,8.1,50.9,38,7,1,2372222,Almería,Diego Mariño,1,0,0,14.6,33.1,0
+512,1,pass,1564,469402,16.2,31.0,38,10,1,2372222,Almería,Edgar González,1,0,0,1.7,39.2,0
+513,1,failed_pass,1564,76611,1.7,39.4,38,12,1,2372222,Almería,Diego Mariño,0,0,0,40.9,4.4,0
+514,1,failed_pass,184,178424,54.2,94.6,38,16,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,73.8,87.1,0
+515,1,failed_pass,1564,469402,24.1,8.2,38,20,1,2372222,Almería,Edgar González,0,0,0,65.1,24.3,0
+516,1,failed_pass,184,89399,31.9,87.3,38,24,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,45.6,101.3,0
+517,5,ball_out,184,89399,45.2,100.0,38,26,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,347,0.0,0.0,0
+518,5,ball_out,1564,469402,54.8,0.0,38,26,1,2372222,Almería,Edgar González,1,0,347,0.0,0.0,0
+519,1,pass,1564,234548,58.9,0.0,38,38,1,2372222,Almería,Álex Pozo,1,0,0,60.2,13.2,0
+520,1,pass,1564,441293,58.8,10.7,38,39,1,2372222,Almería,Lázaro,1,0,0,54.6,3.4,0
+521,1,pass,1564,234548,54.6,3.4,38,41,1,2372222,Almería,Álex Pozo,1,0,0,58.6,16.8,0
+522,1,pass,1564,233681,58.6,16.8,38,42,1,2372222,Almería,Lucas Robertone,1,0,0,66.1,15.6,0
+523,83,unidentified,184,178424,34.1,83.9,38,44,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+524,45,dribble_received,184,178424,30.4,82.0,38,45,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+525,3,dribble_successful,1564,433952,69.6,18.0,38,45,1,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+526,1,pass,1564,433952,71.5,18.5,38,46,1,2372222,Almería,Largie Ramazani,1,0,0,76.0,29.8,0
+527,15,shot_blocked,1564,432838,83.6,46.6,38,49,1,2372222,Almería,Luis Suárez,1,22,0,0.0,0.0,0
+528,10,save,184,94878,2.3,50.9,38,49,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+529,52,goalkeeper_catches_ball,184,94878,2.3,50.9,38,51,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+530,1,failed_pass,184,94878,8.1,50.4,39,16,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,60.8,30.1,0
+531,1,pass,1564,220871,38.0,59.7,39,20,1,2372222,Almería,Sergio Akieme,1,0,0,49.3,61.5,0
+532,49,ball_recovery,1564,132161,49.9,61.4,39,21,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+533,1,failed_pass,1564,132161,49.9,61.4,39,21,1,2372222,Almería,Adri Embarba,0,0,0,53.0,49.4,0
+534,44,aerial_duel,184,433161,47.4,48.2,39,22,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+535,44,aerial_duel,1564,433952,52.6,51.8,39,22,1,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+536,1,failed_pass,184,433161,46.2,51.1,39,22,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,47.4,51.5,0
+537,61,touched_ball,1564,433952,53.0,49.4,39,22,1,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+538,1,failed_pass,1564,233681,43.1,48.8,39,24,1,2372222,Almería,Lucas Robertone,0,0,0,56.0,53.3,0
+539,4,foul_received,1564,432838,55.6,56.0,39,25,1,2372222,Almería,Luis Suárez,1,0,152,0.0,0.0,265
+540,4,foul_committed,184,183462,44.4,44.0,39,25,1,2372222,Rayo Vallecano,Unai López,0,0,152,0.0,0.0,265
+541,17,card,184,183462,44.5,43.5,39,32,1,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+542,1,pass,1564,132161,56.0,53.3,40,41,1,2372222,Almería,Adri Embarba,1,0,0,63.9,65.2,0
+543,1,failed_pass,1564,233681,63.9,65.2,40,42,1,2372222,Almería,Lucas Robertone,0,0,0,80.8,50.6,0
+544,12,clearance,184,449300,18.9,55.0,40,44,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,29.8,51.8,0
+545,61,touched_ball,184,40721,24.9,42.6,40,44,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+546,1,pass,1564,433952,68.8,44.8,40,45,1,2372222,Almería,Largie Ramazani,1,0,0,76.5,68.1,0
+547,1,pass,1564,469402,76.5,68.1,40,48,1,2372222,Almería,Edgar González,1,0,0,73.0,64.9,0
+548,1,failed_pass,1564,432838,73.0,64.9,40,49,1,2372222,Almería,Luis Suárez,0,0,0,93.8,84.4,0
+549,49,ball_recovery,184,434078,7.5,15.2,40,52,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+550,1,pass,184,434078,5.2,17.2,40,53,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,6.5,34.6,0
+551,1,failed_pass,184,89399,6.7,32.1,40,55,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,55.6,2.3,0
+552,49,ball_recovery,1564,233681,44.7,96.0,41,0,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+553,1,pass,1564,233681,43.9,96.0,41,0,1,2372222,Almería,Lucas Robertone,1,0,0,20.5,72.9,0
+554,1,pass,1564,76611,21.5,69.3,41,6,1,2372222,Almería,Diego Mariño,1,0,0,27.4,58.8,0
+555,1,pass,1564,463170,30.0,41.3,41,11,1,2372222,Almería,Iddrisu Baba,1,0,0,12.6,51.2,0
+556,1,pass,1564,76611,14.3,48.1,41,17,1,2372222,Almería,Diego Mariño,1,0,0,21.5,37.3,0
+557,1,pass,1564,469402,23.9,32.2,41,21,1,2372222,Almería,Edgar González,1,0,0,32.8,28.9,0
+558,1,pass,1564,433952,31.6,21.5,41,24,1,2372222,Almería,Largie Ramazani,1,0,0,25.1,33.3,0
+559,1,pass,1564,469402,25.1,33.3,41,25,1,2372222,Almería,Edgar González,1,0,0,33.0,47.0,0
+560,1,pass,1564,463170,33.2,47.0,41,27,1,2372222,Almería,Iddrisu Baba,1,0,0,24.8,29.7,0
+561,1,pass,1564,469402,26.8,25.8,41,30,1,2372222,Almería,Edgar González,1,0,0,36.3,5.2,0
+562,1,pass,1564,234548,38.5,4.7,41,32,1,2372222,Almería,Álex Pozo,1,0,0,81.5,29.1,0
+563,3,failed_dribble,1564,441293,94.2,14.2,41,39,1,2372222,Almería,Lázaro,0,0,0,0.0,0.0,0
+564,7,tackle,184,77359,5.8,85.8,41,39,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,0.0,0.0,0
+565,61,touched_ball,1564,441293,94.8,14.7,41,39,1,2372222,Almería,Lázaro,1,0,0,0.0,0.0,0
+566,49,ball_recovery,184,77359,4.8,85.1,41,39,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+567,1,pass,184,77359,2.8,88.0,41,42,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,11.9,94.6,0
+568,1,pass,184,178424,11.9,94.9,41,44,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,22.3,86.6,0
+569,1,failed_pass,184,165682,23.7,89.5,41,46,1,2372222,Rayo Vallecano,Álvaro García,0,0,0,59.4,71.9,0
+570,1,failed_pass,1564,210977,46.0,24.9,41,48,1,2372222,Almería,Srdjan Babic,0,0,0,60.3,28.2,0
+571,1,failed_pass,184,40721,36.9,81.0,41,50,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,48.1,101.2,0
+572,5,ball_out,184,178424,46.9,100.0,41,52,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,347,0.0,0.0,0
+573,5,ball_out,1564,210977,53.1,0.0,41,52,1,2372222,Almería,Srdjan Babic,1,0,347,0.0,0.0,0
+574,1,failed_pass,1564,234548,54.4,0.0,42,4,1,2372222,Almería,Álex Pozo,0,0,0,57.1,7.0,0
+575,1,pass,1564,234548,56.2,9.1,42,25,1,2372222,Almería,Álex Pozo,1,0,0,45.3,32.1,0
+576,1,pass,1564,233681,46.1,32.4,42,27,1,2372222,Almería,Lucas Robertone,1,0,0,56.0,86.2,0
+577,1,pass,1564,220871,48.0,71.5,42,35,1,2372222,Almería,Sergio Akieme,1,0,0,36.6,67.2,0
+578,1,pass,1564,210977,36.6,67.2,42,39,1,2372222,Almería,Srdjan Babic,1,0,0,35.7,35.4,0
+579,1,pass,1564,469402,40.2,35.1,42,42,1,2372222,Almería,Edgar González,1,0,0,41.1,15.2,0
+580,1,failed_pass,1564,463170,43.0,8.5,42,45,1,2372222,Almería,Iddrisu Baba,0,0,0,45.4,7.6,0
+581,8,cut_pass,184,165682,53.7,92.2,42,45,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,0.0,0.0,0
+582,1,pass,1564,463170,37.0,17.9,42,48,1,2372222,Almería,Iddrisu Baba,1,0,0,13.2,50.1,0
+583,1,pass,1564,76611,14.2,51.3,42,52,1,2372222,Almería,Diego Mariño,1,0,0,28.9,77.5,0
+584,1,pass,1564,210977,32.2,76.9,42,57,1,2372222,Almería,Srdjan Babic,1,0,0,29.6,38.3,0
+585,1,pass,1564,469402,31.3,28.8,43,1,1,2372222,Almería,Edgar González,1,0,0,54.9,10.4,0
+586,3,failed_dribble,1564,234548,57.9,11.0,43,3,1,2372222,Almería,Álex Pozo,0,0,0,0.0,0.0,0
+587,7,tackle,184,178424,42.1,89.0,43,3,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+588,4,foul_received,1564,234548,58.2,11.5,43,4,1,2372222,Almería,Álex Pozo,1,0,152,0.0,0.0,0
+589,4,foul_committed,184,178424,41.8,88.5,43,4,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,152,0.0,0.0,0
+590,1,pass,1564,234548,52.5,10.1,43,20,1,2372222,Almería,Álex Pozo,1,0,0,37.4,28.2,0
+591,1,pass,1564,469402,41.4,29.5,43,24,1,2372222,Almería,Edgar González,1,0,0,37.4,65.8,0
+592,1,pass,1564,210977,43.1,65.7,43,27,1,2372222,Almería,Srdjan Babic,1,0,0,62.4,94.7,0
+593,1,pass,1564,220871,56.2,73.9,43,32,1,2372222,Almería,Sergio Akieme,1,0,0,44.1,42.8,0
+594,1,pass,1564,469402,44.0,31.0,43,37,1,2372222,Almería,Edgar González,1,0,0,61.1,31.3,0
+595,1,pass,1564,441293,57.5,22.5,43,41,1,2372222,Almería,Lázaro,1,0,0,60.1,4.7,0
+596,1,pass,1564,234548,60.1,4.7,43,42,1,2372222,Almería,Álex Pozo,1,0,0,47.5,14.3,0
+597,1,pass,1564,463170,53.3,11.1,43,45,1,2372222,Almería,Iddrisu Baba,1,0,0,57.2,30.7,0
+598,1,failed_pass,1564,233681,63.1,30.7,43,48,1,2372222,Almería,Lucas Robertone,0,0,0,86.4,62.7,0
+599,49,ball_recovery,184,97624,13.2,29.9,43,50,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+600,1,pass,184,97624,13.2,29.9,43,50,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,3.4,40.9,0
+601,52,goalkeeper_catches_ball,184,94878,3.4,41.1,43,52,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+602,80,unidentified,184,94878,13.9,44.4,44,7,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+603,1,failed_pass,184,94878,23.9,26.8,44,11,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,66.0,23.2,0
+604,1,pass,1564,463170,29.7,74.5,44,14,1,2372222,Almería,Iddrisu Baba,1,0,0,35.0,65.4,0
+605,44,aerial_duel,1564,210977,36.7,67.8,44,17,1,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+606,44,aerial_duel,184,40721,63.3,32.2,44,17,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+607,1,pass,1564,210977,35.0,65.4,44,17,1,2372222,Almería,Srdjan Babic,1,0,0,9.6,41.5,0
+608,52,goalkeeper_catches_ball,1564,76611,9.6,41.5,44,20,1,2372222,Almería,Diego Mariño,0,0,0,0.0,0.0,0
+609,1,pass,1564,76611,11.4,40.0,44,21,1,2372222,Almería,Diego Mariño,1,0,0,22.7,39.4,0
+610,1,pass,1564,469402,27.0,38.2,44,26,1,2372222,Almería,Edgar González,1,0,0,31.6,62.0,0
+611,3,failed_dribble,1564,463170,31.4,71.4,44,30,1,2372222,Almería,Iddrisu Baba,0,0,0,0.0,0.0,0
+612,7,tackle,184,183462,68.6,28.6,44,30,1,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+613,49,ball_recovery,184,183462,70.7,23.5,44,31,1,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+614,15,shot_blocked,184,183462,79.3,34.2,44,34,1,2372222,Rayo Vallecano,Unai López,1,22,0,0.0,0.0,0
+615,10,save,1564,76611,3.5,49.7,44,34,1,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+616,12,clearance,1564,233681,10.1,46.7,44,36,1,2372222,Almería,Lucas Robertone,1,0,0,10.1,57.8,0
+617,44,aerial_duel,184,449300,92.2,43.8,44,38,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+618,44,aerial_duel,1564,220871,7.8,56.2,44,38,1,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+619,1,pass,184,449300,91.6,47.0,44,38,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,88.5,36.9,0
+620,15,shot_blocked,184,183462,86.8,36.0,44,40,1,2372222,Rayo Vallecano,Unai López,1,22,0,0.0,0.0,0
+621,10,save,1564,220871,7.6,58.7,44,40,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+622,49,ball_recovery,1564,132161,18.1,71.1,44,42,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+623,45,dribble_received,184,183462,85.3,18.5,44,43,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+624,3,dribble_successful,1564,132161,14.7,81.5,44,43,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+625,1,failed_pass,1564,132161,14.5,93.6,44,46,1,2372222,Almería,Adri Embarba,0,0,0,29.8,92.4,0
+626,49,ball_recovery,184,97624,67.0,4.7,44,47,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+627,1,pass,184,97624,66.5,5.2,44,48,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,73.2,14.7,0
+628,1,pass,184,183462,73.7,13.8,44,49,1,2372222,Rayo Vallecano,Unai López,1,0,0,73.4,5.4,0
+629,1,pass,184,97624,73.7,4.3,44,50,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,68.4,2.7,0
+630,1,pass,184,434078,68.4,2.9,44,52,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,67.6,8.1,0
+631,1,pass,184,183462,67.6,8.9,44,53,1,2372222,Rayo Vallecano,Unai López,1,0,0,62.1,4.2,0
+632,1,pass,184,434078,61.7,3.3,44,56,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,53.6,9.2,0
+633,1,pass,184,89399,53.1,12.5,45,0,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,47.5,31.2,0
+634,1,pass,184,433161,47.7,31.9,45,3,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,58.8,5.4,0
+635,1,pass,184,434078,58.8,7.6,45,9,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,57.3,21.4,0
+636,1,pass,184,433161,56.5,22.5,45,10,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,58.5,9.6,0
+637,1,pass,184,434078,58.3,8.0,45,11,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,55.1,4.3,0
+638,1,pass,184,183462,55.1,4.3,45,12,1,2372222,Rayo Vallecano,Unai López,1,0,0,34.3,38.0,0
+639,1,pass,184,89399,33.6,38.2,45,16,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,36.5,65.4,0
+640,1,pass,184,77359,36.9,66.3,45,20,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,40.1,35.5,0
+641,1,pass,184,89399,39.3,35.9,45,23,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,37.6,69.9,0
+642,1,failed_pass,184,77359,41.2,77.2,45,27,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,92.0,72.5,0
+643,52,goalkeeper_catches_ball,1564,76611,5.0,24.1,45,31,1,2372222,Almería,Diego Mariño,0,0,0,0.0,0.0,0
+644,1,pass,1564,76611,7.1,22.7,45,32,1,2372222,Almería,Diego Mariño,1,0,0,23.8,11.7,0
+645,1,pass,1564,234548,26.0,12.3,45,35,1,2372222,Almería,Álex Pozo,1,0,0,31.2,43.1,0
+646,1,pass,1564,463170,31.2,43.1,45,37,1,2372222,Almería,Iddrisu Baba,1,0,0,29.3,32.4,0
+647,4,foul_received,1564,233681,29.7,34.0,45,38,1,2372222,Almería,Lucas Robertone,1,0,152,0.0,0.0,265
+648,4,foul_committed,184,183462,70.3,66.0,45,38,1,2372222,Rayo Vallecano,Unai López,0,0,152,0.0,0.0,265
+649,1,pass,1564,233681,27.2,28.3,46,12,1,2372222,Almería,Lucas Robertone,1,0,0,29.2,39.5,0
+650,1,pass,1564,469402,29.2,39.5,46,14,1,2372222,Almería,Edgar González,1,0,0,17.6,40.1,0
+651,1,pass,1564,76611,22.5,38.6,46,21,1,2372222,Almería,Diego Mariño,1,0,0,67.6,13.7,0
+652,1,failed_pass,1564,234548,67.5,13.5,46,24,1,2372222,Almería,Álex Pozo,0,0,0,85.6,38.5,0
+653,52,goalkeeper_catches_ball,184,94878,14.6,62.5,46,27,1,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+654,1,pass,184,94878,12.5,58.5,46,30,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,29.7,8.1,0
+655,1,pass,184,97624,32.2,4.0,46,36,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,14.8,50.2,0
+656,1,pass,184,94878,13.5,53.6,46,39,1,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,22.3,67.0,0
+657,1,pass,184,77359,22.6,69.2,46,41,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,28.6,91.3,0
+658,1,failed_pass,184,178424,28.1,94.9,46,43,1,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,32.1,94.9,0
+659,61,touched_ball,1564,441293,65.3,8.3,46,43,1,2372222,Almería,Lázaro,1,0,0,0.0,0.0,0
+660,1,pass,184,165682,56.1,92.0,46,46,1,2372222,Rayo Vallecano,Álvaro García,1,0,0,54.1,82.1,0
+661,1,failed_pass,184,40721,57.1,78.4,46,48,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,81.4,100.6,0
+662,5,ball_out,184,40721,79.2,100.0,46,50,1,2372222,Rayo Vallecano,Óscar Trejo,0,0,347,0.0,0.0,0
+663,5,ball_out,1564,234548,20.8,0.0,46,50,1,2372222,Almería,Álex Pozo,1,0,347,0.0,0.0,0
+664,1,pass,1564,234548,25.9,0.0,46,53,1,2372222,Almería,Álex Pozo,1,0,0,24.2,17.7,0
+665,1,pass,1564,233681,24.2,17.7,46,54,1,2372222,Almería,Lucas Robertone,1,0,0,11.2,15.6,0
+666,1,pass,1564,469402,11.2,15.5,46,56,1,2372222,Almería,Edgar González,1,0,0,4.5,44.3,0
+667,1,pass,1564,76611,7.8,44.8,47,1,1,2372222,Almería,Diego Mariño,1,0,0,10.4,24.6,0
+668,1,pass,1564,469402,22.6,20.0,47,6,1,2372222,Almería,Edgar González,1,0,0,27.0,42.4,0
+669,1,pass,1564,233681,27.3,45.1,47,8,1,2372222,Almería,Lucas Robertone,1,0,0,30.4,74.8,0
+670,1,pass,1564,210977,37.0,75.4,47,11,1,2372222,Almería,Srdjan Babic,1,0,0,64.8,98.0,0
+671,1,failed_pass,1564,220871,87.9,97.2,47,17,1,2372222,Almería,Sergio Akieme,0,0,0,88.5,44.2,0
+672,12,clearance,184,77359,8.9,51.4,47,19,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,5.7,71.4,0
+673,13,chance_missed,1564,441293,92.6,29.7,47,21,1,2372222,Almería,Lázaro,1,22,0,0.0,0.0,0
+674,12,clearance,184,77359,8.1,55.4,47,23,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,63.3,66.7,0
+675,1,pass,1564,469402,38.9,30.1,47,29,1,2372222,Almería,Edgar González,1,0,0,14.4,48.7,0
+676,1,pass,1564,76611,18.7,48.4,47,35,1,2372222,Almería,Diego Mariño,1,0,0,21.6,37.6,0
+677,1,pass,1564,469402,22.6,34.9,47,37,1,2372222,Almería,Edgar González,1,0,0,32.9,26.7,0
+678,1,pass,1564,233681,32.9,26.7,47,38,1,2372222,Almería,Lucas Robertone,1,0,0,22.0,31.3,0
+679,1,pass,1564,469402,24.6,30.7,47,42,1,2372222,Almería,Edgar González,1,0,0,28.7,13.5,0
+680,1,pass,1564,233681,30.3,13.2,47,45,1,2372222,Almería,Lucas Robertone,1,0,0,36.1,3.7,0
+681,1,failed_pass,1564,234548,37.4,5.0,47,47,1,2372222,Almería,Álex Pozo,0,0,0,64.7,26.2,0
+682,1,failed_pass,184,89399,32.5,79.7,47,49,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,47.9,100.7,0
+683,5,ball_out,184,89399,48.0,100.0,47,50,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,347,0.0,0.0,0
+684,5,ball_out,1564,234548,52.0,0.0,47,50,1,2372222,Almería,Álex Pozo,1,0,347,0.0,0.0,0
+685,1,pass,1564,234548,53.1,0.0,47,55,1,2372222,Almería,Álex Pozo,1,0,0,53.1,12.8,0
+686,1,pass,1564,433952,52.2,16.5,47,58,1,2372222,Almería,Largie Ramazani,1,0,0,30.0,51.2,0
+687,1,pass,1564,210977,31.1,52.4,48,1,1,2372222,Almería,Srdjan Babic,1,0,0,43.4,65.7,0
+688,1,pass,1564,463170,43.4,65.7,48,2,1,2372222,Almería,Iddrisu Baba,1,0,0,32.3,52.4,0
+689,1,pass,1564,210977,38.2,55.8,48,6,1,2372222,Almería,Srdjan Babic,1,0,0,35.9,33.0,0
+690,1,pass,1564,469402,45.3,24.6,48,11,1,2372222,Almería,Edgar González,1,0,0,90.4,12.3,0
+691,1,pass,1564,432838,91.7,11.1,48,17,1,2372222,Almería,Luis Suárez,1,0,0,85.5,11.3,0
+692,1,pass,1564,234548,85.6,11.3,48,18,1,2372222,Almería,Álex Pozo,1,0,0,88.8,7.3,0
+693,1,pass,1564,432838,86.0,8.0,48,19,1,2372222,Almería,Luis Suárez,1,0,0,75.5,21.6,0
+694,1,pass,1564,441293,76.3,17.9,48,22,1,2372222,Almería,Lázaro,1,0,0,79.8,9.2,0
+695,1,pass,1564,432838,79.8,9.2,48,23,1,2372222,Almería,Luis Suárez,1,0,0,72.5,9.2,0
+696,1,pass,1564,233681,74.8,12.3,48,27,1,2372222,Almería,Lucas Robertone,1,0,0,59.5,24.6,0
+697,1,pass,1564,469402,59.5,24.6,48,28,1,2372222,Almería,Edgar González,1,0,0,64.1,43.3,0
+698,1,pass,1564,463170,62.7,44.0,48,30,1,2372222,Almería,Iddrisu Baba,1,0,0,63.2,73.9,0
+699,1,pass,1564,220871,62.9,70.9,48,34,1,2372222,Almería,Sergio Akieme,1,0,0,48.7,58.7,0
+700,1,pass,1564,210977,51.3,59.9,48,38,1,2372222,Almería,Srdjan Babic,1,0,0,46.7,32.8,0
+701,1,pass,1564,469402,47.4,32.8,48,40,1,2372222,Almería,Edgar González,1,0,0,54.1,9.2,0
+702,1,pass,1564,233681,55.6,10.3,48,42,1,2372222,Almería,Lucas Robertone,1,0,0,60.6,25.6,0
+703,1,pass,1564,463170,60.6,25.6,48,43,1,2372222,Almería,Iddrisu Baba,1,0,0,63.2,8.0,0
+704,1,failed_pass,1564,234548,63.2,8.0,48,44,1,2372222,Almería,Álex Pozo,0,0,0,72.6,26.2,0
+705,49,ball_recovery,184,77359,24.4,75.5,48,46,1,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+706,1,failed_pass,184,77359,29.5,86.8,48,50,1,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,58.5,92.9,0
+707,8,cut_pass,1564,233681,41.1,9.2,48,52,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+708,49,ball_recovery,1564,233681,42.8,9.8,48,54,1,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+709,1,pass,1564,233681,42.8,9.8,48,54,1,2372222,Almería,Lucas Robertone,1,0,0,55.2,9.8,0
+710,1,pass,1564,234548,55.2,9.8,48,56,1,2372222,Almería,Álex Pozo,1,0,0,44.5,12.5,0
+711,1,failed_pass,1564,233681,44.1,17.1,49,0,1,2372222,Almería,Lucas Robertone,0,0,0,81.1,24.9,0
+712,44,aerial_duel,184,89399,16.8,79.3,49,4,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+713,44,aerial_duel,1564,433952,83.2,20.7,49,4,1,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+714,61,touched_ball,184,89399,14.8,83.0,49,4,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,0.0,0.0,0
+715,3,failed_dribble,1564,433952,82.0,11.1,49,8,1,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+716,7,tackle,184,178424,18.0,88.9,49,8,1,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+717,61,touched_ball,184,89399,15.3,88.8,49,8,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+718,61,touched_ball,1564,433952,80.3,13.2,49,8,1,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+719,49,ball_recovery,184,89399,14.2,82.3,49,10,1,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+720,1,failed_pass,184,89399,18.9,78.4,49,10,1,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,60.2,2.2,0
+721,49,ball_recovery,1564,220871,35.6,98.3,49,19,1,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+722,1,pass,1564,220871,42.4,95.1,49,21,1,2372222,Almería,Sergio Akieme,1,0,0,38.1,63.7,0
+723,1,pass,1564,210977,40.2,63.1,49,25,1,2372222,Almería,Srdjan Babic,1,0,0,45.1,52.5,0
+724,1,pass,1564,233681,46.8,55.8,49,28,1,2372222,Almería,Lucas Robertone,1,0,0,49.6,78.2,0
+725,3,failed_dribble,1564,132161,73.1,90.9,49,36,1,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+726,7,tackle,184,183462,26.9,9.1,49,37,1,2372222,Rayo Vallecano,Unai López,0,0,0,0.0,0.0,0
+727,61,touched_ball,1564,132161,72.6,91.1,49,37,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+728,61,touched_ball,184,183462,25.0,7.2,49,37,1,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+729,49,ball_recovery,184,434078,28.8,6.2,49,38,1,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+730,83,unidentified,1564,132161,63.2,93.6,49,41,1,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+731,1,failed_pass,184,434078,53.6,5.6,49,44,1,2372222,Rayo Vallecano,Isi Palazón,0,0,0,83.6,15.9,0
+732,59,goalkeeper_clears_ball,1564,76611,16.2,83.3,49,47,1,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+733,12,clearance,1564,76611,16.2,83.3,49,47,1,2372222,Almería,Diego Mariño,1,0,0,24.7,101.1,0
+734,5,ball_out,184,434078,71.4,0.0,49,48,1,2372222,Rayo Vallecano,Isi Palazón,1,0,347,0.0,0.0,0
+735,5,ball_out,1564,76611,28.6,100.0,49,48,1,2372222,Almería,Diego Mariño,0,0,347,0.0,0.0,0
+736,1,pass,184,97624,66.5,0.0,50,22,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,73.2,12.9,0
+737,1,pass,184,40721,74.1,12.3,50,23,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,83.3,5.8,0
+738,83,unidentified,1564,220871,19.1,98.0,50,25,1,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+739,1,pass,184,449300,70.9,3.4,50,31,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,66.4,11.0,0
+740,1,pass,184,433161,65.4,8.0,50,32,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,67.4,2.9,0
+741,1,pass,184,449300,66.0,3.4,50,33,1,2372222,Rayo Vallecano,Randy Nteka,1,0,0,70.7,14.5,0
+742,1,pass,184,40721,71.0,15.0,50,34,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,75.0,8.5,0
+743,3,failed_dribble,184,433161,77.3,7.2,50,35,1,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,0.0,0.0,0
+744,7,tackle,1564,132161,22.7,92.8,50,35,1,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+745,5,ball_out,184,433161,77.4,0.0,50,36,1,2372222,Rayo Vallecano,Óscar Valentín,1,0,347,0.0,0.0,0
+746,5,ball_out,1564,132161,22.6,100.0,50,36,1,2372222,Almería,Adri Embarba,0,0,347,0.0,0.0,0
+747,1,pass,184,97624,78.8,0.0,50,47,1,2372222,Rayo Vallecano,Iván Balliu,1,0,0,87.9,25.4,0
+748,15,shot_blocked,184,40721,87.0,29.7,50,50,1,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+749,10,save,1564,76611,3.1,53.3,50,50,1,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+750,52,goalkeeper_catches_ball,1564,76611,3.1,53.3,50,51,1,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+751,18,substitution_out,184,183462,40.8,31.5,45,0,2,2372222,Rayo Vallecano,Unai López,1,0,0,0.0,0.0,0
+752,19,substitution_in,184,441175,40.8,31.5,45,0,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,0.0,0.0,0
+753,18,substitution_out,1564,441293,87.3,100.0,45,0,2,2372222,Almería,Lázaro,1,0,0,0.0,0.0,0
+754,19,substitution_in,1564,493344,87.3,100.0,45,0,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+755,1,pass,1564,432838,50.2,50.0,45,0,2,2372222,Almería,Luis Suárez,1,0,0,38.7,43.3,0
+756,1,pass,1564,233681,38.7,41.5,45,2,2,2372222,Almería,Lucas Robertone,1,0,0,36.2,9.1,0
+757,1,pass,1564,234548,36.2,9.1,45,4,2,2372222,Almería,Álex Pozo,1,0,0,28.6,24.4,0
+758,1,pass,1564,469402,29.4,28.0,45,6,2,2372222,Almería,Edgar González,1,0,0,27.9,59.3,0
+759,1,pass,1564,210977,29.3,66.6,45,9,2,2372222,Almería,Srdjan Babic,1,0,0,33.2,85.0,0
+760,1,pass,1564,463170,33.2,82.6,45,11,2,2372222,Almería,Iddrisu Baba,1,0,0,38.5,65.8,0
+761,4,foul_received,1564,233681,33.8,71.8,45,13,2,2372222,Almería,Lucas Robertone,1,0,152,0.0,0.0,0
+762,4,foul_committed,184,40721,66.2,28.2,45,13,2,2372222,Rayo Vallecano,Óscar Trejo,0,0,152,0.0,0.0,0
+763,1,pass,1564,463170,34.8,68.2,45,25,2,2372222,Almería,Iddrisu Baba,1,0,0,36.4,26.4,0
+764,1,pass,1564,469402,41.9,26.2,45,29,2,2372222,Almería,Edgar González,1,0,0,54.9,3.7,0
+765,1,pass,1564,234548,54.2,4.4,45,31,2,2372222,Almería,Álex Pozo,1,0,0,35.7,14.3,0
+766,1,pass,1564,469402,36.7,23.3,45,35,2,2372222,Almería,Edgar González,1,0,0,39.7,34.5,0
+767,1,pass,1564,463170,38.5,33.7,45,36,2,2372222,Almería,Iddrisu Baba,1,0,0,32.4,21.6,0
+768,1,pass,1564,469402,32.3,20.9,45,38,2,2372222,Almería,Edgar González,1,0,0,43.4,4.7,0
+769,1,pass,1564,234548,42.8,9.4,45,42,2,2372222,Almería,Álex Pozo,1,0,0,33.2,21.6,0
+770,1,pass,1564,469402,35.4,25.5,45,44,2,2372222,Almería,Edgar González,1,0,0,32.3,59.9,0
+771,1,pass,1564,210977,37.8,69.6,45,48,2,2372222,Almería,Srdjan Babic,1,0,0,56.3,95.6,0
+772,1,pass,1564,220871,40.0,77.5,45,53,2,2372222,Almería,Sergio Akieme,1,0,0,31.6,39.5,0
+773,1,pass,1564,469402,32.1,36.1,45,57,2,2372222,Almería,Edgar González,1,0,0,58.3,4.0,0
+774,1,pass,1564,234548,62.7,13.5,46,3,2,2372222,Almería,Álex Pozo,1,0,0,64.1,28.3,0
+775,83,unidentified,184,441175,36.7,75.7,46,5,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+776,1,pass,1564,433952,65.9,28.8,46,9,2,2372222,Almería,Largie Ramazani,1,0,0,62.9,38.3,0
+777,1,pass,1564,233681,64.9,45.4,46,11,2,2372222,Almería,Lucas Robertone,1,0,0,78.9,85.7,0
+778,3,failed_dribble,1564,220871,89.7,88.1,46,17,2,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+779,7,tackle,184,434078,10.3,11.9,46,17,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+780,1,pass,1564,132161,84.1,93.9,46,20,2,2372222,Almería,Adri Embarba,1,0,0,78.5,83.9,0
+781,1,pass,1564,220871,75.4,80.6,46,22,2,2372222,Almería,Sergio Akieme,1,0,0,70.4,88.7,0
+782,1,failed_pass,1564,233681,73.6,85.3,46,26,2,2372222,Almería,Lucas Robertone,0,0,0,80.1,64.8,0
+783,12,clearance,184,441175,21.0,40.6,46,27,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,11.8,-1.1,0
+784,5,ball_out,184,441175,12.2,0.0,46,30,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,347,0.0,0.0,0
+785,5,ball_out,1564,233681,87.8,100.0,46,30,2,2372222,Almería,Lucas Robertone,1,0,347,0.0,0.0,0
+786,1,failed_pass,1564,220871,84.9,100.0,46,50,2,2372222,Almería,Sergio Akieme,0,0,0,81.3,87.4,0
+787,8,cut_pass,184,434078,18.9,12.7,46,51,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+788,49,ball_recovery,184,40721,22.4,8.9,46,52,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+789,83,unidentified,1564,132161,70.8,87.0,46,53,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+790,1,pass,184,40721,28.8,12.3,46,54,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,31.1,6.9,0
+791,83,unidentified,1564,220871,66.7,94.7,46,57,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+792,50,ball_stolen,184,434078,31.5,5.2,46,57,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+793,7,tackle,1564,220871,68.5,94.8,46,58,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+794,5,ball_out,184,434078,31.8,0.0,46,58,2,2372222,Rayo Vallecano,Isi Palazón,1,0,347,0.0,0.0,0
+795,5,ball_out,1564,220871,68.2,100.0,46,58,2,2372222,Almería,Sergio Akieme,0,0,347,0.0,0.0,0
+796,1,failed_pass,184,97624,32.6,0.0,47,16,2,2372222,Rayo Vallecano,Iván Balliu,0,0,0,59.0,9.4,0
+797,44,aerial_duel,1564,210977,42.2,88.8,47,18,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+798,44,aerial_duel,184,449300,57.8,11.2,47,18,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+799,1,pass,1564,210977,43.6,86.2,47,18,2,2372222,Almería,Srdjan Babic,1,0,0,59.4,88.0,0
+800,49,ball_recovery,1564,493344,59.4,88.0,47,19,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+801,1,pass,1564,493344,59.4,88.0,47,19,2,2372222,Almería,Sergio Arribas,1,0,0,55.6,92.6,0
+802,61,touched_ball,1564,132161,55.6,92.7,47,20,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+803,1,pass,184,434078,42.4,9.1,47,21,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,46.1,4.2,0
+804,49,ball_recovery,184,449300,46.8,5.2,47,22,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+805,1,pass,184,449300,46.8,5.2,47,22,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,45.9,3.6,0
+806,1,failed_pass,184,97624,46.0,4.4,47,23,2,2372222,Rayo Vallecano,Iván Balliu,0,0,0,48.6,3.6,0
+807,74,pass_block,1564,132161,49.4,96.5,47,23,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+808,5,ball_out,184,449300,57.5,0.0,47,25,2,2372222,Rayo Vallecano,Randy Nteka,1,0,347,0.0,0.0,0
+809,5,ball_out,1564,132161,42.5,100.0,47,25,2,2372222,Almería,Adri Embarba,0,0,347,0.0,0.0,0
+810,1,pass,184,97624,55.9,0.0,47,36,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,60.3,11.6,0
+811,3,failed_dribble,184,434078,59.4,14.0,47,37,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+812,7,tackle,1564,493344,40.6,86.0,47,38,2,2372222,Almería,Sergio Arribas,0,0,0,0.0,0.0,0
+813,1,pass,184,434078,57.8,3.4,47,43,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,44.9,3.3,0
+814,1,pass,184,441175,44.6,4.2,47,45,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,38.8,21.9,0
+815,1,pass,184,89399,38.9,27.9,47,47,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,35.9,67.9,0
+816,1,pass,184,77359,37.9,70.7,47,48,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,56.6,93.8,0
+817,1,pass,184,178424,59.3,94.6,47,53,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,53.0,79.4,0
+818,1,pass,184,433161,44.6,71.4,47,56,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,32.6,50.0,0
+819,1,pass,184,89399,32.2,45.7,47,59,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,44.3,19.2,0
+820,1,failed_pass,184,441175,57.5,18.1,48,3,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,72.8,14.7,0
+821,49,ball_recovery,1564,220871,35.3,70.6,48,4,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+822,1,pass,1564,220871,36.8,69.3,48,6,2,2372222,Almería,Sergio Akieme,1,0,0,34.3,58.7,0
+823,1,pass,1564,463170,34.3,53.4,48,8,2,2372222,Almería,Iddrisu Baba,1,0,0,39.3,38.3,0
+824,1,pass,1564,433952,39.3,38.3,48,9,2,2372222,Almería,Largie Ramazani,1,0,0,24.9,64.0,0
+825,1,pass,1564,210977,33.8,68.1,48,14,2,2372222,Almería,Srdjan Babic,1,0,0,34.1,79.4,0
+826,1,pass,1564,233681,34.5,81.0,48,15,2,2372222,Almería,Lucas Robertone,1,0,0,46.7,95.8,0
+827,3,failed_dribble,1564,132161,44.3,95.8,48,17,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+828,49,ball_recovery,184,97624,40.7,6.5,48,19,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+829,1,pass,184,97624,41.7,9.1,48,20,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,43.6,19.6,0
+830,1,pass,184,441175,44.1,21.7,48,28,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,32.0,36.2,0
+831,1,pass,184,89399,31.2,38.8,48,31,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,29.0,69.6,0
+832,1,pass,184,77359,28.3,70.8,48,36,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,24.7,36.0,0
+833,1,pass,184,89399,26.3,29.9,48,39,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,35.9,25.4,0
+834,1,pass,184,441175,31.2,32.2,48,41,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,11.1,54.2,0
+835,1,pass,184,94878,14.2,52.9,48,47,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,29.5,5.8,0
+836,1,pass,184,97624,34.6,5.2,48,50,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,29.0,15.4,0
+837,1,pass,184,441175,28.7,15.6,48,51,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,46.5,13.8,0
+838,3,failed_dribble,184,40721,63.8,30.8,48,57,2,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+839,7,tackle,1564,210977,36.2,69.2,48,57,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+840,49,ball_recovery,1564,463170,32.3,57.3,48,58,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+841,1,pass,1564,463170,32.2,53.7,48,59,2,2372222,Almería,Iddrisu Baba,1,0,0,39.7,38.3,0
+842,1,failed_pass,1564,433952,43.2,41.6,49,2,2,2372222,Almería,Largie Ramazani,0,0,0,77.6,53.6,0
+843,49,ball_recovery,184,89399,26.1,48.9,49,5,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+844,1,pass,184,89399,23.7,44.7,49,5,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,9.4,48.7,0
+845,1,failed_pass,184,94878,9.0,48.4,49,6,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,21.0,-1.3,0
+846,5,ball_out,184,94878,17.0,0.0,49,9,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,347,0.0,0.0,0
+847,5,ball_out,1564,432838,83.0,100.0,49,9,2,2372222,Almería,Luis Suárez,1,0,347,0.0,0.0,0
+848,1,pass,1564,132161,87.4,100.0,49,17,2,2372222,Almería,Adri Embarba,1,0,0,66.3,93.5,0
+849,3,failed_dribble,1564,220871,72.7,80.1,49,25,2,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+850,7,tackle,184,441175,27.3,19.9,49,25,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+851,1,pass,1564,233681,69.6,93.0,49,29,2,2372222,Almería,Lucas Robertone,1,0,0,77.6,97.2,0
+852,83,unidentified,184,97624,23.8,3.4,49,30,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+853,1,pass,1564,132161,77.6,97.2,49,30,2,2372222,Almería,Adri Embarba,1,0,0,81.1,88.1,0
+854,3,failed_dribble,1564,233681,78.2,84.7,49,31,2,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+855,7,tackle,184,441175,21.8,15.3,49,31,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+856,61,touched_ball,1564,233681,84.6,81.7,49,31,2,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+857,4,foul_received,184,97624,19.3,9.0,49,32,2,2372222,Rayo Vallecano,Iván Balliu,1,0,152,0.0,0.0,265
+858,4,foul_committed,1564,132161,80.7,91.0,49,32,2,2372222,Almería,Adri Embarba,0,0,152,0.0,0.0,265
+859,1,pass,184,94878,14.9,8.1,50,5,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,65.7,18.1,0
+860,44,aerial_duel,184,449300,70.0,21.4,50,8,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+861,44,aerial_duel,1564,210977,30.0,78.6,50,8,2,2372222,Almería,Srdjan Babic,0,0,0,0.0,0.0,0
+862,1,failed_pass,184,449300,71.8,23.2,50,8,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,87.8,29.9,0
+863,52,goalkeeper_catches_ball,1564,76611,13.9,67.2,50,11,2,2372222,Almería,Diego Mariño,0,0,0,0.0,0.0,0
+864,1,pass,1564,76611,13.9,56.4,50,12,2,2372222,Almería,Diego Mariño,1,0,0,26.3,34.0,0
+865,1,pass,1564,469402,26.6,34.0,50,17,2,2372222,Almería,Edgar González,1,0,0,38.7,34.0,0
+866,4,foul_received,1564,433952,42.8,31.8,50,20,2,2372222,Almería,Largie Ramazani,1,0,152,0.0,0.0,0
+867,4,foul_committed,184,165682,57.2,68.2,50,20,2,2372222,Rayo Vallecano,Álvaro García,0,0,152,0.0,0.0,0
+868,17,card,184,165682,56.0,68.5,50,24,2,2372222,Rayo Vallecano,Álvaro García,1,0,0,0.0,0.0,0
+869,1,pass,1564,469402,39.0,33.0,50,38,2,2372222,Almería,Edgar González,1,0,0,58.4,94.8,0
+870,1,failed_pass,1564,220871,63.0,96.4,50,39,2,2372222,Almería,Sergio Akieme,0,0,0,77.4,74.8,0
+871,12,clearance,184,89399,20.4,34.6,50,41,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,25.9,12.0,0
+872,50,ball_stolen,184,434078,27.2,14.4,50,44,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+873,7,tackle,1564,132161,72.8,85.6,50,44,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+874,1,failed_pass,1564,220871,66.8,75.3,50,47,2,2372222,Almería,Sergio Akieme,0,0,0,80.5,30.4,0
+875,1,failed_pass,184,178424,21.1,75.0,50,49,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,32.2,83.3,0
+876,1,pass,1564,234548,72.5,25.0,50,50,2,2372222,Almería,Álex Pozo,1,0,0,81.2,29.5,0
+877,83,unidentified,184,178424,3.6,91.4,50,58,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+878,3,failed_dribble,1564,433952,96.4,3.5,51,0,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+879,7,tackle,184,178424,3.6,96.5,51,0,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+880,6,corner_kick,184,178424,3.4,95.8,51,2,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+881,6,corner_kick,1564,433952,96.6,4.2,51,2,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+882,1,failed_pass,1564,233681,99.5,0.5,51,27,2,2372222,Almería,Lucas Robertone,0,0,0,92.8,40.7,0
+883,12,clearance,184,434078,7.2,63.2,51,28,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,31.2,56.2,0
+884,1,pass,1564,220871,67.3,44.9,51,31,2,2372222,Almería,Sergio Akieme,1,0,0,53.0,43.4,0
+885,1,pass,1564,234548,53.0,43.4,51,33,2,2372222,Almería,Álex Pozo,1,0,0,25.5,49.1,0
+886,1,failed_pass,1564,76611,29.7,43.7,51,43,2,2372222,Almería,Diego Mariño,0,0,0,68.4,73.8,0
+887,44,aerial_duel,184,441175,32.2,27.0,51,45,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,0.0,0.0,0
+888,44,aerial_duel,1564,432838,67.8,73.0,51,45,2,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+889,1,failed_pass,184,441175,32.9,27.7,51,45,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,40.5,28.1,0
+890,61,touched_ball,1564,432838,68.4,73.8,51,45,2,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+891,61,touched_ball,1564,493344,65.8,62.1,51,46,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+892,1,pass,1564,432838,67.2,68.7,51,47,2,2372222,Almería,Luis Suárez,1,0,0,69.2,53.1,0
+893,1,pass,1564,433952,69.7,55.5,51,50,2,2372222,Almería,Largie Ramazani,1,0,0,76.9,72.9,0
+894,1,failed_pass,1564,493344,79.4,73.2,51,53,2,2372222,Almería,Sergio Arribas,0,0,0,96.8,39.8,0
+895,12,clearance,184,94878,4.2,56.5,51,55,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,-0.7,86.8,0
+896,6,corner_kick,184,94878,0.2,83.6,51,58,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+897,6,corner_kick,1564,493344,99.8,16.4,51,58,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+898,1,pass,1564,233681,99.5,0.5,52,18,2,2372222,Almería,Lucas Robertone,1,0,0,89.9,55.5,0
+899,13,chance_missed,1564,210977,89.9,55.5,52,20,2,2372222,Almería,Srdjan Babic,1,25,0,0.0,0.0,0
+900,5,ball_out,184,94878,0.0,51.6,52,21,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,346,0.0,0.0,0
+901,5,ball_out,1564,210977,100.0,48.4,52,21,2,2372222,Almería,Srdjan Babic,0,0,346,0.0,0.0,0
+902,1,failed_pass,184,94878,3.9,49.8,52,51,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,62.6,73.9,0
+903,1,failed_pass,1564,469402,40.7,30.6,52,51,2,2372222,Almería,Edgar González,0,0,0,42.3,29.8,0
+904,61,touched_ball,184,449300,61.7,71.7,52,51,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+905,5,ball_out,184,449300,57.2,100.0,52,55,2,2372222,Rayo Vallecano,Randy Nteka,0,0,347,0.0,0.0,0
+906,5,ball_out,1564,469402,42.8,0.0,52,55,2,2372222,Almería,Edgar González,1,0,347,0.0,0.0,0
+907,1,pass,1564,234548,43.3,0.0,53,8,2,2372222,Almería,Álex Pozo,1,0,0,52.5,8.5,0
+908,1,pass,1564,233681,52.5,8.5,53,9,2,2372222,Almería,Lucas Robertone,1,0,0,44.6,2.9,0
+909,1,pass,1564,234548,44.6,2.9,53,10,2,2372222,Almería,Álex Pozo,1,0,0,49.3,6.8,0
+910,1,pass,1564,233681,53.5,4.6,53,12,2,2372222,Almería,Lucas Robertone,1,0,0,55.6,11.6,0
+911,4,foul_received,1564,433952,57.6,15.0,53,14,2,2372222,Almería,Largie Ramazani,1,0,152,0.0,0.0,265
+912,4,foul_committed,184,441175,42.4,85.0,53,14,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,152,0.0,0.0,265
+913,1,pass,1564,233681,59.0,8.9,53,27,2,2372222,Almería,Lucas Robertone,1,0,0,46.4,18.9,0
+914,1,pass,1564,469402,46.4,18.9,53,29,2,2372222,Almería,Edgar González,1,0,0,55.6,5.5,0
+915,1,pass,1564,233681,55.6,5.5,53,30,2,2372222,Almería,Lucas Robertone,1,0,0,43.2,19.4,0
+916,1,pass,1564,469402,57.0,29.5,53,36,2,2372222,Almería,Edgar González,1,0,0,67.6,22.5,0
+917,1,pass,1564,493344,68.1,25.6,53,39,2,2372222,Almería,Sergio Arribas,1,0,0,73.8,58.5,0
+918,13,chance_missed,1564,132161,76.8,55.0,53,42,2,2372222,Almería,Adri Embarba,1,22,0,0.0,0.0,0
+919,5,ball_out,184,441175,0.0,56.2,53,43,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,346,0.0,0.0,0
+920,5,ball_out,1564,132161,100.0,43.8,53,43,2,2372222,Almería,Adri Embarba,0,0,346,0.0,0.0,0
+921,1,pass,184,94878,3.7,50.2,54,6,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,15.2,22.1,0
+922,1,pass,184,89399,18.2,6.3,54,11,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,56.6,7.4,0
+923,1,failed_pass,184,434078,58.5,9.2,54,13,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,63.0,24.3,0
+924,61,touched_ball,1564,210977,37.2,67.5,54,14,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+925,49,ball_recovery,1564,469402,35.2,55.8,54,18,2,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+926,1,pass,1564,469402,35.2,53.9,54,18,2,2372222,Almería,Edgar González,1,0,0,52.5,40.9,0
+927,4,foul_received,1564,433952,58.9,32.6,54,22,2,2372222,Almería,Largie Ramazani,1,0,152,0.0,0.0,0
+928,4,foul_committed,184,178424,41.1,67.4,54,22,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,152,0.0,0.0,0
+929,1,failed_pass,1564,233681,64.5,26.8,55,2,2,2372222,Almería,Lucas Robertone,0,0,0,92.9,61.4,0
+930,12,clearance,184,441175,9.1,48.4,55,4,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,6.8,17.4,0
+931,4,foul_received,184,97624,7.5,14.9,55,7,2,2372222,Rayo Vallecano,Iván Balliu,1,0,152,0.0,0.0,0
+932,4,foul_committed,1564,463170,92.5,85.1,55,7,2,2372222,Almería,Iddrisu Baba,0,0,152,0.0,0.0,0
+933,1,pass,184,94878,14.2,24.6,55,41,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,59.8,87.3,0
+934,1,pass,184,165682,60.0,90.0,55,45,2,2372222,Rayo Vallecano,Álvaro García,1,0,0,44.6,94.4,0
+935,1,pass,184,178424,44.5,94.4,55,49,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,61.6,83.5,0
+936,1,pass,184,40721,62.4,89.3,55,52,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,47.9,94.2,0
+937,1,pass,184,178424,47.5,89.0,55,55,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,45.9,78.4,0
+938,1,pass,184,441175,44.1,68.5,55,57,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,36.0,31.9,0
+939,1,failed_pass,184,89399,57.9,27.2,56,3,2,2372222,Rayo Vallecano,Aridane Hernández,0,0,0,62.4,70.1,0
+940,49,ball_recovery,1564,433952,40.2,25.8,56,4,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+941,61,touched_ball,1564,433952,43.8,38.6,56,5,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+942,1,failed_pass,184,433161,47.4,56.9,56,7,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,86.5,-1.1,0
+943,5,ball_out,184,433161,82.0,0.0,56,12,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,347,0.0,0.0,0
+944,5,ball_out,1564,433952,18.0,100.0,56,12,2,2372222,Almería,Largie Ramazani,1,0,347,0.0,0.0,0
+945,1,pass,1564,220871,24.6,100.0,56,36,2,2372222,Almería,Sergio Akieme,1,0,0,32.4,87.8,0
+946,1,pass,1564,493344,32.4,87.8,56,36,2,2372222,Almería,Sergio Arribas,1,0,0,27.8,96.0,0
+947,1,pass,1564,220871,27.8,96.0,56,37,2,2372222,Almería,Sergio Akieme,1,0,0,22.0,28.3,0
+948,1,pass,1564,234548,22.0,28.3,56,41,2,2372222,Almería,Álex Pozo,1,0,0,9.8,41.3,0
+949,52,goalkeeper_catches_ball,1564,76611,9.8,41.3,56,42,2,2372222,Almería,Diego Mariño,0,0,0,0.0,0.0,0
+950,1,pass,1564,76611,13.1,50.1,56,47,2,2372222,Almería,Diego Mariño,1,0,0,24.1,32.1,0
+951,1,pass,1564,469402,27.3,30.0,56,53,2,2372222,Almería,Edgar González,1,0,0,33.3,36.4,0
+952,1,pass,1564,233681,33.4,36.4,56,54,2,2372222,Almería,Lucas Robertone,1,0,0,48.3,44.6,0
+953,1,pass,1564,493344,48.3,44.6,56,55,2,2372222,Almería,Sergio Arribas,1,0,0,34.7,70.3,0
+954,1,pass,1564,210977,47.0,74.1,56,59,2,2372222,Almería,Srdjan Babic,1,0,0,63.5,95.4,0
+955,1,failed_pass,1564,220871,87.5,97.1,57,5,2,2372222,Almería,Sergio Akieme,0,0,0,86.8,45.4,0
+956,12,clearance,184,178424,10.4,55.8,57,7,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,25.5,35.0,0
+957,50,ball_stolen,1564,493344,74.9,61.0,57,8,2,2372222,Almería,Sergio Arribas,0,0,0,0.0,0.0,0
+958,7,tackle,184,40721,25.1,39.0,57,9,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+959,49,ball_recovery,184,441175,24.9,32.4,57,11,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,0.0,0.0,0
+960,1,pass,184,441175,25.2,30.8,57,11,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,37.7,14.9,0
+961,50,ball_stolen,184,449300,36.8,15.8,57,13,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+962,7,tackle,1564,210977,63.2,84.2,57,14,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+963,49,ball_recovery,1564,233681,61.4,81.7,57,15,2,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+964,1,pass,1564,233681,61.4,81.7,57,15,2,2372222,Almería,Lucas Robertone,1,0,0,52.0,58.5,0
+965,1,pass,1564,469402,55.5,48.2,57,19,2,2372222,Almería,Edgar González,1,0,0,68.5,52.7,0
+966,1,pass,1564,132161,66.0,56.3,57,21,2,2372222,Almería,Adri Embarba,1,0,0,60.9,67.3,0
+967,1,pass,1564,233681,62.6,64.0,57,25,2,2372222,Almería,Lucas Robertone,1,0,0,79.1,5.2,0
+968,1,pass,1564,234548,75.3,16.7,57,30,2,2372222,Almería,Álex Pozo,1,0,0,70.5,25.2,0
+969,1,pass,1564,463170,70.4,25.2,57,32,2,2372222,Almería,Iddrisu Baba,1,0,0,75.6,30.3,0
+970,45,dribble_received,184,433161,24.8,68.8,57,33,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,0.0,0.0,0
+971,3,dribble_successful,1564,433952,75.2,31.2,57,33,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+972,15,shot_blocked,1564,433952,76.0,31.6,57,34,2,2372222,Almería,Largie Ramazani,1,22,0,0.0,0.0,0
+973,10,save,184,94878,2.6,51.7,57,35,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+974,52,goalkeeper_catches_ball,184,94878,3.8,48.4,57,36,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+975,1,pass,184,94878,8.6,54.7,57,59,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,68.3,58.5,0
+976,3,failed_dribble,184,449300,71.5,63.2,58,0,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+977,7,tackle,1564,469402,28.5,36.8,58,1,2,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+978,44,aerial_duel,1564,234548,28.9,20.6,58,3,2,2372222,Almería,Álex Pozo,1,0,0,0.0,0.0,0
+979,44,aerial_duel,184,178424,71.1,79.4,58,3,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+980,1,failed_pass,1564,234548,28.3,22.7,58,3,2,2372222,Almería,Álex Pozo,0,0,0,34.8,-1.6,0
+981,56,loss_due_to_opponent_strike,184,40721,71.3,96.0,58,6,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+982,5,ball_out,184,40721,69.1,100.0,58,7,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,347,0.0,0.0,0
+983,5,ball_out,1564,234548,30.9,0.0,58,7,2,2372222,Almería,Álex Pozo,0,0,347,0.0,0.0,0
+984,1,pass,184,178424,68.4,100.0,58,24,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,64.2,92.2,0
+985,1,failed_pass,184,40721,64.1,91.5,58,25,2,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,60.0,96.9,0
+986,8,cut_pass,1564,433952,40.7,5.9,58,26,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+987,49,ball_recovery,1564,432838,52.9,11.3,58,27,2,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+988,1,pass,1564,432838,52.9,11.3,58,27,2,2372222,Almería,Luis Suárez,1,0,0,67.3,3.1,0
+989,1,pass,1564,493344,72.1,8.8,58,33,2,2372222,Almería,Sergio Arribas,1,0,0,88.6,15.2,0
+990,15,shot_blocked,1564,433952,94.6,28.7,58,37,2,2372222,Almería,Largie Ramazani,1,22,0,0.0,0.0,0
+991,10,save,184,94878,0.5,54.5,58,38,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+992,6,corner_kick,184,94878,4.8,61.8,58,39,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,0.0,0.0,0
+993,6,corner_kick,1564,433952,95.2,38.2,58,39,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+994,1,failed_pass,1564,132161,99.5,0.5,59,3,2,2372222,Almería,Adri Embarba,0,0,0,91.5,41.5,0
+995,44,aerial_duel,184,434078,7.4,56.4,59,4,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+996,44,aerial_duel,1564,233681,92.6,43.6,59,4,2,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+997,12,clearance,184,434078,6.2,54.3,59,4,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,34.4,90.8,0
+998,1,pass,1564,433952,67.1,12.9,59,10,2,2372222,Almería,Largie Ramazani,1,0,0,73.3,21.6,0
+999,15,shot_blocked,1564,493344,74.4,24.0,59,13,2,2372222,Almería,Sergio Arribas,1,22,0,0.0,0.0,0
+1000,10,save,184,449300,20.1,69.9,59,14,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+1001,12,clearance,184,77359,7.4,53.4,59,17,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,16.0,66.8,0
+1002,45,dribble_received,184,433161,20.5,71.6,59,20,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,0.0,0.0,0
+1003,3,dribble_successful,1564,493344,79.5,28.4,59,20,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+1004,1,pass,1564,493344,80.9,28.8,59,21,2,2372222,Almería,Sergio Arribas,1,0,0,81.0,20.3,0
+1005,45,dribble_received,184,449300,14.8,86.8,59,23,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+1006,3,dribble_successful,1564,132161,85.2,13.2,59,23,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+1007,1,failed_pass,1564,132161,89.7,18.6,59,25,2,2372222,Almería,Adri Embarba,0,0,0,95.9,48.8,0
+1008,11,unidentified,184,94878,5.8,50.2,59,26,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+1009,1,failed_pass,184,94878,10.1,51.1,59,53,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,36.2,33.5,0
+1010,4,foul_received,1564,132161,65.4,67.8,59,55,2,2372222,Almería,Adri Embarba,1,0,152,0.0,0.0,265
+1011,4,foul_committed,184,433161,34.6,32.2,59,55,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,152,0.0,0.0,265
+1012,1,pass,1564,132161,66.4,71.1,60,20,2,2372222,Almería,Adri Embarba,1,0,0,83.6,90.2,0
+1013,1,failed_pass,1564,220871,93.4,88.7,60,27,2,2372222,Almería,Sergio Akieme,0,0,0,93.4,86.6,0
+1014,12,clearance,184,434078,7.2,13.4,60,27,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+1015,6,corner_kick,184,434078,6.9,13.4,60,28,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+1016,6,corner_kick,1564,220871,93.1,86.6,60,28,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1017,1,failed_pass,1564,132161,99.5,99.5,60,52,2,2372222,Almería,Adri Embarba,0,0,0,96.7,57.0,0
+1018,12,clearance,184,449300,7.0,45.7,60,53,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,10.9,64.3,0
+1019,44,aerial_duel,184,89399,7.5,60.4,60,55,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+1020,44,aerial_duel,1564,463170,92.5,39.6,60,55,2,2372222,Almería,Iddrisu Baba,0,0,0,0.0,0.0,0
+1021,12,clearance,184,89399,11.1,64.1,60,55,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,16.2,85.9,0
+1022,3,failed_dribble,1564,493344,88.2,21.5,60,57,2,2372222,Almería,Sergio Arribas,0,0,0,0.0,0.0,0
+1023,7,tackle,184,40721,11.8,78.5,60,58,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+1024,6,corner_kick,184,40721,7.2,84.7,60,59,2,2372222,Rayo Vallecano,Óscar Trejo,0,0,0,0.0,0.0,0
+1025,6,corner_kick,1564,493344,92.8,15.3,60,59,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+1026,1,failed_pass,1564,493344,99.5,0.5,61,15,2,2372222,Almería,Sergio Arribas,0,0,0,95.7,48.4,0
+1027,44,aerial_duel,184,441175,5.0,49.9,61,16,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,0.0,0.0,0
+1028,44,aerial_duel,1564,469402,95.0,50.1,61,16,2,2372222,Almería,Edgar González,0,0,0,0.0,0.0,0
+1029,12,clearance,184,441175,6.5,47.2,61,17,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,18.2,46.0,0
+1030,13,chance_missed,1564,132161,80.5,53.7,61,18,2,2372222,Almería,Adri Embarba,1,25,0,0.0,0.0,0
+1031,5,ball_out,184,441175,0.0,56.4,61,20,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,346,0.0,0.0,0
+1032,5,ball_out,1564,132161,100.0,43.6,61,20,2,2372222,Almería,Adri Embarba,0,0,346,0.0,0.0,0
+1033,18,substitution_out,184,40721,3.6,51.6,62,20,2,2372222,Rayo Vallecano,Óscar Trejo,1,0,0,0.0,0.0,0
+1034,19,substitution_in,184,94756,3.6,51.6,62,20,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,0.0,0.0,0
+1035,1,failed_pass,184,94878,4.2,53.1,62,42,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,62.6,43.1,0
+1036,1,pass,1564,463170,38.8,54.8,62,44,2,2372222,Almería,Iddrisu Baba,1,0,0,63.6,59.0,0
+1037,1,failed_pass,1564,432838,63.6,59.0,62,46,2,2372222,Almería,Luis Suárez,0,0,0,53.9,46.0,0
+1038,8,cut_pass,184,434078,46.4,60.5,62,48,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+1039,61,touched_ball,1564,433952,54.0,44.2,62,48,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+1040,49,ball_recovery,1564,463170,47.7,42.2,62,49,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+1041,1,pass,1564,463170,46.8,44.9,62,53,2,2372222,Almería,Iddrisu Baba,1,0,0,63.2,73.2,0
+1042,1,pass,1564,132161,63.3,73.3,62,54,2,2372222,Almería,Adri Embarba,1,0,0,66.4,93.8,0
+1043,1,pass,1564,220871,66.4,93.8,62,58,2,2372222,Almería,Sergio Akieme,1,0,0,67.9,84.5,0
+1044,61,touched_ball,1564,132161,67.9,84.5,62,59,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1045,49,ball_recovery,184,441175,37.8,8.7,63,0,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,0.0,0.0,0
+1046,1,failed_pass,184,441175,41.8,16.7,63,3,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,42.5,23.5,0
+1047,74,pass_block,1564,463170,59.1,72.4,63,3,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+1048,1,pass,184,441175,41.2,22.1,63,6,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,17.8,16.7,0
+1049,1,pass,184,97624,18.1,16.7,63,10,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,8.4,51.8,0
+1050,1,pass,184,94878,8.4,52.2,63,13,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,20.7,93.1,0
+1051,1,pass,184,77359,21.0,94.8,63,15,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,25.2,98.0,0
+1052,1,pass,184,178424,25.8,96.2,63,17,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,30.1,81.5,0
+1053,1,pass,184,433161,31.6,89.3,63,19,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,36.7,94.9,0
+1054,1,pass,184,178424,36.9,95.1,63,20,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,36.4,88.8,0
+1055,1,pass,184,434078,34.4,67.0,63,29,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,32.6,13.6,0
+1056,1,pass,184,97624,33.4,9.4,63,32,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,59.5,5.8,0
+1057,50,ball_stolen,184,94756,70.2,35.8,63,37,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1058,7,tackle,1564,220871,29.8,64.2,63,38,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1059,49,ball_recovery,1564,463170,32.8,49.1,63,40,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+1060,1,pass,1564,463170,31.8,43.0,63,42,2,2372222,Almería,Iddrisu Baba,1,0,0,5.9,29.4,0
+1061,1,pass,1564,76611,6.9,29.4,63,46,2,2372222,Almería,Diego Mariño,1,0,0,14.5,63.6,0
+1062,1,pass,1564,210977,23.8,66.4,63,52,2,2372222,Almería,Srdjan Babic,1,0,0,24.7,29.1,0
+1063,1,pass,1564,469402,24.9,31.8,63,55,2,2372222,Almería,Edgar González,1,0,0,8.3,52.7,0
+1064,1,pass,1564,76611,9.6,52.5,64,0,2,2372222,Almería,Diego Mariño,1,0,0,13.9,34.0,0
+1065,1,pass,1564,469402,15.3,33.0,64,2,2,2372222,Almería,Edgar González,1,0,0,33.5,29.5,0
+1066,83,unidentified,184,433161,62.6,80.8,64,5,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,0.0,0.0,0
+1067,3,failed_dribble,1564,433952,35.3,23.6,64,6,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+1068,4,foul_received,1564,433952,37.4,23.4,64,8,2,2372222,Almería,Largie Ramazani,1,0,152,0.0,0.0,0
+1069,4,foul_committed,184,433161,62.6,76.6,64,8,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,152,0.0,0.0,0
+1070,17,card,1564,433952,37.1,26.7,64,11,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+1071,17,card,184,433161,62.2,79.9,64,52,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+1072,18,substitution_out,1564,234548,37.1,26.7,65,11,2,2372222,Almería,Álex Pozo,1,0,0,0.0,0.0,0
+1073,19,substitution_in,1564,562720,37.1,26.7,65,11,2,2372222,Almería,Marc Pubill,1,0,0,0.0,0.0,0
+1074,1,pass,1564,493344,45.6,20.4,65,20,2,2372222,Almería,Sergio Arribas,1,0,0,39.0,15.1,0
+1075,1,pass,1564,233681,33.3,11.6,65,22,2,2372222,Almería,Lucas Robertone,1,0,0,30.2,27.0,0
+1076,1,pass,1564,469402,29.1,25.6,65,24,2,2372222,Almería,Edgar González,1,0,0,32.6,8.5,0
+1077,1,pass,1564,233681,34.5,14.9,65,26,2,2372222,Almería,Lucas Robertone,1,0,0,11.9,32.2,0
+1078,1,failed_pass,1564,76611,11.9,32.2,65,28,2,2372222,Almería,Diego Mariño,0,0,0,60.9,26.4,0
+1079,44,aerial_duel,184,178424,40.4,81.3,65,32,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1080,44,aerial_duel,1564,433952,59.6,18.7,65,32,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+1081,1,failed_pass,184,178424,43.2,87.2,65,32,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,47.2,71.1,0
+1082,44,aerial_duel,1564,463170,53.3,33.2,65,34,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+1083,44,aerial_duel,184,441175,46.7,66.8,65,34,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+1084,1,failed_pass,1564,463170,52.3,33.9,65,34,2,2372222,Almería,Iddrisu Baba,0,0,0,53.6,44.2,0
+1085,49,ball_recovery,184,94756,45.6,53.6,65,35,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,0.0,0.0,0
+1086,1,failed_pass,184,94756,46.1,53.6,65,36,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,70.8,87.0,0
+1087,1,pass,1564,562720,26.6,23.4,65,39,2,2372222,Almería,Marc Pubill,1,0,0,15.0,39.1,0
+1088,52,goalkeeper_catches_ball,1564,76611,15.0,39.1,65,41,2,2372222,Almería,Diego Mariño,0,0,0,0.0,0.0,0
+1089,1,pass,1564,76611,14.1,41.7,65,42,2,2372222,Almería,Diego Mariño,1,0,0,19.5,54.0,0
+1090,1,pass,1564,210977,28.3,76.6,65,48,2,2372222,Almería,Srdjan Babic,1,0,0,32.3,69.3,0
+1091,1,pass,1564,233681,32.4,69.3,65,49,2,2372222,Almería,Lucas Robertone,1,0,0,31.0,76.7,0
+1092,1,pass,1564,210977,31.8,79.4,65,51,2,2372222,Almería,Srdjan Babic,1,0,0,44.9,81.5,0
+1093,1,pass,1564,132161,44.9,81.5,65,52,2,2372222,Almería,Adri Embarba,1,0,0,52.9,95.4,0
+1094,1,pass,1564,220871,52.9,95.9,65,54,2,2372222,Almería,Sergio Akieme,1,0,0,43.0,93.0,0
+1095,1,pass,1564,132161,40.2,87.8,65,57,2,2372222,Almería,Adri Embarba,1,0,0,33.0,37.1,0
+1096,1,pass,1564,469402,34.6,29.8,66,4,2,2372222,Almería,Edgar González,1,0,0,38.9,42.7,0
+1097,4,foul_received,1564,233681,39.1,35.0,66,5,2,2372222,Almería,Lucas Robertone,1,0,152,0.0,0.0,0
+1098,4,foul_committed,184,441175,60.9,65.0,66,5,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,152,0.0,0.0,0
+1099,1,pass,1564,469402,36.6,48.7,66,16,2,2372222,Almería,Edgar González,1,0,0,36.8,45.4,0
+1100,1,pass,1564,233681,36.9,35.1,66,20,2,2372222,Almería,Lucas Robertone,1,0,0,44.8,5.2,0
+1101,1,failed_pass,1564,562720,45.1,4.9,66,23,2,2372222,Almería,Marc Pubill,0,0,0,87.5,7.0,0
+1102,12,clearance,184,77359,12.4,95.3,66,26,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,14.3,101.6,0
+1103,5,ball_out,184,77359,14.6,100.0,66,27,2,2372222,Rayo Vallecano,Florian Lejeune,0,0,347,0.0,0.0,0
+1104,5,ball_out,1564,562720,85.4,0.0,66,27,2,2372222,Almería,Marc Pubill,1,0,347,0.0,0.0,0
+1105,1,pass,1564,562720,84.3,0.0,66,34,2,2372222,Almería,Marc Pubill,1,0,0,84.5,9.2,0
+1106,1,pass,1564,493344,84.5,9.2,66,36,2,2372222,Almería,Sergio Arribas,1,0,0,82.6,4.7,0
+1107,1,pass,1564,562720,82.1,5.0,66,37,2,2372222,Almería,Marc Pubill,1,0,0,80.9,11.1,0
+1108,1,failed_pass,1564,493344,79.3,13.7,66,40,2,2372222,Almería,Sergio Arribas,0,0,0,93.4,50.9,0
+1109,12,clearance,184,89399,8.0,53.6,66,41,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,12.7,62.1,0
+1110,44,aerial_duel,184,77359,10.4,56.6,66,44,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+1111,44,aerial_duel,1564,132161,89.6,43.4,66,44,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1112,12,clearance,184,77359,10.4,59.2,66,44,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,28.8,68.5,0
+1113,1,pass,1564,463170,70.2,30.7,66,46,2,2372222,Almería,Iddrisu Baba,1,0,0,69.4,16.1,0
+1114,1,pass,1564,562720,69.6,15.6,66,48,2,2372222,Almería,Marc Pubill,1,0,0,73.3,5.5,0
+1115,1,pass,1564,433952,72.2,8.6,66,52,2,2372222,Almería,Largie Ramazani,1,0,0,89.2,32.1,0
+1116,1,pass,1564,132161,89.6,32.5,66,53,2,2372222,Almería,Adri Embarba,1,0,0,87.2,32.5,0
+1117,3,failed_dribble,1564,463170,91.3,32.9,66,54,2,2372222,Almería,Iddrisu Baba,0,0,0,0.0,0.0,0
+1118,12,clearance,184,178424,5.4,66.6,66,56,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,-1.3,67.2,0
+1119,6,corner_kick,184,178424,6.6,68.2,66,57,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+1120,6,corner_kick,1564,463170,93.4,31.8,66,57,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+1121,1,failed_pass,1564,132161,99.5,0.5,67,20,2,2372222,Almería,Adri Embarba,0,0,0,90.3,44.8,0
+1122,12,clearance,184,449300,9.2,57.6,67,21,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,23.1,101.3,0
+1123,5,ball_out,184,449300,26.8,100.0,67,27,2,2372222,Rayo Vallecano,Randy Nteka,0,0,347,0.0,0.0,0
+1124,5,ball_out,1564,132161,73.2,0.0,67,27,2,2372222,Almería,Adri Embarba,1,0,347,0.0,0.0,0
+1125,1,pass,1564,132161,69.6,0.0,67,30,2,2372222,Almería,Adri Embarba,1,0,0,93.1,8.3,0
+1126,1,failed_pass,1564,233681,97.1,9.7,67,33,2,2372222,Almería,Lucas Robertone,0,0,0,92.1,40.4,0
+1127,44,aerial_duel,184,77359,8.2,57.6,67,34,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+1128,44,aerial_duel,1564,432838,91.8,42.4,67,34,2,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+1129,12,clearance,184,77359,8.5,56.1,67,34,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,9.7,59.4,0
+1130,61,touched_ball,1564,432838,91.7,36.9,67,34,2,2372222,Almería,Luis Suárez,1,0,0,0.0,0.0,0
+1131,49,ball_recovery,184,178424,8.9,86.4,67,35,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1132,1,pass,184,178424,10.4,86.2,67,36,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,24.4,94.2,0
+1133,1,pass,184,434078,24.8,94.4,67,38,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,30.6,92.8,0
+1134,50,ball_stolen,184,449300,33.6,91.4,67,40,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+1135,7,tackle,1564,562720,66.4,8.6,67,40,2,2372222,Almería,Marc Pubill,0,0,0,0.0,0.0,0
+1136,1,pass,184,449300,40.6,82.4,67,42,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,67.1,32.6,0
+1137,50,ball_stolen,184,94756,75.5,28.3,67,45,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1138,7,tackle,1564,220871,24.5,71.7,67,47,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1139,49,ball_recovery,1564,220871,15.0,77.6,67,48,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1140,45,dribble_received,184,94756,81.2,14.7,67,50,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1141,3,dribble_successful,1564,220871,18.8,85.3,67,50,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1142,1,pass,1564,220871,21.5,84.8,67,51,2,2372222,Almería,Sergio Akieme,1,0,0,30.3,74.1,0
+1143,1,pass,1564,433952,37.7,65.4,67,57,2,2372222,Almería,Largie Ramazani,1,0,0,53.9,39.7,0
+1144,1,pass,1564,493344,77.1,26.8,68,4,2,2372222,Almería,Sergio Arribas,1,0,0,85.9,39.8,0
+1145,1,pass,1564,132161,85.8,39.7,68,4,2,2372222,Almería,Adri Embarba,1,0,0,84.7,39.1,0
+1146,15,shot_blocked,1564,493344,84.7,39.1,68,5,2,2372222,Almería,Sergio Arribas,1,22,0,0.0,0.0,0
+1147,10,save,184,77359,12.7,59.0,68,5,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+1148,61,touched_ball,1564,493344,84.7,39.1,68,6,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+1149,49,ball_recovery,184,77359,16.4,56.2,68,6,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+1150,1,pass,184,77359,22.8,57.2,68,8,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,30.1,35.3,0
+1151,1,pass,184,94756,33.3,29.2,68,11,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,46.3,9.2,0
+1152,1,pass,184,449300,42.9,10.7,68,15,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,37.0,18.1,0
+1153,1,pass,184,434078,38.7,29.5,68,19,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,34.5,35.0,0
+1154,1,pass,184,97624,34.4,35.1,68,21,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,31.0,19.7,0
+1155,1,pass,184,441175,31.0,17.0,68,24,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,37.2,29.7,0
+1156,1,pass,184,433161,37.2,30.3,68,25,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,44.3,14.7,0
+1157,1,pass,184,434078,44.1,14.5,68,27,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,58.0,3.6,0
+1158,1,pass,184,94756,58.0,4.0,68,29,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,54.6,4.9,0
+1159,1,pass,184,97624,56.1,5.1,68,31,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,62.1,5.1,0
+1160,1,pass,184,94756,62.3,5.6,68,34,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,57.4,19.2,0
+1161,1,pass,184,434078,58.0,21.0,68,36,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,59.7,5.8,0
+1162,1,pass,184,94756,59.2,5.8,68,38,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,40.8,8.7,0
+1163,1,pass,184,441175,42.0,21.0,68,41,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,61.9,93.3,0
+1164,1,pass,184,178424,64.5,93.3,68,47,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,55.4,83.5,0
+1165,1,pass,184,433161,45.6,82.8,68,50,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,45.0,53.1,0
+1166,1,pass,184,441175,45.1,49.6,68,54,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,63.7,6.7,0
+1167,1,pass,184,94756,65.6,6.5,68,59,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,56.5,23.5,0
+1168,50,ball_stolen,184,441175,55.5,17.1,69,1,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+1169,7,tackle,1564,432838,44.5,82.9,69,1,2,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+1170,1,pass,184,94756,53.7,4.3,69,2,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,30.1,33.7,0
+1171,1,pass,184,89399,29.3,38.2,69,6,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,30.3,85.3,0
+1172,1,pass,184,77359,30.2,89.1,69,9,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,37.0,96.0,0
+1173,1,pass,184,178424,38.9,95.8,69,12,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,25.0,92.8,0
+1174,1,pass,184,77359,27.2,81.9,69,16,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,35.5,66.5,0
+1175,1,pass,184,434078,35.9,66.5,69,17,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,42.6,77.7,0
+1176,1,pass,184,433161,42.9,77.7,69,19,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,56.4,94.2,0
+1177,1,pass,184,178424,61.4,90.6,69,24,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,64.0,81.7,0
+1178,1,failed_pass,184,434078,89.6,91.5,69,31,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,91.9,12.5,0
+1179,49,ball_recovery,1564,220871,7.7,84.8,69,35,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1180,83,unidentified,184,94756,95.9,6.7,69,41,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1181,45,dribble_received,184,94756,91.6,5.3,69,42,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1182,3,dribble_successful,1564,220871,8.4,94.7,69,42,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1183,1,failed_pass,1564,220871,11.4,94.5,69,44,2,2372222,Almería,Sergio Akieme,0,0,0,38.6,89.1,0
+1184,8,cut_pass,184,89399,59.5,11.0,69,46,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,0.0,0.0,0
+1185,49,ball_recovery,184,433161,62.1,34.8,69,48,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+1186,1,pass,184,433161,62.1,34.8,69,48,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,66.7,24.6,0
+1187,1,pass,184,441175,69.3,17.6,69,51,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,76.7,5.4,0
+1188,1,pass,184,94756,79.4,5.1,69,54,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,72.8,12.0,0
+1189,1,pass,184,441175,69.7,12.7,69,57,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,74.6,5.2,0
+1190,1,pass,184,94756,76.5,6.9,69,59,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,81.0,3.8,0
+1191,1,pass,184,97624,81.4,3.8,69,59,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,68.0,7.6,0
+1192,1,pass,184,441175,69.3,12.3,70,4,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,60.2,95.5,0
+1193,1,pass,184,178424,61.2,94.8,70,10,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,45.3,86.8,0
+1194,1,pass,184,433161,44.6,81.2,70,12,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,42.4,64.7,0
+1195,1,pass,184,77359,44.5,54.7,70,16,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,42.2,31.0,0
+1196,1,pass,184,89399,44.8,28.4,70,19,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,56.9,30.1,0
+1197,1,pass,184,434078,55.4,32.1,70,22,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,40.2,86.6,0
+1198,1,pass,184,433161,42.4,78.4,70,28,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,33.3,65.4,0
+1199,1,pass,184,77359,33.5,66.5,70,30,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,47.0,41.7,0
+1200,1,pass,184,434078,47.7,34.8,70,34,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,41.8,12.1,0
+1201,1,pass,184,89399,41.8,12.1,70,36,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,57.3,4.9,0
+1202,1,pass,184,97624,57.3,4.9,70,37,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,41.1,12.3,0
+1203,1,pass,184,89399,41.1,13.0,70,40,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,45.5,30.1,0
+1204,1,pass,184,441175,53.6,31.5,70,43,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,69.1,91.5,0
+1205,1,pass,184,178424,70.7,93.3,70,46,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,95.2,72.1,0
+1206,1,pass,184,165682,97.6,74.0,70,50,2,2372222,Rayo Vallecano,Álvaro García,1,0,0,92.4,55.1,0
+1207,61,touched_ball,184,449300,92.4,55.3,70,50,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+1208,12,clearance,1564,220871,8.2,48.8,70,52,2,2372222,Almería,Sergio Akieme,1,0,0,6.6,45.2,0
+1209,12,clearance,1564,562720,4.8,46.4,70,52,2,2372222,Almería,Marc Pubill,1,0,0,14.4,66.4,0
+1210,15,shot_blocked,184,434078,81.3,31.6,70,57,2,2372222,Rayo Vallecano,Isi Palazón,1,22,0,0.0,0.0,0
+1211,10,save,1564,210977,9.0,56.5,70,57,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+1212,1,failed_pass,184,434078,84.8,30.1,70,58,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,88.6,26.8,0
+1213,49,ball_recovery,1564,132161,11.8,68.2,70,59,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+1214,1,pass,1564,132161,11.8,68.2,71,0,2,2372222,Almería,Adri Embarba,1,0,0,12.5,61.8,0
+1215,83,unidentified,184,449300,87.3,42.8,71,1,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+1216,1,pass,1564,463170,12.5,61.8,71,1,2,2372222,Almería,Iddrisu Baba,1,0,0,43.5,72.1,0
+1217,61,touched_ball,1564,432838,43.5,72.1,71,6,2,2372222,Almería,Luis Suárez,0,0,0,0.0,0.0,0
+1218,49,ball_recovery,184,433161,55.7,44.9,71,7,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+1219,1,pass,184,433161,59.2,20.8,71,10,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,57.1,6.3,0
+1220,1,pass,184,97624,58.3,4.5,71,11,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,67.6,3.3,0
+1221,4,foul_received,184,449300,68.8,7.0,71,12,2,2372222,Rayo Vallecano,Randy Nteka,1,0,152,0.0,0.0,0
+1222,4,foul_committed,1564,463170,31.2,93.0,71,12,2,2372222,Almería,Iddrisu Baba,0,0,152,0.0,0.0,0
+1223,1,pass,184,97624,71.5,5.8,71,49,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,63.6,9.6,0
+1224,1,pass,184,434078,62.2,10.1,71,52,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,73.9,92.2,0
+1225,3,dribble_successful,184,178424,76.8,92.0,71,57,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1226,45,dribble_received,1564,433952,23.2,8.0,71,57,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+1227,1,pass,184,178424,75.6,92.6,72,1,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,70.5,88.4,0
+1228,1,pass,184,165682,71.7,86.8,72,3,2,2372222,Rayo Vallecano,Álvaro García,1,0,0,62.6,74.5,0
+1229,1,pass,184,433161,61.2,74.1,72,5,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,67.5,69.0,0
+1230,50,ball_stolen,184,441175,68.2,59.0,72,8,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+1231,7,tackle,1564,493344,31.8,41.0,72,8,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+1232,49,ball_recovery,1564,233681,27.9,49.6,72,9,2,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+1233,1,failed_pass,1564,233681,31.4,49.0,72,10,2,2372222,Almería,Lucas Robertone,0,0,0,34.1,63.6,0
+1234,8,cut_pass,184,434078,67.6,35.3,72,11,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+1235,5,ball_out,184,178424,79.7,0.0,72,14,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,347,0.0,0.0,0
+1236,5,ball_out,1564,233681,20.3,100.0,72,14,2,2372222,Almería,Lucas Robertone,1,0,347,0.0,0.0,0
+1237,1,pass,1564,220871,20.5,100.0,72,39,2,2372222,Almería,Sergio Akieme,1,0,0,27.6,86.2,0
+1238,1,pass,1564,132161,27.6,86.2,72,39,2,2372222,Almería,Adri Embarba,1,0,0,20.7,95.6,0
+1239,1,pass,1564,220871,19.4,91.4,72,42,2,2372222,Almería,Sergio Akieme,1,0,0,7.4,73.6,0
+1240,1,pass,1564,210977,7.4,72.4,72,44,2,2372222,Almería,Srdjan Babic,1,0,0,4.3,45.5,0
+1241,1,pass,1564,76611,10.9,32.1,72,59,2,2372222,Almería,Diego Mariño,1,0,0,13.5,82.6,0
+1242,1,pass,1564,220871,31.3,72.0,73,9,2,2372222,Almería,Sergio Akieme,1,0,0,29.8,55.5,0
+1243,1,pass,1564,210977,31.4,49.4,73,12,2,2372222,Almería,Srdjan Babic,1,0,0,32.9,28.8,0
+1244,1,pass,1564,469402,33.6,28.2,73,15,2,2372222,Almería,Edgar González,1,0,0,36.8,12.6,0
+1245,1,pass,1564,463170,36.8,12.6,73,16,2,2372222,Almería,Iddrisu Baba,1,0,0,30.4,30.6,0
+1246,1,pass,1564,469402,30.3,32.2,73,19,2,2372222,Almería,Edgar González,1,0,0,30.6,60.8,0
+1247,1,pass,1564,210977,47.4,75.7,73,25,2,2372222,Almería,Srdjan Babic,1,0,0,91.4,86.8,0
+1248,1,pass,1564,432838,89.9,83.3,73,34,2,2372222,Almería,Luis Suárez,1,0,0,72.6,57.2,0
+1249,1,pass,1564,233681,72.9,56.4,73,37,2,2372222,Almería,Lucas Robertone,1,0,0,72.9,26.8,0
+1250,1,pass,1564,562720,72.9,26.8,73,39,2,2372222,Almería,Marc Pubill,1,0,0,86.9,51.8,0
+1251,13,chance_missed,1564,493344,86.9,51.9,73,40,2,2372222,Almería,Sergio Arribas,1,22,0,0.0,0.0,0
+1252,5,ball_out,184,178424,0.0,36.3,73,42,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,346,0.0,0.0,0
+1253,5,ball_out,1564,493344,100.0,63.7,73,42,2,2372222,Almería,Sergio Arribas,0,0,346,0.0,0.0,0
+1254,1,pass,184,94878,4.4,52.7,74,7,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,60.0,29.9,0
+1255,44,aerial_duel,184,449300,58.1,27.8,74,10,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+1256,44,aerial_duel,1564,233681,41.9,72.2,74,10,2,2372222,Almería,Lucas Robertone,0,0,0,0.0,0.0,0
+1257,1,pass,184,449300,60.6,28.8,74,10,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,46.1,31.9,0
+1258,1,pass,184,441175,46.4,31.9,74,13,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,50.1,52.9,0
+1259,4,foul_received,184,434078,46.4,54.0,74,15,2,2372222,Rayo Vallecano,Isi Palazón,1,0,152,0.0,0.0,265
+1260,4,foul_committed,1564,463170,53.6,46.0,74,15,2,2372222,Almería,Iddrisu Baba,0,0,152,0.0,0.0,265
+1261,1,pass,184,441175,46.8,56.2,74,31,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,42.4,77.5,0
+1262,1,pass,184,433161,41.3,75.7,74,34,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,15.2,47.6,0
+1263,1,pass,184,94878,15.2,46.2,74,40,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,35.2,94.0,0
+1264,1,pass,184,178424,35.2,93.7,74,43,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,20.6,82.3,0
+1265,1,pass,184,77359,18.9,77.7,74,46,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,7.6,52.7,0
+1266,1,pass,184,94878,9.8,44.4,74,53,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,11.9,29.2,0
+1267,1,pass,184,89399,13.2,25.4,74,57,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,56.8,17.6,0
+1268,61,touched_ball,184,449300,61.1,15.0,75,1,2,2372222,Rayo Vallecano,Randy Nteka,0,0,0,0.0,0.0,0
+1269,4,foul_received,1564,132161,40.8,84.2,75,2,2,2372222,Almería,Adri Embarba,1,0,152,0.0,0.0,265
+1270,4,foul_committed,184,449300,59.2,15.8,75,2,2,2372222,Rayo Vallecano,Randy Nteka,0,0,152,0.0,0.0,265
+1271,18,substitution_out,1564,463170,20.0,10.6,76,46,2,2372222,Almería,Iddrisu Baba,1,0,0,0.0,0.0,0
+1272,19,substitution_in,1564,195457,20.0,10.6,76,46,2,2372222,Almería,Melero,1,0,0,0.0,0.0,0
+1273,18,substitution_out,1564,233681,20.0,10.6,76,56,2,2372222,Almería,Lucas Robertone,1,0,0,0.0,0.0,0
+1274,19,substitution_in,1564,476412,20.0,10.6,76,56,2,2372222,Almería,Dion Lopy,1,0,0,0.0,0.0,0
+1275,1,pass,1564,210977,38.9,66.4,77,22,2,2372222,Almería,Srdjan Babic,1,0,0,44.4,49.3,0
+1276,1,pass,1564,195457,43.9,48.1,77,25,2,2372222,Almería,Melero,1,0,0,47.0,25.5,0
+1277,1,pass,1564,476412,46.3,27.6,77,29,2,2372222,Almería,Dion Lopy,1,0,0,40.6,66.3,0
+1278,1,pass,1564,210977,42.8,70.5,77,33,2,2372222,Almería,Srdjan Babic,1,0,0,62.9,96.2,0
+1279,1,pass,1564,220871,61.4,88.6,77,38,2,2372222,Almería,Sergio Akieme,1,0,0,51.9,75.1,0
+1280,1,pass,1564,210977,54.9,72.7,77,41,2,2372222,Almería,Srdjan Babic,1,0,0,45.3,47.3,0
+1281,1,pass,1564,469402,46.0,46.1,77,44,2,2372222,Almería,Edgar González,1,0,0,59.8,29.7,0
+1282,1,pass,1564,493344,58.8,27.1,77,46,2,2372222,Almería,Sergio Arribas,1,0,0,44.8,27.6,0
+1283,1,pass,1564,469402,45.0,27.7,77,48,2,2372222,Almería,Edgar González,1,0,0,52.3,15.6,0
+1284,1,pass,1564,493344,53.4,15.6,77,50,2,2372222,Almería,Sergio Arribas,1,0,0,62.0,2.9,0
+1285,1,pass,1564,562720,65.6,3.4,77,54,2,2372222,Almería,Marc Pubill,1,0,0,73.8,13.7,0
+1286,3,failed_dribble,1564,433952,74.8,13.7,77,55,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+1287,7,tackle,184,178424,25.2,86.3,77,55,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+1288,1,pass,1564,433952,72.9,8.5,77,58,2,2372222,Almería,Largie Ramazani,1,0,0,72.7,19.1,0
+1289,83,unidentified,184,433161,32.6,86.4,77,59,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,0,0.0,0.0,0
+1290,1,pass,1564,493344,68.2,29.7,78,1,2,2372222,Almería,Sergio Arribas,1,0,0,73.8,55.3,0
+1291,1,pass,1564,132161,72.9,52.6,78,2,2,2372222,Almería,Adri Embarba,1,0,0,80.2,75.8,0
+1292,45,dribble_received,184,94756,13.4,26.2,78,6,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1293,3,dribble_successful,1564,220871,86.6,73.8,78,6,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1294,15,shot_blocked,1564,220871,86.1,67.2,78,7,2,2372222,Almería,Sergio Akieme,1,22,0,0.0,0.0,0
+1295,10,save,184,94878,2.7,46.4,78,8,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,0.0,0.0,0
+1296,61,touched_ball,1564,220871,92.0,91.8,78,11,2,2372222,Almería,Sergio Akieme,0,0,0,0.0,0.0,0
+1297,5,ball_out,184,97624,6.4,0.0,78,13,2,2372222,Rayo Vallecano,Iván Balliu,1,0,347,0.0,0.0,0
+1298,5,ball_out,1564,220871,93.6,100.0,78,13,2,2372222,Almería,Sergio Akieme,0,0,347,0.0,0.0,0
+1299,1,failed_pass,184,97624,13.1,0.0,78,36,2,2372222,Rayo Vallecano,Iván Balliu,0,0,0,36.9,14.3,0
+1300,1,pass,1564,476412,60.6,77.8,78,39,2,2372222,Almería,Dion Lopy,1,0,0,55.6,89.3,0
+1301,49,ball_recovery,1564,210977,54.5,87.2,78,41,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+1302,1,pass,1564,210977,54.5,87.2,78,41,2,2372222,Almería,Srdjan Babic,1,0,0,61.1,93.5,0
+1303,1,pass,1564,220871,62.0,93.6,78,44,2,2372222,Almería,Sergio Akieme,1,0,0,74.8,78.4,0
+1304,1,pass,1564,132161,75.1,77.9,78,46,2,2372222,Almería,Adri Embarba,1,0,0,79.6,76.6,0
+1305,1,pass,1564,432838,88.9,75.3,78,49,2,2372222,Almería,Luis Suárez,1,0,0,86.1,5.0,0
+1306,1,failed_pass,1564,433952,90.4,11.6,78,57,2,2372222,Almería,Largie Ramazani,0,0,0,91.6,14.1,0
+1307,12,clearance,184,178424,11.5,84.8,78,57,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1308,5,ball_out,184,178424,12.4,100.0,79,0,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,347,0.0,0.0,0
+1309,5,ball_out,1564,433952,87.6,0.0,79,0,2,2372222,Almería,Largie Ramazani,1,0,347,0.0,0.0,0
+1310,1,pass,1564,562720,86.5,0.0,79,6,2,2372222,Almería,Marc Pubill,1,0,0,64.1,11.6,0
+1311,1,pass,1564,469402,64.1,11.6,79,8,2,2372222,Almería,Edgar González,1,0,0,67.7,4.9,0
+1312,1,pass,1564,476412,68.0,4.9,79,10,2,2372222,Almería,Dion Lopy,1,0,0,71.5,15.3,0
+1313,1,pass,1564,433952,75.1,18.8,79,12,2,2372222,Almería,Largie Ramazani,1,0,0,75.0,28.6,0
+1314,1,pass,1564,493344,75.4,31.6,79,14,2,2372222,Almería,Sergio Arribas,1,0,0,85.2,47.8,0
+1315,61,touched_ball,1564,132161,85.2,47.8,79,14,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1316,12,clearance,184,77359,13.7,59.6,79,15,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,41.3,65.9,0
+1317,1,pass,1564,210977,61.5,36.4,79,20,2,2372222,Almería,Srdjan Babic,1,0,0,54.9,22.1,0
+1318,1,pass,1564,469402,54.9,22.1,79,21,2,2372222,Almería,Edgar González,1,0,0,64.3,3.5,0
+1319,1,pass,1564,562720,64.3,3.5,79,24,2,2372222,Almería,Marc Pubill,1,0,0,64.3,11.7,0
+1320,1,pass,1564,476412,63.5,9.2,79,27,2,2372222,Almería,Dion Lopy,1,0,0,55.2,46.9,0
+1321,1,pass,1564,210977,73.8,66.4,79,33,2,2372222,Almería,Srdjan Babic,1,0,0,78.0,82.3,0
+1322,1,pass,1564,220871,75.0,81.5,79,37,2,2372222,Almería,Sergio Akieme,1,0,0,71.0,53.3,0
+1323,13,chance_missed,1564,476412,70.9,49.6,79,39,2,2372222,Almería,Dion Lopy,1,22,0,0.0,0.0,0
+1324,5,ball_out,184,441175,0.0,66.6,79,41,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,346,0.0,0.0,0
+1325,5,ball_out,1564,476412,100.0,33.4,79,41,2,2372222,Almería,Dion Lopy,0,0,346,0.0,0.0,0
+1326,1,pass,184,94878,4.4,50.4,80,1,2,2372222,Rayo Vallecano,Stole Dimitrievski,1,0,0,22.4,83.9,0
+1327,1,pass,184,77359,22.4,83.9,80,2,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,30.0,94.6,0
+1328,1,pass,184,178424,29.9,99.3,80,4,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,11.7,81.4,0
+1329,1,failed_pass,184,77359,21.6,87.3,80,6,2,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,69.0,97.3,0
+1330,49,ball_recovery,1564,562720,34.5,2.2,80,11,2,2372222,Almería,Marc Pubill,1,0,0,0.0,0.0,0
+1331,1,pass,1564,562720,34.5,2.3,80,12,2,2372222,Almería,Marc Pubill,1,0,0,36.4,15.8,0
+1332,1,pass,1564,469402,36.4,21.0,80,15,2,2372222,Almería,Edgar González,1,0,0,43.9,20.7,0
+1333,1,pass,1564,476412,41.0,31.9,80,18,2,2372222,Almería,Dion Lopy,1,0,0,31.8,28.3,0
+1334,1,failed_pass,1564,469402,33.6,31.0,80,21,2,2372222,Almería,Edgar González,0,0,0,46.1,30.9,0
+1335,49,ball_recovery,184,433161,56.8,73.0,80,23,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+1336,1,pass,184,433161,56.8,73.0,80,23,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,59.7,67.8,0
+1337,1,pass,184,434078,56.7,63.5,80,24,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,74.8,53.2,0
+1338,15,shot_blocked,184,449300,80.6,53.3,80,28,2,2372222,Rayo Vallecano,Randy Nteka,1,22,0,0.0,0.0,0
+1339,10,save,1564,469402,17.3,47.1,80,28,2,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+1340,12,clearance,1564,469402,17.4,43.6,80,31,2,2372222,Almería,Edgar González,1,0,0,29.1,37.9,0
+1341,1,pass,184,434078,70.8,64.3,80,33,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,77.0,78.3,0
+1342,1,pass,184,165682,75.2,77.5,80,36,2,2372222,Rayo Vallecano,Álvaro García,1,0,0,68.9,70.1,0
+1343,1,pass,184,434078,68.8,72.8,80,37,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,70.4,92.8,0
+1344,1,pass,184,178424,70.2,94.2,80,39,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,46.5,69.9,0
+1345,1,pass,184,433161,46.0,67.4,80,42,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,41.2,23.0,0
+1346,1,pass,184,89399,40.5,20.8,80,46,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,60.0,4.7,0
+1347,1,pass,184,97624,59.7,5.4,80,50,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,81.5,6.0,0
+1348,1,pass,184,441175,95.8,18.8,80,55,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,77.1,86.6,0
+1349,3,dribble_successful,184,178424,86.4,82.8,81,1,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1350,45,dribble_received,1564,433952,13.6,17.2,81,1,2,2372222,Almería,Largie Ramazani,0,0,0,0.0,0.0,0
+1351,15,shot_blocked,184,178424,87.0,73.9,81,3,2,2372222,Rayo Vallecano,Alfonso Espino,1,22,0,0.0,0.0,0
+1352,10,save,1564,195457,8.6,34.1,81,4,2,2372222,Almería,Melero,1,0,0,0.0,0.0,0
+1353,6,corner_kick,184,178424,92.0,74.2,81,6,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1354,6,corner_kick,1564,195457,8.0,25.8,81,6,2,2372222,Almería,Melero,0,0,0,0.0,0.0,0
+1355,18,substitution_out,184,449300,99.5,99.5,81,47,2,2372222,Rayo Vallecano,Randy Nteka,1,0,0,0.0,0.0,0
+1356,19,substitution_in,184,48847,99.5,99.5,81,47,2,2372222,Rayo Vallecano,Radamel Falcao,1,0,0,0.0,0.0,0
+1357,1,failed_pass,184,165682,99.5,99.5,81,58,2,2372222,Rayo Vallecano,Álvaro García,0,0,0,84.6,45.7,0
+1358,61,touched_ball,1564,433952,18.8,58.7,82,0,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+1359,4,foul_received,1564,493344,25.0,57.0,82,2,2,2372222,Almería,Sergio Arribas,1,0,152,0.0,0.0,265
+1360,4,foul_committed,184,433161,75.0,43.0,82,2,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,152,0.0,0.0,265
+1361,18,substitution_out,1564,433952,24.6,58.8,82,22,2,2372222,Almería,Largie Ramazani,1,0,0,0.0,0.0,0
+1362,19,substitution_in,1564,539673,24.6,58.8,82,22,2,2372222,Almería,Marko Milovanovic,1,0,0,0.0,0.0,0
+1363,1,pass,1564,210977,24.6,58.8,82,36,2,2372222,Almería,Srdjan Babic,1,0,0,28.6,27.9,0
+1364,1,pass,1564,195457,36.0,24.8,82,37,2,2372222,Almería,Melero,1,0,0,54.8,4.2,0
+1365,1,pass,1564,562720,55.8,4.9,82,39,2,2372222,Almería,Marc Pubill,1,0,0,59.2,8.8,0
+1366,3,failed_dribble,1564,132161,64.8,3.4,82,44,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1367,7,tackle,184,433161,35.2,96.6,82,44,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+1368,5,ball_out,184,433161,39.8,100.0,82,45,2,2372222,Rayo Vallecano,Óscar Valentín,0,0,347,0.0,0.0,0
+1369,5,ball_out,1564,132161,60.2,0.0,82,45,2,2372222,Almería,Adri Embarba,1,0,347,0.0,0.0,0
+1370,1,failed_pass,1564,562720,60.4,0.0,82,48,2,2372222,Almería,Marc Pubill,0,0,0,75.5,14.3,0
+1371,1,failed_pass,184,178424,31.6,90.4,82,49,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,70.2,67.2,0
+1372,1,pass,1564,469402,31.4,30.7,82,54,2,2372222,Almería,Edgar González,1,0,0,39.7,52.1,0
+1373,1,pass,1564,220871,39.7,52.1,82,56,2,2372222,Almería,Sergio Akieme,1,0,0,45.9,58.4,0
+1374,4,foul_received,1564,432838,44.0,58.1,82,59,2,2372222,Almería,Luis Suárez,1,0,152,0.0,0.0,0
+1375,4,foul_committed,184,441175,56.0,41.9,82,59,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,152,0.0,0.0,0
+1376,1,pass,1564,476412,51.2,53.7,83,8,2,2372222,Almería,Dion Lopy,1,0,0,39.8,36.4,0
+1377,1,pass,1564,469402,39.0,34.5,83,12,2,2372222,Almería,Edgar González,1,0,0,44.0,23.6,0
+1378,1,pass,1564,195457,56.1,10.7,83,17,2,2372222,Almería,Melero,1,0,0,55.3,1.7,0
+1379,1,pass,1564,562720,55.3,2.2,83,18,2,2372222,Almería,Marc Pubill,1,0,0,37.5,27.4,0
+1380,1,pass,1564,469402,39.2,27.9,83,22,2,2372222,Almería,Edgar González,1,0,0,39.0,60.8,0
+1381,1,pass,1564,210977,36.1,70.5,83,27,2,2372222,Almería,Srdjan Babic,1,0,0,32.0,31.8,0
+1382,1,pass,1564,469402,34.9,29.7,83,32,2,2372222,Almería,Edgar González,1,0,0,38.0,66.1,0
+1383,1,pass,1564,210977,44.5,70.9,83,35,2,2372222,Almería,Srdjan Babic,1,0,0,61.1,93.3,0
+1384,1,pass,1564,220871,56.3,76.7,83,40,2,2372222,Almería,Sergio Akieme,1,0,0,44.3,71.4,0
+1385,1,pass,1564,210977,44.3,71.4,83,42,2,2372222,Almería,Srdjan Babic,1,0,0,53.3,58.7,0
+1386,1,pass,1564,476412,53.4,58.7,83,44,2,2372222,Almería,Dion Lopy,1,0,0,66.8,71.2,0
+1387,1,failed_pass,1564,195457,75.0,66.3,83,48,2,2372222,Almería,Melero,0,0,0,85.2,40.0,0
+1388,12,clearance,184,178424,13.2,64.5,83,49,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,22.6,64.7,0
+1389,1,pass,1564,493344,76.2,32.2,83,51,2,2372222,Almería,Sergio Arribas,1,0,0,84.8,24.1,0
+1390,1,failed_pass,1564,132161,85.2,23.1,83,54,2,2372222,Almería,Adri Embarba,0,0,0,92.1,47.9,0
+1391,44,aerial_duel,184,77359,8.7,53.2,83,54,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,0.0,0.0,0
+1392,44,aerial_duel,1564,539673,91.3,46.8,83,54,2,2372222,Almería,Marko Milovanovic,0,0,0,0.0,0.0,0
+1393,12,clearance,184,77359,9.5,54.0,83,55,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,30.0,68.7,0
+1394,1,pass,1564,493344,80.9,52.4,83,58,2,2372222,Almería,Sergio Arribas,1,0,0,86.0,73.2,0
+1395,15,shot_blocked,1564,432838,86.2,70.3,84,1,2,2372222,Almería,Luis Suárez,1,22,0,0.0,0.0,0
+1396,10,save,184,97624,11.8,32.7,84,1,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+1397,49,ball_recovery,184,48847,38.9,13.9,84,5,2,2372222,Rayo Vallecano,Radamel Falcao,1,0,0,0.0,0.0,0
+1398,4,foul_received,184,48847,37.9,12.8,84,6,2,2372222,Rayo Vallecano,Radamel Falcao,1,0,152,0.0,0.0,265
+1399,4,foul_committed,1564,210977,62.1,87.2,84,6,2,2372222,Almería,Srdjan Babic,0,0,152,0.0,0.0,265
+1400,18,substitution_out,184,433161,38.1,14.7,85,5,2,2372222,Rayo Vallecano,Óscar Valentín,1,0,0,0.0,0.0,0
+1401,19,substitution_in,184,587592,38.1,14.7,85,5,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,0.0,0.0,0
+1402,18,substitution_out,184,165682,38.1,14.7,85,17,2,2372222,Rayo Vallecano,Álvaro García,1,0,0,0.0,0.0,0
+1403,19,substitution_in,184,498444,38.1,14.7,85,17,2,2372222,Rayo Vallecano,Pep Chavarría,1,0,0,0.0,0.0,0
+1404,1,pass,184,89399,39.4,24.5,85,25,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,74.6,6.9,0
+1405,1,failed_pass,184,94756,75.3,6.2,85,27,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,92.0,25.9,0
+1406,49,ball_recovery,1564,210977,9.3,75.7,85,29,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+1407,1,pass,1564,210977,9.3,75.7,85,29,2,2372222,Almería,Srdjan Babic,1,0,0,2.7,56.0,0
+1408,1,pass,1564,76611,2.7,56.0,85,31,2,2372222,Almería,Diego Mariño,1,0,0,13.1,57.9,0
+1409,1,pass,1564,469402,13.1,57.9,85,32,2,2372222,Almería,Edgar González,1,0,0,5.9,83.2,0
+1410,1,pass,1564,210977,8.3,83.3,85,35,2,2372222,Almería,Srdjan Babic,1,0,0,29.4,12.8,0
+1411,1,failed_pass,1564,562720,28.8,13.4,85,41,2,2372222,Almería,Marc Pubill,0,0,0,30.3,13.4,0
+1412,74,pass_block,184,498444,70.8,93.5,85,41,2,2372222,Rayo Vallecano,Pep Chavarría,1,0,0,0.0,0.0,0
+1413,44,aerial_duel,184,498444,71.4,90.6,85,42,2,2372222,Rayo Vallecano,Pep Chavarría,1,0,0,0.0,0.0,0
+1414,44,aerial_duel,1564,562720,28.6,9.4,85,42,2,2372222,Almería,Marc Pubill,0,0,0,0.0,0.0,0
+1415,61,touched_ball,184,498444,71.8,92.6,85,42,2,2372222,Rayo Vallecano,Pep Chavarría,0,0,0,0.0,0.0,0
+1416,61,touched_ball,1564,562720,28.9,22.2,85,44,2,2372222,Almería,Marc Pubill,0,0,0,0.0,0.0,0
+1417,49,ball_recovery,184,434078,69.9,75.2,85,45,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,0.0,0.0,0
+1418,83,unidentified,1564,195457,31.2,26.1,85,48,2,2372222,Almería,Melero,0,0,0,0.0,0.0,0
+1419,61,touched_ball,184,434078,69.8,67.8,85,48,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,0.0,0.0,0
+1420,49,ball_recovery,1564,476412,29.8,37.3,85,49,2,2372222,Almería,Dion Lopy,1,0,0,0.0,0.0,0
+1421,1,pass,1564,476412,29.8,36.6,85,52,2,2372222,Almería,Dion Lopy,1,0,0,30.9,25.2,0
+1422,1,pass,1564,195457,31.2,24.1,85,54,2,2372222,Almería,Melero,1,0,0,30.6,9.7,0
+1423,1,failed_pass,1564,562720,31.7,8.8,85,56,2,2372222,Almería,Marc Pubill,0,0,0,66.1,17.6,0
+1424,1,failed_pass,184,77359,30.5,83.7,85,59,2,2372222,Rayo Vallecano,Florian Lejeune,0,0,0,33.5,90.3,0
+1425,44,aerial_duel,1564,132161,66.6,12.3,86,1,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+1426,44,aerial_duel,184,178424,33.4,87.7,86,1,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,0.0,0.0,0
+1427,61,touched_ball,1564,132161,65.5,23.4,86,1,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+1428,4,foul_received,184,178424,33.8,90.2,86,3,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,152,0.0,0.0,265
+1429,4,foul_committed,1564,132161,66.2,9.8,86,3,2,2372222,Almería,Adri Embarba,0,0,152,0.0,0.0,265
+1430,1,failed_pass,184,178424,28.3,91.7,86,36,2,2372222,Rayo Vallecano,Alfonso Espino,0,0,0,86.2,37.3,0
+1431,49,ball_recovery,1564,76611,13.2,56.3,86,41,2,2372222,Almería,Diego Mariño,1,0,0,0.0,0.0,0
+1432,1,pass,1564,76611,12.0,61.2,86,41,2,2372222,Almería,Diego Mariño,1,0,0,22.5,31.6,0
+1433,1,pass,1564,469402,33.8,27.6,86,46,2,2372222,Almería,Edgar González,1,0,0,40.7,17.4,0
+1434,1,pass,1564,195457,40.7,17.4,86,47,2,2372222,Almería,Melero,1,0,0,36.3,28.0,0
+1435,1,pass,1564,469402,36.6,27.6,86,50,2,2372222,Almería,Edgar González,1,0,0,41.8,15.2,0
+1436,1,failed_pass,1564,195457,45.4,14.7,86,53,2,2372222,Almería,Melero,0,0,0,54.4,31.3,0
+1437,8,cut_pass,184,587592,42.0,75.0,86,54,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,0.0,0.0,0
+1438,4,foul_received,1564,476412,47.6,29.5,86,57,2,2372222,Almería,Dion Lopy,1,0,152,0.0,0.0,0
+1439,4,foul_committed,184,587592,52.4,70.5,86,57,2,2372222,Rayo Vallecano,Diego Méndez,0,0,152,0.0,0.0,0
+1440,1,pass,1564,469402,48.0,25.5,87,3,2,2372222,Almería,Edgar González,1,0,0,62.5,6.8,0
+1441,1,pass,1564,195457,65.6,8.3,87,7,2,2372222,Almería,Melero,1,0,0,70.9,27.0,0
+1442,50,ball_stolen,1564,132161,72.8,28.6,87,8,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1443,7,tackle,184,441175,27.2,71.4,87,10,2,2372222,Rayo Vallecano,Pathé Ciss,0,0,0,0.0,0.0,0
+1444,61,touched_ball,1564,132161,75.7,24.9,87,10,2,2372222,Almería,Adri Embarba,1,0,0,0.0,0.0,0
+1445,1,pass,1564,493344,82.3,14.7,87,12,2,2372222,Almería,Sergio Arribas,1,0,0,82.8,5.9,0
+1446,1,failed_pass,1564,562720,83.0,5.3,87,14,2,2372222,Almería,Marc Pubill,0,0,0,96.8,89.1,0
+1447,49,ball_recovery,184,97624,6.6,14.9,87,18,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+1448,1,pass,184,97624,6.6,11.8,87,18,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,37.2,14.9,0
+1449,1,failed_pass,184,48847,39.2,14.7,87,21,2,2372222,Rayo Vallecano,Radamel Falcao,0,0,0,61.1,29.3,0
+1450,49,ball_recovery,1564,469402,39.0,65.8,87,23,2,2372222,Almería,Edgar González,1,0,0,0.0,0.0,0
+1451,1,pass,1564,469402,39.5,30.3,87,30,2,2372222,Almería,Edgar González,1,0,0,48.1,26.5,0
+1452,1,pass,1564,493344,54.5,16.4,87,35,2,2372222,Almería,Sergio Arribas,1,0,0,58.3,29.1,0
+1453,4,foul_received,1564,476412,60.4,37.2,87,38,2,2372222,Almería,Dion Lopy,1,0,152,0.0,0.0,265
+1454,4,foul_committed,184,48847,39.6,62.8,87,38,2,2372222,Rayo Vallecano,Radamel Falcao,0,0,152,0.0,0.0,265
+1455,1,pass,1564,493344,62.9,45.1,87,52,2,2372222,Almería,Sergio Arribas,1,0,0,67.9,27.6,0
+1456,1,pass,1564,132161,69.0,27.1,87,54,2,2372222,Almería,Adri Embarba,1,0,0,74.5,10.4,0
+1457,1,pass,1564,562720,74.5,10.4,87,56,2,2372222,Almería,Marc Pubill,1,0,0,68.1,23.4,0
+1458,1,failed_pass,1564,132161,69.8,21.2,87,58,2,2372222,Almería,Adri Embarba,0,0,0,101.3,71.2,0
+1459,5,ball_out,184,498444,0.0,30.4,88,1,2,2372222,Rayo Vallecano,Pep Chavarría,1,0,346,0.0,0.0,0
+1460,5,ball_out,1564,132161,100.0,69.6,88,1,2,2372222,Almería,Adri Embarba,0,0,346,0.0,0.0,0
+1461,1,failed_pass,184,94878,4.6,48.4,88,26,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,62.4,23.4,0
+1462,1,failed_pass,1564,195457,41.6,80.0,88,31,2,2372222,Almería,Melero,0,0,0,46.3,102.0,0
+1463,5,ball_out,184,48847,54.2,0.0,88,33,2,2372222,Rayo Vallecano,Radamel Falcao,1,0,347,0.0,0.0,0
+1464,5,ball_out,1564,195457,45.8,100.0,88,33,2,2372222,Almería,Melero,0,0,347,0.0,0.0,0
+1465,1,pass,184,97624,56.5,0.0,88,40,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,67.2,26.1,0
+1466,1,failed_pass,184,434078,67.6,27.2,88,42,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,93.7,17.0,0
+1467,49,ball_recovery,1564,220871,7.1,81.8,88,46,2,2372222,Almería,Sergio Akieme,1,0,0,0.0,0.0,0
+1468,83,unidentified,184,94756,86.5,16.7,88,47,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1469,1,pass,1564,220871,11.5,83.3,88,49,2,2372222,Almería,Sergio Akieme,1,0,0,30.5,84.5,0
+1470,1,pass,1564,195457,30.5,84.5,88,50,2,2372222,Almería,Melero,1,0,0,32.2,64.5,0
+1471,1,pass,1564,476412,33.7,58.5,88,53,2,2372222,Almería,Dion Lopy,1,0,0,46.6,6.5,0
+1472,1,pass,1564,562720,46.7,6.7,88,57,2,2372222,Almería,Marc Pubill,1,0,0,44.5,15.0,0
+1473,1,pass,1564,132161,60.7,22.4,89,1,2,2372222,Almería,Adri Embarba,1,0,0,58.3,31.6,0
+1474,1,failed_pass,1564,476412,60.3,30.7,89,4,2,2372222,Almería,Dion Lopy,0,0,0,74.1,101.7,0
+1475,5,ball_out,184,48847,26.2,0.0,89,7,2,2372222,Rayo Vallecano,Radamel Falcao,1,0,347,0.0,0.0,0
+1476,5,ball_out,1564,476412,73.8,100.0,89,7,2,2372222,Almería,Dion Lopy,0,0,347,0.0,0.0,0
+1477,1,failed_pass,184,97624,31.0,0.0,89,25,2,2372222,Rayo Vallecano,Iván Balliu,0,0,0,39.4,27.5,0
+1478,8,cut_pass,1564,493344,60.6,62.8,89,26,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+1479,1,pass,184,498444,45.0,44.2,89,28,2,2372222,Rayo Vallecano,Pep Chavarría,1,0,0,34.9,69.2,0
+1480,1,pass,184,178424,34.8,71.0,89,30,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,43.7,86.4,0
+1481,61,touched_ball,184,498444,75.5,91.9,89,35,2,2372222,Rayo Vallecano,Pep Chavarría,0,0,0,0.0,0.0,0
+1482,49,ball_recovery,1564,562720,21.7,12.0,89,38,2,2372222,Almería,Marc Pubill,1,0,0,0.0,0.0,0
+1483,1,pass,1564,562720,19.8,21.5,89,40,2,2372222,Almería,Marc Pubill,1,0,0,14.2,30.3,0
+1484,1,pass,1564,469402,14.2,30.4,89,41,2,2372222,Almería,Edgar González,1,0,0,24.4,33.9,0
+1485,1,pass,1564,476412,31.5,60.2,89,46,2,2372222,Almería,Dion Lopy,1,0,0,37.1,89.9,0
+1486,4,foul_received,1564,432838,41.3,88.8,89,49,2,2372222,Almería,Luis Suárez,1,0,152,0.0,0.0,0
+1487,4,foul_committed,184,97624,58.7,11.2,89,49,2,2372222,Rayo Vallecano,Iván Balliu,0,0,152,0.0,0.0,0
+1488,1,pass,1564,220871,45.6,89.4,90,5,2,2372222,Almería,Sergio Akieme,1,0,0,51.4,41.9,0
+1489,1,pass,1564,469402,51.6,40.0,90,8,2,2372222,Almería,Edgar González,1,0,0,59.9,10.7,0
+1490,1,pass,1564,562720,59.9,10.7,90,11,2,2372222,Almería,Marc Pubill,1,0,0,54.0,30.6,0
+1491,1,pass,1564,469402,54.0,30.6,90,13,2,2372222,Almería,Edgar González,1,0,0,54.0,54.0,0
+1492,1,failed_pass,1564,210977,55.5,60.9,90,17,2,2372222,Almería,Srdjan Babic,0,0,0,70.3,87.4,0
+1493,8,cut_pass,184,94756,35.4,11.6,90,18,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,0.0,0.0,0
+1494,83,unidentified,184,48847,41.2,10.5,90,21,2,2372222,Rayo Vallecano,Radamel Falcao,0,0,0,0.0,0.0,0
+1495,45,dribble_received,184,94756,40.3,9.6,90,22,2,2372222,Rayo Vallecano,Salvi Sánchez,0,0,0,0.0,0.0,0
+1496,3,dribble_successful,1564,195457,59.7,90.4,90,22,2,2372222,Almería,Melero,1,0,0,0.0,0.0,0
+1497,1,pass,1564,195457,60.9,91.2,90,23,2,2372222,Almería,Melero,1,0,0,69.4,92.4,0
+1498,1,failed_pass,1564,220871,71.4,92.6,90,26,2,2372222,Almería,Sergio Akieme,0,0,0,81.8,57.5,0
+1499,12,clearance,184,77359,19.0,47.5,90,28,2,2372222,Rayo Vallecano,Florian Lejeune,1,0,0,48.0,56.9,0
+1500,1,pass,1564,469402,52.5,40.9,90,31,2,2372222,Almería,Edgar González,1,0,0,59.6,24.4,0
+1501,1,pass,1564,562720,59.6,24.3,90,33,2,2372222,Almería,Marc Pubill,1,0,0,67.9,13.1,0
+1502,1,pass,1564,132161,64.7,27.0,90,37,2,2372222,Almería,Adri Embarba,1,0,0,63.6,39.5,0
+1503,1,pass,1564,476412,65.4,37.3,90,40,2,2372222,Almería,Dion Lopy,1,0,0,65.2,26.4,0
+1504,1,pass,1564,493344,67.7,26.1,90,43,2,2372222,Almería,Sergio Arribas,1,0,0,82.4,4.7,0
+1505,1,pass,1564,562720,82.4,4.7,90,46,2,2372222,Almería,Marc Pubill,1,0,0,91.0,41.5,0
+1506,13,chance_missed,1564,432838,91.0,41.5,90,47,2,2372222,Almería,Luis Suárez,1,22,0,0.0,0.0,0
+1507,49,ball_recovery,184,97624,3.3,12.0,90,52,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,0.0,0.0,0
+1508,1,failed_pass,184,97624,2.8,7.8,90,52,2,2372222,Rayo Vallecano,Iván Balliu,0,0,0,38.4,5.6,0
+1509,1,failed_pass,1564,210977,65.5,96.3,90,54,2,2372222,Almería,Srdjan Babic,0,0,0,78.9,100.7,0
+1510,5,ball_out,184,97624,23.5,0.0,90,57,2,2372222,Rayo Vallecano,Iván Balliu,1,0,347,0.0,0.0,0
+1511,5,ball_out,1564,210977,76.5,100.0,90,57,2,2372222,Almería,Srdjan Babic,0,0,347,0.0,0.0,0
+1512,1,failed_pass,184,97624,30.2,0.0,91,15,2,2372222,Rayo Vallecano,Iván Balliu,0,0,0,42.0,10.1,0
+1513,1,pass,1564,220871,60.5,90.5,91,16,2,2372222,Almería,Sergio Akieme,1,0,0,67.0,90.9,0
+1514,49,ball_recovery,1564,539673,67.0,90.9,91,16,2,2372222,Almería,Marko Milovanovic,1,0,0,0.0,0.0,0
+1515,1,pass,1564,539673,67.0,90.9,91,18,2,2372222,Almería,Marko Milovanovic,1,0,0,70.2,80.0,0
+1516,61,touched_ball,1564,493344,70.2,80.0,91,18,2,2372222,Almería,Sergio Arribas,1,0,0,0.0,0.0,0
+1517,1,pass,1564,432838,72.6,59.4,91,21,2,2372222,Almería,Luis Suárez,1,0,0,66.2,28.9,0
+1518,1,pass,1564,562720,66.3,28.2,91,24,2,2372222,Almería,Marc Pubill,1,0,0,70.0,37.7,0
+1519,3,failed_dribble,1564,132161,69.9,39.2,91,25,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1520,7,tackle,184,587592,30.1,60.8,91,25,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,0.0,0.0,0
+1521,49,ball_recovery,184,587592,32.8,57.4,91,26,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,0.0,0.0,0
+1522,1,pass,184,587592,32.8,57.4,91,26,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,39.7,61.6,0
+1523,1,pass,184,434078,58.4,66.9,91,34,2,2372222,Rayo Vallecano,Isi Palazón,1,0,0,65.1,22.5,0
+1524,1,pass,184,94756,64.6,9.8,91,38,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,58.5,14.1,0
+1525,1,pass,184,97624,59.9,14.5,91,39,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,66.2,7.4,0
+1526,1,pass,184,94756,79.0,5.6,91,43,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,70.5,24.5,0
+1527,1,failed_pass,184,434078,70.4,24.5,91,44,2,2372222,Rayo Vallecano,Isi Palazón,0,0,0,73.2,32.1,0
+1528,49,ball_recovery,1564,210977,28.7,67.2,91,46,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+1529,1,pass,1564,210977,28.7,67.2,91,46,2,2372222,Almería,Srdjan Babic,1,0,0,37.2,62.0,0
+1530,1,pass,1564,493344,37.2,62.0,91,47,2,2372222,Almería,Sergio Arribas,1,0,0,33.0,63.0,0
+1531,1,pass,1564,210977,29.2,65.4,91,50,2,2372222,Almería,Srdjan Babic,1,0,0,28.1,22.7,0
+1532,1,pass,1564,562720,28.1,22.7,91,53,2,2372222,Almería,Marc Pubill,1,0,0,27.6,27.1,0
+1533,1,pass,1564,469402,28.8,28.2,91,55,2,2372222,Almería,Edgar González,1,0,0,38.6,38.5,0
+1534,1,pass,1564,476412,37.3,40.1,91,59,2,2372222,Almería,Dion Lopy,1,0,0,40.2,60.8,0
+1535,1,pass,1564,195457,48.5,51.6,92,4,2,2372222,Almería,Melero,1,0,0,42.2,31.8,0
+1536,1,pass,1564,469402,42.2,31.6,92,6,2,2372222,Almería,Edgar González,1,0,0,56.7,4.7,0
+1537,1,pass,1564,562720,57.5,5.0,92,9,2,2372222,Almería,Marc Pubill,1,0,0,61.6,23.7,0
+1538,1,failed_pass,1564,195457,63.1,24.1,92,11,2,2372222,Almería,Melero,0,0,0,70.2,24.9,0
+1539,8,cut_pass,184,178424,33.0,80.8,92,13,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1540,61,touched_ball,1564,195457,64.2,26.1,92,13,2,2372222,Almería,Melero,0,0,0,0.0,0.0,0
+1541,49,ball_recovery,184,178424,33.1,75.4,92,14,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,0.0,0.0,0
+1542,1,pass,184,178424,40.5,68.3,92,16,2,2372222,Rayo Vallecano,Alfonso Espino,1,0,0,36.3,50.0,0
+1543,3,dribble_successful,184,94756,54.8,44.3,92,20,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,0,0.0,0.0,0
+1544,45,dribble_received,1564,476412,45.2,55.7,92,20,2,2372222,Almería,Dion Lopy,0,0,0,0.0,0.0,0
+1545,4,foul_received,184,94756,60.8,44.0,92,22,2,2372222,Rayo Vallecano,Salvi Sánchez,1,0,152,0.0,0.0,0
+1546,4,foul_committed,1564,220871,39.2,56.0,92,22,2,2372222,Almería,Sergio Akieme,0,0,152,0.0,0.0,0
+1547,1,pass,184,441175,63.0,40.4,92,59,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,0,60.0,22.8,0
+1548,4,foul_received,184,434078,59.4,23.6,93,5,2,2372222,Rayo Vallecano,Isi Palazón,1,0,152,0.0,0.0,265
+1549,4,foul_committed,1564,432838,40.6,76.4,93,5,2,2372222,Almería,Luis Suárez,0,0,152,0.0,0.0,265
+1550,1,pass,184,89399,64.6,22.3,93,42,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,66.9,6.7,0
+1551,4,foul_received,184,97624,63.8,4.8,93,45,2,2372222,Rayo Vallecano,Iván Balliu,1,0,152,0.0,0.0,265
+1552,4,foul_committed,1564,432838,36.2,95.2,93,45,2,2372222,Almería,Luis Suárez,0,0,152,0.0,0.0,265
+1553,1,pass,184,97624,58.7,7.1,94,9,2,2372222,Rayo Vallecano,Iván Balliu,1,0,0,41.2,19.6,0
+1554,1,pass,184,89399,38.8,25.2,94,10,2,2372222,Rayo Vallecano,Aridane Hernández,1,0,0,15.8,48.0,0
+1555,1,failed_pass,184,94878,14.7,48.7,94,13,2,2372222,Rayo Vallecano,Stole Dimitrievski,0,0,0,68.8,36.6,0
+1556,1,failed_pass,1564,210977,37.1,69.3,94,16,2,2372222,Almería,Srdjan Babic,0,0,0,52.5,54.8,0
+1557,44,aerial_duel,184,587592,46.2,42.2,94,18,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,0.0,0.0,0
+1558,44,aerial_duel,1564,132161,53.8,57.8,94,18,2,2372222,Almería,Adri Embarba,0,0,0,0.0,0.0,0
+1559,1,pass,184,587592,44.7,40.6,94,18,2,2372222,Rayo Vallecano,Diego Méndez,1,0,0,56.6,58.8,0
+1560,1,failed_pass,184,498444,56.9,56.9,94,20,2,2372222,Rayo Vallecano,Pep Chavarría,0,0,0,66.9,44.0,0
+1561,49,ball_recovery,1564,210977,34.7,61.1,94,22,2,2372222,Almería,Srdjan Babic,1,0,0,0.0,0.0,0
+1562,1,pass,1564,210977,34.7,61.1,94,22,2,2372222,Almería,Srdjan Babic,1,0,0,32.9,29.7,0
+1563,1,pass,1564,469402,35.6,25.0,94,29,2,2372222,Almería,Edgar González,1,0,0,33.9,53.9,0
+1564,1,pass,1564,210977,35.9,60.2,94,34,2,2372222,Almería,Srdjan Babic,1,0,0,63.7,9.4,0
+1565,1,pass,1564,493344,65.1,10.1,94,40,2,2372222,Almería,Sergio Arribas,1,0,0,69.2,19.8,0
+1566,1,pass,1564,132161,69.2,19.8,94,41,2,2372222,Almería,Adri Embarba,1,0,0,65.3,9.8,0
+1567,1,failed_pass,1564,493344,71.4,12.3,94,44,2,2372222,Almería,Sergio Arribas,0,0,0,101.0,32.2,0
+1568,5,ball_out,184,441175,0.0,65.0,94,48,2,2372222,Rayo Vallecano,Pathé Ciss,1,0,346,0.0,0.0,0
+1569,5,ball_out,1564,493344,100.0,35.0,94,48,2,2372222,Almería,Sergio Arribas,0,0,346,0.0,0.0,0
