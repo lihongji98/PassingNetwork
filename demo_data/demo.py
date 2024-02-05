@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from data_type import (
     TileID, ConversionRate,
     PlayerCoordinate,
@@ -13,20 +13,25 @@ from config import PitchMeta
 
 def get_the_closest_tile(player_coordinate: PlayerCoordinate):
     # the pitch size is 100 * 100, and converted to 16 * 12
-    tile_x = player_coordinate.x // (100 / PitchMeta.x)
-    tile_y = player_coordinate.y // (100 / PitchMeta.y)
-    tile_id = tile_y * PitchMeta.x - (PitchMeta.x - tile_x)
+    tile_x = player_coordinate.x // (100 / PitchMeta.x) if player_coordinate.x < 100 else PitchMeta.x - 1
+    tile_y = player_coordinate.y // (100 / PitchMeta.y) if player_coordinate.y < 100 else PitchMeta.y - 1
+
+    tile_id = PitchMeta.x * tile_y + tile_x if tile_y != 0 else tile_x
+
+    print(tile_x, tile_y, tile_id)
 
 
-def initialise_pitch_graph(df_all_events):
-    df_shot = df_all_events[df_all_events.codigo.isin([13, 14, 15, 16])]
+def initialise_pitch_graph(_df_all_events):
+    df_shot = _df_all_events[_df_all_events.codigo.isin([13, 14, 15, 16])]
     df_goal = df_shot[df_shot.codigo == 16]
-    df_pass = df_all_events[df_all_events["tipo"] == "pase"]
+    df_pass = _df_all_events[_df_all_events["tipo"] == "pase"]
 
-    pitch_graph = {i: [0, 0, np.array([PitchMeta.x, PitchMeta.y])] for i in PitchMeta.x * PitchMeta.y}
+    pitch_graph = {i: [0, 0, np.zeros(shape=(PitchMeta.x * PitchMeta.y))] for i in range(PitchMeta.x * PitchMeta.y)}
+    surface = pitch_graph[0][2]
 
-    for index, row in df_shot.iterrows():
-        get_the_closest_tile([row.x, row.y])
+    player_pos = PlayerCoordinate(0, 8.34)
+    get_the_closest_tile(player_pos)
+    print(player_pos)
 
 
 def _get_tile_state_probs(shot_pass_count_dict: Dict[TileID, TileStateCount]) -> Dict[TileID, TileStateDistribution]:
@@ -71,7 +76,7 @@ def _get_scoring_percentage(shot_goal_count_dict: Dict[TileID, TileShotGoalCount
 
 
 def _get_xThreat_materials(
-        pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):  # List[shot, goal, pass_count_surface]
+        pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):  # List[shot, goal, pass_count_surface]
     shot_pass_count_dict = {}
     for tile_id in pitch_graph.keys():
         shot_count = pitch_graph[tile_id][0]
@@ -95,7 +100,7 @@ def _get_xThreat_materials(
     return tile_state_distribution_dict, tile_pass_distribution_dict, tile_conversion_rate_dict
 
 
-def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, List[int, int, np.ndarray]]):
+def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, Tuple[int, int, np.ndarray]]):
     # List[shot, goal, pass_count_surface]
     state_probs_shot_pass, transmission_matrix, state_probs_shot_goal = _get_xThreat_materials(pitch_graph)
 
@@ -114,9 +119,10 @@ def compute_xThreat(xThreat: np.ndarray, pitch_graph: Dict[TileID, List[int, int
     return xThreat
 
 
-def main():
-    pitch_graph = compute_xThreat(pitch_graph)
-    return pitch_graph
-
+# def main():
+#     pitch_graph = compute_xThreat(pitch_graph)
+#     return pitch_graph
 
 df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
+
+initialise_pitch_graph(df_all_events)
