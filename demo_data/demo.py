@@ -155,13 +155,13 @@ def compute_xThreat(_xThreat: np.ndarray, _pitch_graph: Dict[TileID, List[int | 
 #     pitch_graph = compute_xThreat(pitch_graph)
 #     return pitch_graph
 
-df_all_events = pd.read_csv("./demo_data/2372222_all_events.txt", sep="\t")
+df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
 
 pitch_graph = initialise_pitch_graph(df_all_events)
 
 xThreat = np.zeros(shape=(PitchMeta.x * PitchMeta.y))
 
-for _ in range(2):
+for _ in range(100):
     xThreat = np.round(compute_xThreat(xThreat, pitch_graph), 1)
 
 print(xThreat.reshape(PitchMeta.y, PitchMeta.x))
