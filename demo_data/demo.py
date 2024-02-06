@@ -135,11 +135,13 @@ def compute_xThreat(_xThreat: np.ndarray, _pitch_graph: Dict[TileID, List[int | 
     assert _xThreat.shape[0] == len(_pitch_graph.keys()), \
         "xThreat shape does not match pitch graph key number"
 
+    current_xThreat = _xThreat.copy()
     for tile_id in _pitch_graph.keys():
         assert transmission_matrix[tile_id].shape == _xThreat.shape, \
             "Transmission matrix does not match xThreat shape"
 
-        pass_payoff = np.sum(transmission_matrix[tile_id] * _xThreat)
+        pass_payoff = np.sum(transmission_matrix[tile_id] * current_xThreat)
+
         pass_value = state_probs_shot_pass[tile_id].pass_prob * pass_payoff
 
         shot_value = state_probs_shot_pass[tile_id].shot_prob * state_probs_shot_goal[tile_id]
@@ -153,12 +155,13 @@ def compute_xThreat(_xThreat: np.ndarray, _pitch_graph: Dict[TileID, List[int | 
 #     pitch_graph = compute_xThreat(pitch_graph)
 #     return pitch_graph
 
-df_all_events = pd.read_csv("demo_data/2372222_all_events.txt", sep="\t")
+df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
 
 pitch_graph = initialise_pitch_graph(df_all_events)
 
 xThreat = np.zeros(shape=(PitchMeta.x * PitchMeta.y))
 
-xThreat = np.round(compute_xThreat(xThreat, pitch_graph), 2)
+for _ in range(2):
+    xThreat = np.round(compute_xThreat(xThreat, pitch_graph), 1)
 
 print(xThreat.reshape(PitchMeta.y, PitchMeta.x))
