@@ -155,7 +155,7 @@ def compute_xThreat(_xThreat: np.ndarray, _pitch_graph: Dict[TileID, List[int | 
 #     pitch_graph = compute_xThreat(pitch_graph)
 #     return pitch_graph
 
-df_all_events = pd.read_csv("2372222_all_events.txt", sep="\t")
+df_all_events = pd.read_csv("./demo_data/2372222_all_events.txt", sep="\t")
 
 pitch_graph = initialise_pitch_graph(df_all_events)
 
