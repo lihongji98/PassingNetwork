@@ -1,17 +1,16 @@
 import csv
 from database import *
 import mongoengine
-import mongofunctions as mf
-
+from util import get_game_codes, translate_all_events_meta
 
 def main():
     # password is hardcoded
-    mongoengine.connect(host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
+    mongoengine.connect(db='LaLiga2023',host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
 
-    games_codes = mf.get_game_codes('c:/Users/joemc/OneDrive/Documents/Football/st_match_report/PassingNetwork/demo_data')
+    games_codes = get_game_codes('./data/')
 
     for game_code in games_codes:
-        events = read_all_events(game_code, directory='c:/Users/joemc/OneDrive/Documents/Football/st_match_report/PassingNetwork/demo_data/')
+        events = read_all_events(game_code, directory='./data/')
         event_instances = [Event(**event) for event in events]
         Event.objects.insert(event_instances, load_bulk=False)
 
@@ -33,31 +32,6 @@ def read_all_events(game_code, directory):
             translated_row = translate_event_type(row)
             data.append(translated_row)
     return data
-
-
-def translate_all_events_meta(header):
-    english_translations = {
-        'codigo': 'event_code',
-        'tipo': 'event_type',
-        'equipo': 'team_id',
-        'player': 'origin_player',
-        'x': 'origin_pos_x',
-        'y': 'origin_pos_y',
-        'min': 'minute',
-        'sec': 'second',
-        'period': 'period',
-        'partido': 'match_id',
-        'nombre_equipo': 'team_name',
-        'nombre_jugador': 'player_name',
-        'outcome': 'outcome',
-        'fase': 'pattern_of_play',
-        'end_x': 'destination_pos_x',
-        'end_y': 'destination_pos_y',
-        'extra': 'extra_detail'
-    }
-
-    translated_header = [english_translations.get(column, column) for column in header]
-    return translated_header
 
 
 def translate_event_type(row):

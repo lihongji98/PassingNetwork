@@ -3,7 +3,8 @@ import mongoengine as meng
 
 
 class Team(meng.DynamicDocument):
-    team_id = ObjectIdField(required=True)
+    id = ObjectIdField()
+    team_id = StringField()
     team_name = StringField()
 
     meta = {
@@ -12,28 +13,29 @@ class Team(meng.DynamicDocument):
     }
 
 
-# class Match(meng.DynamicDocument):
-#     competition = ObjectIdField()
-#     home_team = ReferenceField(Team)
-#     away_team = ReferenceField(Team)
-#     halves = ListField(DictField())
-#     match_id = IntField()
+class Match(meng.DynamicDocument):
+    id = ObjectIdField()
+    home_team_id = StringField()
+    away_team_id = StringField()
+    home_team = StringField()
+    away_team = StringField()
+    match_id = StringField()
     
-#     meta = {
-#         'indexes': ['competition'],
-#         'db_alias':'default'
-#     }
+    meta = {
+        'indexes': ['competition'],
+        'db_alias':'default'
+    }
 
 
 class Event(meng.DynamicDocument):
-    event_id = ObjectIdField()
+    id = ObjectIdField()
 
     event_code = IntField()    
     event_type = StringField()
     
-    team_id = ReferenceField(Team)
+    team_id = StringField()
 
-    origin_player = IntField()
+    origin_player = StringField()
     origin_pos_x = FloatField()
     origin_pos_y = FloatField()
 
@@ -55,6 +57,8 @@ class Event(meng.DynamicDocument):
 
     extra_detail = IntField() 
 
+    xthreat = FloatField(default= 0.0)
+
     meta = {
         'indexes': ['event_type','origin_player','team'],
         'db_alias':'default'
@@ -62,21 +66,25 @@ class Event(meng.DynamicDocument):
 
 
 class Player(meng.DynamicDocument):
-    player_id = ObjectIdField()
+    id = ObjectIdField()
+
+    player_id = StringField()
 
     first_name = StringField()
     last_name = StringField()
     known_name = StringField()
 
     team_id = ListField()
-    shirt_number = ListField()
+    shirt_number = IntField()
     position = ListField()
 
     starts = IntField()
+    apps = IntField()
     minutes = IntField()
 
+
     meta = {
-        'indexes': ['event_type','origin_player','team'],
+        'indexes': ['player_id'],
         'db_alias':'default'
     }
     
