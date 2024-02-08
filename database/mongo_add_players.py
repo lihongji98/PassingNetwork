@@ -7,11 +7,13 @@ def main():
 
     mongoengine.connect(db='LaLiga2023', host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
     
-    game_codes = get_game_codes('./demo_data/')
+    directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
+
+    game_codes = get_game_codes(directory)
 
     player_data = []
     for game_code in game_codes:
-        game_player_data = read_player_data(game_code, './demo_data/')
+        game_player_data = read_player_data(game_code, directory)
         player_data.extend(game_player_data)
     
     players = process_player_data(player_data)

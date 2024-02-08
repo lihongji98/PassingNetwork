@@ -7,11 +7,13 @@ def main():
     # password is hardcoded
     mongoengine.connect(db='LaLiga2023', host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
 
-    game_codes = get_game_codes('./demo_data/')
+    directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
+
+    game_codes = get_game_codes(directory)
     
     teams = {}
     for game_code in game_codes:
-        teams = add_teams(teams, game_code, './demo_data/',)
+        teams = add_teams(teams, game_code, directory)
     team_instances = [Team(team_id=key, team_name=teams[key]) for key in teams.keys()]
     Team.objects.insert(team_instances, load_bulk=False)
 

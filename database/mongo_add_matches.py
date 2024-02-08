@@ -2,20 +2,25 @@ import csv
 from database import *
 import mongoengine
 from util import get_game_codes, translate_all_events_meta
+from bson import ObjectId
 
 def main():
 
     mongoengine.connect(db='LaLiga2023', host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
     
-    game_codes = get_game_codes('./demo_data/')
+    directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
+    game_codes = get_game_codes(directory)
+
+    competition_id = ObjectId()
     matches = []
     for game_code in game_codes:
-        events = read_all_events_first_row(game_code, directory='./demo_data/')
+        events = read_all_events_first_row(game_code, directory=directory)
 
         match = {}
         match['match_id'] = events['match_id']
-        match = add_home_away_teams(match, game_code, directory='./demo_data/')
+        match['competition_id'] = competition_id
+        match = add_home_away_teams(match, game_code, directory=directory)
         matches.append(match)
 
     match_instances = [Match(**match) for match in matches]

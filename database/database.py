@@ -14,7 +14,7 @@ class Team(meng.DynamicDocument):
 
 
 class Match(meng.DynamicDocument):
-    id = ObjectIdField()
+    competition_id = ObjectIdField()
     home_team_id = StringField()
     away_team_id = StringField()
     home_team = StringField()

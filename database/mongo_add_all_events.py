@@ -7,12 +7,17 @@ def main():
     # password is hardcoded
     mongoengine.connect(db='LaLiga2023',host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
 
-    games_codes = get_game_codes('./data/')
+    directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
+    games_codes = get_game_codes(directory)
+
+    events = []
     for game_code in games_codes:
-        events = read_all_events(game_code, directory='./data/')
-        event_instances = [Event(**event) for event in events]
-        Event.objects.insert(event_instances, load_bulk=False)
+        game_events = read_all_events(game_code, directory=directory)
+        events.extend(game_events)
+
+    event_instances = [Event(**event) for event in events]
+    Event.objects.insert(event_instances, load_bulk=False)
 
 
 def read_all_events(game_code, directory):
@@ -106,8 +111,14 @@ def translate_event_type(row):
         75: "delayed_start",
         76: "early_end",
         77: "player_off_pitch",
+        78: "unidentified",
+        79: "unidentified",
         80: "unidentified",
-        83: "unidentified"
+        81: "unidentified",
+        82: "unidentified",
+        83: "unidentified",
+        84: "unidentified",
+        85: "unidentified"
     }
 
     event_code = int(row['event_code'])
