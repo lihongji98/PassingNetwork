@@ -2,13 +2,16 @@ from typing import Dict
 import networkx as nx
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
 
 from PitchData import pitch_graph
 from config import PitchMeta
 from data_type import (
     PlayerCoordinate,
     TileStatsFeatures,
-    TileStateDistribution, ConversionRate, TileID
+    TileStateDistribution,
+    ConversionRate,
+    TileID
 )
 
 
@@ -114,8 +117,14 @@ class xThreat:
         return _xThreat
 
     def train(self, epochs):
-        for _ in range(epochs):
+        for epoch in tqdm(range(epochs)):
+            xThreat_buffer = self.xThreat_surface.copy()
             self.xThreat_surface = self.compute_xThreat(self.xThreat_surface)
+            xThreat_error = np.sum(xThreat_buffer - self.xThreat_surface)
+            print(epoch, xThreat_error)
+            if abs(xThreat_error) < 1e-6:
+                break
+
         self.xThreat_surface = np.round(self.xThreat_surface, 1)
 
 
@@ -123,5 +132,5 @@ data = pd.read_csv("demo_data/2372222_all_events.txt", sep="\t")
 
 xx = xThreat(pitch_graph)
 xx.fit_retrieve_data(data)
-xx.train(100)
+xx.train(1000)
 print(xx.xThreat_surface.reshape(PitchMeta.y, PitchMeta.x))
