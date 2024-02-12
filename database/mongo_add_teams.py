@@ -5,7 +5,7 @@ from util import get_game_codes
 
 def main():
     # password is hardcoded
-    mongoengine.connect(db='LaLiga2023', host="mongodb+srv://joe:RZqEJSstjBJqglr7@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority")
+    mongoengine.connect(db='LaLiga2023', host)
 
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
