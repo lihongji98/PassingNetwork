@@ -14,7 +14,7 @@ def main():
     teams = {}
     for game_code in game_codes:
         teams = add_teams(teams, game_code, directory)
-    team_instances = [Team(team_id=key, team_name=teams[key]) for key in teams.keys()]
+    team_instances = [Team(team_id=str(key), team_name=teams[key]) for key in teams.keys()]
     Team.objects.insert(team_instances, load_bulk=False)
 
 
