@@ -9,7 +9,7 @@ class Team(meng.DynamicDocument):
 
     meta = {
         'indexes': ['team_id'],
-        'db_alias':'default'
+        'db_alias': 'default'
     }
 
 
@@ -20,19 +20,19 @@ class Match(meng.DynamicDocument):
     home_team = StringField()
     away_team = StringField()
     match_id = StringField()
-    
+
     meta = {
         'indexes': ['competition'],
-        'db_alias':'default'
+        'db_alias': 'default'
     }
 
 
 class Event(meng.DynamicDocument):
     id = ObjectIdField()
 
-    event_code = IntField()    
+    event_code = IntField()
     event_type = StringField()
-    
+
     team_id = StringField()
 
     origin_player = StringField()
@@ -42,26 +42,26 @@ class Event(meng.DynamicDocument):
     minute = IntField()
     second = IntField()
     period = IntField()
-    
-    match_id = StringField() #ReferenceField(Match)
+
+    match_id = StringField()  # ReferenceField(Match)
 
     team_name = StringField()
     player_name = StringField()
-    
+
     outcome = BooleanField()
-    pattern_of_play = IntField() 
-    type_detail = IntField()  
-    
+    pattern_of_play = IntField()
+    type_detail = IntField()
+
     destination_pos_x = FloatField()
     destination_pos_y = FloatField()
 
-    extra_detail = IntField() 
+    extra_detail = IntField()
 
-    xthreat = FloatField(default= 0.0)
+    xthreat = FloatField(default=0.0)
 
     meta = {
-        'indexes': ['event_type','origin_player','team'],
-        'db_alias':'default'
+        'indexes': ['event_type', 'origin_player', 'team'],
+        'db_alias': 'default'
     }
 
 
@@ -82,9 +82,7 @@ class Player(meng.DynamicDocument):
     apps = IntField()
     minutes = IntField()
 
-
     meta = {
         'indexes': ['player_id'],
-        'db_alias':'default'
+        'db_alias': 'default'
     }
-    
