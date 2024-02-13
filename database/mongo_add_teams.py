@@ -3,20 +3,20 @@ from database import *
 import mongoengine
 from util import get_game_codes
 
+
 def main():
     # password is hardcoded
-    mongoengine.connect(db='LaLiga2023', host)
+    mongoengine.connect(db='LaLiga2023', host="")
 
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
     game_codes = get_game_codes(directory)
-    
+
     teams = {}
     for game_code in game_codes:
         teams = add_teams(teams, game_code, directory)
     team_instances = [Team(team_id=str(key), team_name=teams[key]) for key in teams.keys()]
     Team.objects.insert(team_instances, load_bulk=False)
-
 
 
 def add_teams(teams_dict, game_code, directory):
@@ -33,4 +33,3 @@ def add_teams(teams_dict, game_code, directory):
 
 if __name__ == "__main__":
     main()
-

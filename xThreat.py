@@ -1,10 +1,10 @@
 from typing import Dict
 import networkx as nx
 import numpy as np
-import pandas as pd
+
+from db_connect_utils import db_connect, db_disconnect
+
 from matplotlib import pyplot as plt
-from tqdm import tqdm
-import mongoengine as mongo
 
 from PitchData import pitch_graph
 from config import PitchMeta
@@ -16,14 +16,6 @@ from data_type import (
     TileID
 )
 from database.database import Event
-
-
-def connect():
-    host_address = 
-    try:
-        return mongo.connect(db='LaLiga2023', host=host_address)
-    except RuntimeError:
-        print("connection failed!")
 
 
 def get_tile_id(player_pos: PlayerCoordinate):
@@ -41,21 +33,28 @@ def get_tile_id(player_pos: PlayerCoordinate):
 
 
 class xThreat:
-    def __init__(self, _pitch_graph: nx.Graph):
-        self.pitch_graph: nx.Graph = _pitch_graph
+    """
+    The class which contains xThreat information.
+    You need to fulfill a team name to get its seasonal xThreat surface.
+    If you want to get the overall xThreat surface, just leave it blank.
+    """
+
+    def __init__(self, team_name: str = ""):
+        self.pitch_graph: nx.Graph = pitch_graph
+        self.team_name = team_name
         self.xThreat_surface: np.ndarray = np.zeros(len(self.pitch_graph.nodes))
 
-        self.state_prob_distribution_dict: Dict[TileID, TileStateDistribution] = {}
-        self.tile_conversion_dict: Dict[TileID, ConversionRate] = {}
-        self.tile_pass_distribution_dict: Dict[TileID, np.ndarray] = {}
+        self._state_prob_distribution_dict: Dict[TileID, TileStateDistribution] = {}
+        self._tile_conversion_dict: Dict[TileID, ConversionRate] = {}
+        self._tile_pass_distribution_dict: Dict[TileID, np.ndarray] = {}
 
-    def fit_retrieve_data(self, team_name: str = ""):
-        searching_dict = {'team_name': team_name}
+    def _fit_retrieve_data(self):
+        searching_dict = {'team_name': self.team_name}
         for key, value in searching_dict.copy().items():
             if value == "":
                 searching_dict.pop(key)
 
-        connect()
+        db_connect()
 
         shot_info: Event
         shot_event: Event = Event.objects(event_code__in=["13", "14", "15", "16"], **searching_dict)
@@ -83,6 +82,8 @@ class xThreat:
             stats_info: TileStatsFeatures = self.pitch_graph.nodes[origin_tile_id]["stats_info"]
             stats_info.pass_count_surface[destination_tile_id] += 1
 
+        db_disconnect()
+
     def _get_state_prob_distribution(self):
 
         for tile_id in self.pitch_graph.nodes:
@@ -95,7 +96,7 @@ class xThreat:
             pass_prob = pass_count / shot_pass_sum if shot_pass_sum > 0 else 0
 
             tile_state_prob_distribution = TileStateDistribution(shot_prob, pass_prob)
-            self.state_prob_distribution_dict[tile_id] = tile_state_prob_distribution
+            self._state_prob_distribution_dict[tile_id] = tile_state_prob_distribution
 
     def _get_scoring_percentage(self):
         for tile_id in self.pitch_graph.nodes:
@@ -104,7 +105,7 @@ class xThreat:
             goal_count = stats_info.goal_count
 
             conversion_rate = goal_count / shot_count if shot_count > 0 else 0
-            self.tile_conversion_dict[tile_id] = conversion_rate
+            self._tile_conversion_dict[tile_id] = conversion_rate
 
     def _get_pass_distribution(self):
 
@@ -116,9 +117,9 @@ class xThreat:
             pass_distribution = pass_count_surface / total_pass_count if total_pass_count != 0 \
                 else np.zeros_like(pass_count_surface)
 
-            self.tile_pass_distribution_dict[tile_id] = pass_distribution
+            self._tile_pass_distribution_dict[tile_id] = pass_distribution
 
-    def compute_xThreat(self, _xThreat):
+    def _compute_xThreat(self, _xThreat):
         self._get_state_prob_distribution()
         self._get_scoring_percentage()
         self._get_pass_distribution()
@@ -127,20 +128,20 @@ class xThreat:
 
         current_xThreat = _xThreat.copy()
         for tile_id in self.pitch_graph.nodes:
-            assert self.tile_pass_distribution_dict[tile_id].shape == _xThreat.shape, \
+            assert self._tile_pass_distribution_dict[tile_id].shape == _xThreat.shape, \
                 "Transmission matrix does not match xThreat shape"
 
-            pass_payoff = np.sum(self.tile_pass_distribution_dict[tile_id] * current_xThreat)
-            pass_value = self.state_prob_distribution_dict[tile_id].pass_prob * pass_payoff
-            shot_value = self.state_prob_distribution_dict[tile_id].shot_prob * self.tile_conversion_dict[tile_id]
+            pass_payoff = np.sum(self._tile_pass_distribution_dict[tile_id] * current_xThreat)
+            pass_value = self._state_prob_distribution_dict[tile_id].pass_prob * pass_payoff
+            shot_value = self._state_prob_distribution_dict[tile_id].shot_prob * self._tile_conversion_dict[tile_id]
             _xThreat[tile_id] = pass_value + shot_value
 
         return _xThreat
 
-    def train(self, epochs):
-        for epoch in tqdm(range(epochs)):
+    def _train(self, epochs=5):
+        for epoch in range(epochs):
             xThreat_buffer = self.xThreat_surface.copy()
-            self.xThreat_surface = self.compute_xThreat(self.xThreat_surface)
+            self.xThreat_surface = self._compute_xThreat(self.xThreat_surface)
             xThreat_error = np.sum(xThreat_buffer - self.xThreat_surface)
             print(f"epoch: {epoch} -> loss: {xThreat_error}")
             if abs(xThreat_error) < 1e-6:
@@ -148,27 +149,47 @@ class xThreat:
 
         # self.xThreat_surface = np.round(self.xThreat_surface, 1)
 
+    def draw_xThreat_surface(self, train_epoch=5, save=False):
+        """
+        run this member function to visualize the xThreat surface.
+        :param train_epoch: default is 5.
+        :param save: True if you want to save the fig
+        :return: None
+        """
+        self._fit_retrieve_data()
+        self._train(train_epoch)
 
-xx = xThreat(pitch_graph)
-xx.fit_retrieve_data()
-xx.train(5)
-print(xx.xThreat_surface.reshape(PitchMeta.y, PitchMeta.x))
-np.save("overall_xThreat.npy", xx.xThreat_surface)
+        xThreat_surface = self.xThreat_surface.copy().reshape(PitchMeta.y, PitchMeta.x)
 
-xx.xThreat_surface = xx.xThreat_surface.reshape(PitchMeta.y, PitchMeta.x)
+        x = np.arange(xThreat_surface.shape[1])
+        y = np.arange(xThreat_surface.shape[0])
 
-x = np.arange(xx.xThreat_surface.shape[1])
-y = np.arange(xx.xThreat_surface.shape[0])
+        Width, Height = np.meshgrid(x, y)
 
-Width, Height = np.meshgrid(x, y)
+        plt.figure(figsize=(12, 7))
+        ax = plt.axes(projection='3d')
+        ax.plot_surface(Width, Height, xThreat_surface, rstride=1, cstride=1, cmap='coolwarm', edgecolor='none')
+        ax.view_init(35, -200, 0)
+        ax.set_zlabel('xThreat', fontsize=10)
+        ax.tick_params(axis='z', labelsize=7)
 
-plt.figure(figsize=(12, 7))
-ax = plt.axes(projection='3d')
-ax.plot_surface(Width, Height, xx.xThreat_surface, rstride=1, cstride=1, cmap='coolwarm', edgecolor='none')
+        if save:
+            plt.savefig('xThreat_surface_visualization.png', dpi=800)
+        plt.show()
 
-ax.view_init(35, -200, 0)
+    def get_team_xThreat(self, train_epoch=5):
+        """
+        A training epoch is required to set up, and the default epoch is 5.
+        :param train_epoch: default 5
+        :return: xThreat surface: np.ndarray with shape 192,
+        """
+        self._fit_retrieve_data()
+        self._train(epochs=train_epoch)
 
-ax.set_zlabel('xThreat', fontsize=10)
-ax.tick_params(axis='z', labelsize=7)
+        return self.xThreat_surface
 
-plt.savefig('xThreat.png', dpi=800)
+
+# xx = xThreat(team_name="Barcelona")
+# xThreat = xx.get_team_xThreat()
+# print(xThreat.shape)
+# xx.draw_xThreat_surface()

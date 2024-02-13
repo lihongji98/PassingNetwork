@@ -6,7 +6,7 @@ from bson import ObjectId
 
 def main():
 
-    mongoengine.connect(db='LaLiga2023', host=)
+    mongoengine.connect(db='LaLiga2023', host="")
     
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 

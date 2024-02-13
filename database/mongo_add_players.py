@@ -3,10 +3,10 @@ from database import *
 import mongoengine
 from util import get_game_codes
 
-def main():
 
-    mongoengine.connect(db='LaLiga2023', host=)
-    
+def main():
+    mongoengine.connect(db='LaLiga2023', host="")
+
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
     game_codes = get_game_codes(directory)
@@ -15,15 +15,14 @@ def main():
     for game_code in game_codes:
         game_player_data = read_player_data(game_code, directory)
         player_data.extend(game_player_data)
-    
+
     players = process_player_data(player_data)
 
     player_instances = [Player(**player) for player in players]
     Player.objects.insert(player_instances, load_bulk=False)
-    
+
 
 def process_player_data(player_data):
-
     player_ids = []
     for game_player_data in player_data:
         player_ids.append(game_player_data['id'])
@@ -37,9 +36,9 @@ def process_player_data(player_data):
         player['team_id'] = set()
         player['position'] = set()
         player['starts'] = 0
-        player['apps'] = 0 
+        player['apps'] = 0
         player['minutes'] = 0
-        
+
         for game_player_data in player_data:
             if game_player_data['id'] == player_id:
                 player['first_name'] = game_player_data['first_name']
@@ -56,15 +55,13 @@ def process_player_data(player_data):
 
         players_list.append(player)
     return players_list
-    
 
 
 def read_player_data(game_code, directory):
-
     filename = f'{directory}{game_code}_player.txt'
 
     data = []
-    with open(filename, 'r',  encoding='utf-8') as file:
+    with open(filename, 'r', encoding='utf-8') as file:
         reader = csv.reader(file, delimiter='\t')
         header = next(reader)
 
@@ -77,17 +74,16 @@ def read_player_data(game_code, directory):
 
 
 def translate_players_meta(row):
-
     english_translations = {
-    'id': 'id',
-    'first_name': 'first_name',
-    'last_name': 'last_name',
-    'known_name': 'known_name',
-	'team_id': 'team_id',
-    'shirt': 'shirt_number',
-    'posicion': 'position',
-    'titular': 'start',
-    'minutos': 'minutes'
+        'id': 'id',
+        'first_name': 'first_name',
+        'last_name': 'last_name',
+        'known_name': 'known_name',
+        'team_id': 'team_id',
+        'shirt': 'shirt_number',
+        'posicion': 'position',
+        'titular': 'start',
+        'minutos': 'minutes'
     }
 
     translated_header = [english_translations.get(column, column) for column in row]
