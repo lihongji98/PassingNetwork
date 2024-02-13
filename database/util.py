@@ -1,5 +1,6 @@
 import os
 
+
 def get_game_codes(directory):
     files = os.listdir(directory)
 
