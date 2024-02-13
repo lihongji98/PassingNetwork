@@ -19,7 +19,7 @@ from database.database import Event
 
 
 def connect():
-    host_address = "mongodb+srv://lihong:pObw6rTiuyWBU5a4@passingnetworks.pyzrvuj.mongodb.net/?retryWrites=true&w=majority"
+    host_address = 
     try:
         return mongo.connect(db='LaLiga2023', host=host_address)
     except RuntimeError:
