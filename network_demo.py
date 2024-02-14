@@ -21,5 +21,5 @@ def get_match_data(match_code):
 
 
 if __name__ == "__main__":
-    main()
+    db_connect()
 
