@@ -48,7 +48,7 @@ class Event(meng.DynamicDocument):
     team_name = StringField()
     player_name = StringField()
 
-    outcome = BooleanField()
+    outcome = IntField()
     pattern_of_play = IntField()
     type_detail = IntField()
 
@@ -86,3 +86,35 @@ class Player(meng.DynamicDocument):
         'indexes': ['player_id'],
         'db_alias': 'default'
     }
+
+
+class Pass(meng.DynamicDocument):
+    id = ObjectIdField()
+
+    pass_id = StringField()
+    match_id = StringField()
+    team_id = StringField()
+    
+    minute = IntField()
+    second = IntField()
+    period = IntField()
+
+    origin_player = StringField()
+    destination_player = StringField()
+
+    outcome = IntField()
+    origin_pos_x = FloatField()
+    origin_pos_y = FloatField()
+
+    destination_pos_x = FloatField()
+    destination_pos_y = FloatField()
+
+    offside = IntField()
+    possession = IntField()
+    sequence = IntField()
+
+    meta = {
+        'indexes': ['player_id', 'team_id', 'match_id'],
+        'db_alias': 'default'
+    }
+

@@ -5,7 +5,7 @@ from util import get_game_codes, translate_all_events_meta
 
 
 def main():
-    # password is hardcoded
+    
     mongoengine.connect(db='LaLiga2023', host="")
 
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
