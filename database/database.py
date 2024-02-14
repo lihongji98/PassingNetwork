@@ -20,6 +20,25 @@ class Match(meng.DynamicDocument):
     home_team = StringField()
     away_team = StringField()
     match_id = StringField()
+    home_players = DictField(
+        id = DictField(
+            known_name = StringField(),
+            shirt_number = IntField(),
+            position = StringField(),
+            start = StringField(),
+            minutes = IntField()
+        )
+    )
+    away_players = DictField(
+        id = DictField(
+            known_name = StringField(),
+            shirt_number = IntField(),
+            position = StringField(),
+            start = StringField(),
+            minutes = IntField()
+        )
+    )
+    
 
     meta = {
         'indexes': ['competition'],
