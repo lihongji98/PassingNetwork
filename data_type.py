@@ -61,3 +61,10 @@ class TileStatsFeatures:
     shot_count: int
     goal_count: int
     pass_count_surface: np.ndarray
+
+
+@dataclass
+class SubstitutionTimePoints:
+    period: int
+    minute: int
+    second: int

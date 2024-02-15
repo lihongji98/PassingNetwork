@@ -189,7 +189,7 @@ class xThreat:
         return self.xThreat_surface
 
 
-# xx = xThreat(team_name="Barcelona")
+xx = xThreat(team_name="Barcelona")
 # xThreat = xx.get_team_xThreat()
 # print(xThreat.shape)
-# xx.draw_xThreat_surface()
+xx.draw_xThreat_surface()

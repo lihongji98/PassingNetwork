@@ -21,24 +21,23 @@ class Match(meng.DynamicDocument):
     away_team = StringField()
     match_id = StringField()
     home_players = DictField(
-        id = DictField(
-            known_name = StringField(),
-            shirt_number = IntField(),
-            position = StringField(),
-            start = StringField(),
-            minutes = IntField()
+        id=DictField(
+            known_name=StringField(),
+            shirt_number=IntField(),
+            position=StringField(),
+            start=StringField(),
+            minutes=IntField()
         )
     )
     away_players = DictField(
-        id = DictField(
-            known_name = StringField(),
-            shirt_number = IntField(),
-            position = StringField(),
-            start = StringField(),
-            minutes = IntField()
+        id=DictField(
+            known_name=StringField(),
+            shirt_number=IntField(),
+            position=StringField(),
+            start=StringField(),
+            minutes=IntField()
         )
     )
-    
 
     meta = {
         'indexes': ['competition'],
@@ -113,7 +112,7 @@ class Pass(meng.DynamicDocument):
     pass_id = StringField()
     match_id = StringField()
     team_id = StringField()
-    
+
     minute = IntField()
     second = IntField()
     period = IntField()
