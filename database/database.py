@@ -139,4 +139,3 @@ class Pass(meng.DynamicDocument):
         'indexes': ['player_id', 'team_id', 'match_id'],
         'db_alias': 'default'
     }
-
