@@ -2,7 +2,7 @@ from typing import Literal, List
 
 from match_info_retriever import MatchInfoRetriever
 import networkx as nx
-from database.database import Match, Event
+from database import Match, Event
 from db_connect_utils import db_connect, db_disconnect
 from data_type import SubstitutionTimePoints
 

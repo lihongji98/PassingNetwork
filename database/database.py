@@ -60,6 +60,7 @@ class Event(meng.DynamicDocument):
     minute = IntField()
     second = IntField()
     period = IntField()
+    time = IntField()
 
     match_id = StringField()  # ReferenceField(Match)
 
@@ -99,6 +100,7 @@ class Player(meng.DynamicDocument):
     starts = IntField()
     apps = IntField()
     minutes = IntField()
+    time = IntField()
 
     meta = {
         'indexes': ['player_id'],

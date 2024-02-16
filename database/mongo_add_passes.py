@@ -1,12 +1,12 @@
 import csv
 from database import *
 import mongoengine
-from util import get_game_codes
-
+from util import get_game_codes, read_all_events, translate_event_type, translate_all_events_meta
+from db_connect_utils import db_connect, db_disconnect
 
 def main():
     
-    mongoengine.connect(db='LaLiga2023', host="")
+    db_connect()
 
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
@@ -15,11 +15,35 @@ def main():
     passes = []
     for game_code in games_codes:
         game_passes = read_passes(game_code, directory=directory)
+        game_passes = add_time(game_code, game_passes, directory)
         passes.extend(game_passes)
 
+    
     pass_instances = [Pass(**pass_event) for pass_event in passes]
     Pass.objects.insert(pass_instances, load_bulk=False)
 
+    db_disconnect()
+
+
+def add_time(game_code, game_passes, directory):
+
+    events = read_all_events(game_code, directory)
+    period_one_end_time = 0
+    
+    for event in events:
+        time = int(event['minute']) * 60 + int(event['second'])
+        if event['period'] == '1':
+            if time > period_one_end_time:
+                period_one_end_time = time
+    
+    for pass_event in game_passes:
+        if pass_event['period'] == '1':
+            pass_event['time'] = int(pass_event['minute']) * 60 + int(pass_event['second'])
+        elif pass_event['period'] == '2':
+            pass_event['time'] = period_one_end_time + (int(pass_event['minute']) - 45) * 60 + int(pass_event['second'])
+        else:
+            pass_event['time'] = 'fail'
+    return game_passes
 
 
 def read_passes(game_code, directory):
