@@ -65,7 +65,8 @@ class MatchPassingMatrix(MatchInfoRetriever):
         player_on_events: List[Event] = Event.objects(match_id=self.match_id,
                                                       team_name=team_name,
                                                       event_type="player_on")
-
+        print(player_off_events)
+        print(player_on_events)
         player_on: Event
         player_off: Event
         for player_off, player_on in zip(player_off_events, player_on_events):
@@ -89,6 +90,7 @@ class MatchPassingMatrix(MatchInfoRetriever):
 
     def _get_team_player_nodes(self, home_away: Literal["home", "away"]):
         match_info: Match = Match.objects(match_id=self.match_id).first()
+
         if home_away == "home":
             home_players: List[str] = match_info.home_players.keys()
             for home_player in home_players:
