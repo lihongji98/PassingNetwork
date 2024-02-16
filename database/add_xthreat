@@ -1,0 +1,21 @@
+from db_connect_utils import db_connect, db_disconnect
+import csv
+from database import Pass
+import mongoengine
+from bson import ObjectId
+from typing import List
+
+def main():
+
+    db_connect()
+
+    pass_events: List[Pass] = Pass.objects(outcome = 1)
+
+    pass_events = 
+
+
+
+
+
+if __name__ == '__main__':
+    main()

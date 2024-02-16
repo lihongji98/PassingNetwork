@@ -133,6 +133,8 @@ class Pass(meng.DynamicDocument):
     possession = IntField()
     sequence = IntField()
 
+    xthreat = FloatField(default=0.0)
+
     meta = {
         'indexes': ['player_id', 'team_id', 'match_id'],
         'db_alias': 'default'

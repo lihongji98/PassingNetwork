@@ -37,11 +37,10 @@ def add_time(game_code, game_events, directory):
     for event in game_events:
         if event['period'] == '1':
             event['time'] = int(event['minute']) * 60 + int(event['second'])
-        elif event['period'] == 2:
+        elif event['period'] == '2':
             event['time'] = period_one_latest_time + (int(event['minute']) - 45) * 60 + int(event['second'])
 
     return game_events
-
 
 if __name__ == "__main__":
     main()
