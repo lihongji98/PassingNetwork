@@ -2,7 +2,7 @@ from typing import Literal, List
 
 from match_info_retriever import MatchInfoRetriever
 import networkx as nx
-from database.database import Match, Event
+from database.database import Match, Event, Pass
 from db_connect_utils import db_connect, db_disconnect
 from data_type import SubstitutionTimePoints
 
@@ -28,10 +28,13 @@ class MatchPassingMatrix(MatchInfoRetriever):
         self._get_team_player_nodes("home")
         self._get_team_player_nodes("away")
 
-        self.home_last_substitution: SubstitutionTimePoints = self._get_end_time_point("home")
-        self.away_last_substitution: SubstitutionTimePoints = self._get_end_time_point("away")
+        self.home_longest_period_start_time: SubstitutionTimePoints = self._get_end_time_point("home")[0]
+        self.home_longest_period_end_time: SubstitutionTimePoints = self._get_end_time_point("home")[1]
 
-    def _get_end_time_point(self, home_away: Literal["home", "away"]) -> SubstitutionTimePoints:
+        self.away_longest_period_start_time: SubstitutionTimePoints = self._get_end_time_point("away")[0]
+        self.away_longest_period_end_time: SubstitutionTimePoints = self._get_end_time_point("away")[1]
+
+    def _get_end_time_point(self, home_away: Literal["home", "away"]):
         substitution: Event
         team_name = self.home_team if home_away == "home" else self.away_team
         substitution_events: List[Event] = Event.objects(match_id=self.match_id,
@@ -51,11 +54,12 @@ class MatchPassingMatrix(MatchInfoRetriever):
                 current_longest_time = time_difference
                 longest_time_pointer = index
 
+        start_time_point = duration_list[longest_time_pointer]
         end_time_point = duration_list[longest_time_pointer+1]
-        return end_time_point
+        return [start_time_point, end_time_point]
 
     def _get_the_longest_playtime_players(self, home_away: Literal["home", "away"]):
-        end_time_point = self._get_end_time_point(home_away)
+        end_time_point = self._get_end_time_point(home_away)[1]
 
         team_name = self.home_team if home_away == "home" else self.away_team
 
@@ -65,8 +69,10 @@ class MatchPassingMatrix(MatchInfoRetriever):
         player_on_events: List[Event] = Event.objects(match_id=self.match_id,
                                                       team_name=team_name,
                                                       event_type="player_on")
-        print(player_off_events)
-        print(player_on_events)
+
+        player_off_events = sorted(player_off_events, key=lambda event: (event.period, event.minute, event.second))
+        player_on_events = sorted(player_on_events, key=lambda event: (event.period, event.minute, event.second))
+
         player_on: Event
         player_off: Event
         for player_off, player_on in zip(player_off_events, player_on_events):
@@ -107,7 +113,14 @@ class MatchPassingMatrix(MatchInfoRetriever):
 
             self._get_the_longest_playtime_players(home_away)
 
+    def get_pass_events(self, home_away: Literal["home", "away"]):
+        team_id = self.home_team_id if home_away == "home" else self.away_team_id
+        pass_events: List[Event] = Pass.objects(match_id=self.match_id,
+                                                team_id=team_id,)
+        print(len(pass_events))
+
 
 db_connect()
 aa = MatchPassingMatrix(match_id="2372355")
+aa.get_pass_events("home")
 db_disconnect()
