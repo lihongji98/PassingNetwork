@@ -100,7 +100,6 @@ class Player(meng.DynamicDocument):
     starts = IntField()
     apps = IntField()
     minutes = IntField()
-    time = IntField()
 
     meta = {
         'indexes': ['player_id'],
@@ -118,6 +117,7 @@ class Pass(meng.DynamicDocument):
     minute = IntField()
     second = IntField()
     period = IntField()
+    time = IntField()
 
     origin_player = StringField()
     destination_player = StringField()
