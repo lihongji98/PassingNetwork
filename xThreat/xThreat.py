@@ -63,6 +63,7 @@ class xThreat:
             tile_id = get_tile_id(shot_pos)
             stats_info: TileStatsFeatures = self.pitch_graph.nodes[tile_id]["stats_info"]
             stats_info.shot_count += 1
+        print("the event of shot loaded!")
 
         goal_info: Event
         goal_event: Event = Event.objects(event_code__in=["16"], **searching_dict)
@@ -71,9 +72,10 @@ class xThreat:
             tile_id = get_tile_id(goal_pos)
             stats_info: TileStatsFeatures = self.pitch_graph.nodes[tile_id]["stats_info"]
             stats_info.goal_count += 1
+        print("the event of goal loaded!")
 
         pass_info: Event
-        pass_event: Event = Event.objects(event_code__in=["1"], **searching_dict)
+        pass_event: Event = Event.objects(event_code__in=["1"], **searching_dict, outcome=1)
         for index, pass_info in enumerate(pass_event):
             origin_pos = PlayerCoordinate(pass_info.origin_pos_x, pass_info.origin_pos_y)
             destination_pos = PlayerCoordinate(pass_info.destination_pos_x, pass_info.destination_pos_y)
@@ -81,6 +83,7 @@ class xThreat:
             destination_tile_id = get_tile_id(destination_pos)
             stats_info: TileStatsFeatures = self.pitch_graph.nodes[origin_tile_id]["stats_info"]
             stats_info.pass_count_surface[destination_tile_id] += 1
+        print("the event of pass loaded!")
 
         db_disconnect()
 
@@ -143,7 +146,7 @@ class xThreat:
             xThreat_buffer = self.xThreat_surface.copy()
             self.xThreat_surface = self._compute_xThreat(self.xThreat_surface)
             xThreat_error = np.sum(xThreat_buffer - self.xThreat_surface)
-            print(f"epoch: {epoch} -> loss: {xThreat_error}")
+            print(f"epoch: {epoch+1} -> loss: {abs(xThreat_error)}")
             if abs(xThreat_error) < 1e-6:
                 break
 
@@ -189,7 +192,7 @@ class xThreat:
         return self.xThreat_surface
 
 
-xx = xThreat(team_name="Barcelona")
+# xx = xThreat()
 # xThreat = xx.get_team_xThreat()
 # print(xThreat.shape)
-xx.draw_xThreat_surface()
+# np.savetxt("seasonal_xThreat.csv", xThreat, delimiter=",")

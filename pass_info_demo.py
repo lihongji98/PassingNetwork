@@ -1,6 +1,5 @@
 from typing import List
 
-from xThreat import xThreat
 from db_connect_utils import db_connect, db_disconnect
 from database.database import Match, Event
 from data_type import PlayerCoordinate
