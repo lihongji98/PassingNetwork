@@ -6,7 +6,7 @@ from Visualisation.network_viz import *
 
 def main():
         db_connect()
-        get_matrix()
+        get_matrix(side='home')
         db_disconnect()
 
 
