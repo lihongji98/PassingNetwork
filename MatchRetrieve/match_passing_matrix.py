@@ -4,7 +4,7 @@ import networkx as nx
 import numpy as np
 
 from data_type import PlayerCoordinate
-from match_info_retriever import MatchInfoRetriever
+from MatchRetrieve.match_info_retriever import MatchInfoRetriever
 
 from database.database import Event, Pass
 from db_connect_utils import db_connect, db_disconnect

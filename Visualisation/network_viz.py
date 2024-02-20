@@ -1,15 +1,21 @@
 from mplsoccer import Pitch
+import networkx as nx
 from db_connect_utils import db_connect, db_disconnect
 from MatchRetrieve.match_passing_matrix import MatchPassingMatrix
 import typing
 
-def get_matrix(match_id="2372355", side='home') -> DiGraph:
+def get_matrix(match_id="2372355", side='home') -> nx.DiGraph:
     
     graph = MatchPassingMatrix(match_id=match_id, side=side)
 
     players = graph.home_team_players.nodes if side == 'home' else graph.away_team_players.nodes
 
+    edges = nx.get_edge_attributes(graph.home_team_players, 'pass_value')
+
+    print(edges)
+
     
+    # passes_between = [[passer.x, passer.y, receiver.x, receiver.y, pass_count]]
 
     return 
 
