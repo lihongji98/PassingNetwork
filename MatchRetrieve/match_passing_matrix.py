@@ -22,14 +22,14 @@ class MatchPassingMatrix(MatchInfoRetriever):
         start_time: int = self.home_longest_period_start_time if self.side == "home" \
             else self.away_longest_period_start_time
         end_time: int = self.home_longest_period_end_time if self.side == "home" else self.away_longest_period_end_time
-        pass_events: List[Event] = Pass.objects(match_id=self.match_id,
-                                                team_id=team_id,
-                                                outcome=1,
-                                                time__gte=start_time,
-                                                time__lte=end_time,
-                                                destination_player__ne="0",
-                                                origin_player__ne="0",
-                                                )
+        pass_events: List[Pass] = Pass.objects(match_id=self.match_id,
+                                               team_id=team_id,
+                                               outcome=1,
+                                               time__gte=start_time,
+                                               time__lte=end_time,
+                                               destination_player__ne="0",
+                                               origin_player__ne="0",
+                                               )
 
         team_player_ids = self.home_team_players.nodes if self.side == "home" else self.away_team_players.nodes
 
@@ -65,14 +65,14 @@ class MatchPassingMatrix(MatchInfoRetriever):
         start_time: int = self.home_longest_period_start_time if self.side == "home" \
             else self.away_longest_period_start_time
         end_time: int = self.home_longest_period_end_time if self.side == "home" else self.away_longest_period_end_time
-        pass_events: List[Event] = Pass.objects(match_id=self.match_id,
-                                                team_id=team_id,
-                                                outcome=1,
-                                                time__gte=start_time,
-                                                time__lte=end_time,
-                                                destination_player__ne="0",
-                                                origin_player__ne="0",
-                                                )
+        pass_events: List[Pass] = Pass.objects(match_id=self.match_id,
+                                               team_id=team_id,
+                                               outcome=1,
+                                               time__gte=start_time,
+                                               time__lte=end_time,
+                                               destination_player__ne="0",
+                                               origin_player__ne="0",
+                                               )
         team_player_ids = self.home_team_players.nodes if self.side == "home" else self.away_team_players.nodes
 
         pass_xThreat_dict: Dict[tuple[str, str]: float] = {(passer, receiver): 0.0 for passer in team_player_ids for
@@ -99,10 +99,6 @@ class MatchPassingMatrix(MatchInfoRetriever):
         for pass_receive, xThreat_value in pass_xThreat_dict.items():
             team_graph.add_edge(pass_receive[0], pass_receive[1], xT_value=max(xThreat_value, 0))
 
-        for n in team_graph:
-            for nbr in team_graph[n]:
-                print(team_graph[n][nbr])
-
         passing_xThreat_matrix: np.ndarray = np.array(
             [max(xThreat_diff, 0) for xThreat_diff in pass_xThreat_dict.values()]).reshape(11, 11)
 
@@ -114,7 +110,7 @@ class MatchPassingMatrix(MatchInfoRetriever):
         weight_type = "pass_value" if matrix_type == "normal" else "xT_value"
         team_graph = self.home_team_players if self.side == "home" else self.away_team_players
 
-        t_node_vector = np.array([1.0 for _ in range(team_graph.number_of_nodes())]).astype(float).reshape(11,)
+        t_node_vector = np.array([1.0 for _ in range(team_graph.number_of_nodes())]).astype(float).reshape(11, )
 
         for _ in range(max_iterations):
             t_1_node_vector = np.dot(A.T, t_node_vector)
@@ -128,8 +124,8 @@ class MatchPassingMatrix(MatchInfoRetriever):
         print(EC1 / EC2)
         # return eigenvector_centrality
 
-if __name__ == "__main__":
-    db_connect()
-    aa = MatchPassingMatrix(match_id="2372355")
-    aa.get_eigenvector_centrality("xT")
-    db_disconnect()
+
+db_connect()
+aa = MatchPassingMatrix(match_id="2372355")
+aa.get_eigenvector_centrality("xT")
+db_disconnect()

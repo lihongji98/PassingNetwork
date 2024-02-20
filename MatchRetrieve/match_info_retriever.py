@@ -1,7 +1,9 @@
-from typing import Literal, List
+from typing import Literal, List, Dict
 
-from database.database import Match, Event
+import db_connect_utils
+from database.database import Match, Event, Pass
 import networkx as nx
+from data_type import PlayerCoordinate
 
 
 class MatchInfoRetriever:
@@ -23,6 +25,9 @@ class MatchInfoRetriever:
 
         self.away_longest_period_start_time: int = self._get_end_time_point("away")[0]
         self.away_longest_period_end_time: int = self._get_end_time_point("away")[1]
+
+        self._get_player_average_position("home")
+        self._get_player_average_position("away")
 
     def _get_team_name(self, home_away: Literal["home", "away"]):
         current_match: Match = Match.objects(match_id=self.match_id).first()
@@ -123,6 +128,38 @@ class MatchInfoRetriever:
 
             self._get_the_longest_playtime_players(home_away)
 
+    def _get_player_average_position(self, home_away: Literal["home", "away"]):
+        team_id: str = self.home_team_id if home_away == "home" else self.away_team_id
+        start_time: int = self.home_longest_period_start_time if home_away == "home" \
+            else self.away_longest_period_start_time
+        end_time: int = self.home_longest_period_end_time if home_away == "home" else self.away_longest_period_end_time
+        team_graph = self.home_team_players if home_away == "home" else self.away_team_players
+        pass_events: List[Pass] = Pass.objects(match_id=self.match_id,
+                                               team_id=team_id,
+                                               outcome=1,
+                                               time__gte=start_time,
+                                               time__lte=end_time,
+                                               destination_player__ne="0",
+                                               origin_player__ne="0",
+                                               )
+        player_pos_dict: Dict[str, List[PlayerCoordinate]] = {player: [] for player in team_graph.nodes}
+        pass_event: Pass
+        for pass_event in pass_events:
+            passer = pass_event.origin_player
+            passer_pos = PlayerCoordinate(pass_event.origin_pos_x, pass_event.origin_pos_y)
+            player_pos_dict[passer].append(passer_pos)
+            receiver = pass_event.destination_player
+            receiver_pos = PlayerCoordinate(pass_event.destination_pos_x, pass_event.destination_pos_y)
+            player_pos_dict[receiver].append(receiver_pos)
+
+        for player in player_pos_dict.keys():
+            player_pos_list = player_pos_dict[player]
+            player_average_pos = get_average_pos(player_pos_list)
+
+            # team_graph[player]["average_position"] = player_average_pos
+            team_graph.add_node(player, average_position=player_average_pos)
+            # nx.set_node_attributes(team_graph, player_average_pos, "average_position")
+
 
 def compare_substitution_time_points(end_time_point: int,
                                      current_substitution_time: int) -> bool:
@@ -130,3 +167,15 @@ def compare_substitution_time_points(end_time_point: int,
         return True
 
     return False
+
+
+def get_average_pos(pos_list: List[PlayerCoordinate]) -> PlayerCoordinate:
+    average_x = 0.0
+    average_y = 0.0
+    for position in pos_list:
+        average_x += position.x
+        average_y += position.y
+    average_x /= len(pos_list)
+    average_y /= len(pos_list)
+
+    return PlayerCoordinate(average_x, average_y)
