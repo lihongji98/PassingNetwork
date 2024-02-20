@@ -179,3 +179,4 @@ def get_average_pos(pos_list: List[PlayerCoordinate]) -> PlayerCoordinate:
     average_y /= len(pos_list)
 
     return PlayerCoordinate(average_x, average_y)
+

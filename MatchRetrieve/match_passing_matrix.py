@@ -16,6 +16,8 @@ class MatchPassingMatrix(MatchInfoRetriever):
         super().__init__(match_id)
 
         self.side = side
+        self.pass_count_matrix = self.get_pass_count_matrix()
+        self.pass_xThreat_matrix = self.get_pass_xThreat_matrix()
 
     def get_pass_count_matrix(self):
         team_id: str = self.home_team_id if self.side == "home" else self.away_team_id
@@ -93,14 +95,14 @@ class MatchPassingMatrix(MatchInfoRetriever):
             pass_xThreat_diff = destination_xThreat - origin_xThreat
 
             edge_name: tuple[str, str] = (origin_player_id, destination_player_id)
-            pass_xThreat_dict[edge_name] += pass_xThreat_diff
+            pass_xThreat_dict[edge_name] += max(pass_xThreat_diff, 0)
 
         team_graph = self.home_team_players if self.side == "home" else self.away_team_players
         for pass_receive, xThreat_value in pass_xThreat_dict.items():
-            team_graph.add_edge(pass_receive[0], pass_receive[1], xT_value=max(xThreat_value, 0))
+            team_graph.add_edge(pass_receive[0], pass_receive[1], xT_value=xThreat_value)
 
         passing_xThreat_matrix: np.ndarray = np.array(
-            [max(xThreat_diff, 0) for xThreat_diff in pass_xThreat_dict.values()]).reshape(11, 11)
+            [xThreat_diff for xThreat_diff in pass_xThreat_dict.values()]).reshape(11, 11)
 
         return passing_xThreat_matrix
 
@@ -125,7 +127,16 @@ class MatchPassingMatrix(MatchInfoRetriever):
         # return eigenvector_centrality
 
 
-# db_connect()
-# aa = MatchPassingMatrix(match_id="2372355")
-# aa.get_eigenvector_centrality("xT")
-# db_disconnect()
+db_connect()
+aa = MatchPassingMatrix(match_id="2372355")
+
+for edge_info in aa.home_team_players.edges(data=True):
+    passer_id = edge_info[0]
+    receiver_id = edge_info[1]
+    edge_attribute_dict = edge_info[2]
+    print(passer_id, receiver_id, edge_attribute_dict)
+pass_value_dict = nx.get_edge_attributes(aa.home_team_players, "pass_value")
+print("*"*20)
+for edge in aa.home_team_players.edges():
+    print(pass_value_dict[edge])
+db_disconnect()
