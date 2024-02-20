@@ -4,10 +4,10 @@ import networkx as nx
 import numpy as np
 
 from data_type import PlayerCoordinate
-from match_info_retriever import MatchInfoRetriever
+from MatchRetrieve.match_info_retriever import MatchInfoRetriever
 
 from database.database import Event, Pass
-from database.db_connect_utils import db_connect, db_disconnect
+from db_connect_utils import db_connect, db_disconnect
 from xThreat.xThreat import get_tile_id, xThreat
 
 
@@ -128,8 +128,8 @@ class MatchPassingMatrix(MatchInfoRetriever):
         print(EC1 / EC2)
         # return eigenvector_centrality
 
-
-db_connect()
-aa = MatchPassingMatrix(match_id="2372355")
-aa.get_eigenvector_centrality("xT")
-db_disconnect()
+if __name__ == "__main__":
+    db_connect()
+    aa = MatchPassingMatrix(match_id="2372355")
+    aa.get_eigenvector_centrality("xT")
+    db_disconnect()
