@@ -2,8 +2,6 @@ from typing import Dict
 import networkx as nx
 import numpy as np
 
-from db_connect_utils import db_connect, db_disconnect
-
 from matplotlib import pyplot as plt
 
 from PitchData import pitch_graph
@@ -54,8 +52,7 @@ class xThreat:
             if value == "":
                 searching_dict.pop(key)
 
-        db_connect()
-
+        print("Reading shot information...")
         shot_info: Event
         shot_event: Event = Event.objects(event_code__in=["13", "14", "15", "16"], **searching_dict)
         for shot_info in shot_event:
@@ -65,6 +62,7 @@ class xThreat:
             stats_info.shot_count += 1
         print("the event of shot loaded!")
 
+        print("Reading goal information...")
         goal_info: Event
         goal_event: Event = Event.objects(event_code__in=["16"], **searching_dict)
         for goal_info in goal_event:
@@ -74,6 +72,7 @@ class xThreat:
             stats_info.goal_count += 1
         print("the event of goal loaded!")
 
+        print("Reading pass information...")
         pass_info: Event
         pass_event: Event = Event.objects(event_code__in=["1"], **searching_dict, outcome=1)
         for index, pass_info in enumerate(pass_event):
@@ -84,8 +83,6 @@ class xThreat:
             stats_info: TileStatsFeatures = self.pitch_graph.nodes[origin_tile_id]["stats_info"]
             stats_info.pass_count_surface[destination_tile_id] += 1
         print("the event of pass loaded!")
-
-        db_disconnect()
 
     def _get_state_prob_distribution(self):
 
