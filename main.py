@@ -1,14 +1,12 @@
 
 from db_connect_utils import db_connect, db_disconnect
 from MatchRetrieve.match_passing_matrix import MatchPassingMatrix
+from Visualisation.network_viz import *
 
 
 def main():
         db_connect()
-        aa = MatchPassingMatrix(match_id="2372355", side="home")
-        print(aa.home_team_players.nodes)
-        network = aa.get_pass_count_matrix()
-        print(network)
+        get_matrix(side='home')
         db_disconnect()
 
 
