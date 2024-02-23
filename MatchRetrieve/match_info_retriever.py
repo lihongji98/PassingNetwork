@@ -1,6 +1,5 @@
 from typing import Literal, List, Dict
 
-import db_connect_utils
 from database.database import Match, Event, Pass
 import networkx as nx
 from data_type import PlayerCoordinate
@@ -53,8 +52,7 @@ class MatchInfoRetriever:
         team_name = self.home_team if home_away == "home" else self.away_team
         substitution_events: List[Event] = Event.objects(match_id=self.match_id,
                                                          team_name=team_name,
-                                                         event_type="player_off")
-
+                                                         event_type="player_off").order_by("time")
         current_longest_time: int = 0
         longest_time_pointer: int = 0
         duration_list: List[int] = [0]
@@ -63,7 +61,7 @@ class MatchInfoRetriever:
             duration_list.append(duration)
             previous_duration = duration_list[index]
 
-            time_difference = duration - previous_duration if duration > previous_duration else 0
+            time_difference = duration - previous_duration
 
             if time_difference > current_longest_time:
                 current_longest_time = time_difference
@@ -80,14 +78,10 @@ class MatchInfoRetriever:
 
         player_off_events: List[Event] = Event.objects(match_id=self.match_id,
                                                        team_name=team_name,
-                                                       event_type="player_off")
+                                                       event_type="player_off").order_by("time")
         player_on_events: List[Event] = Event.objects(match_id=self.match_id,
                                                       team_name=team_name,
-                                                      event_type="player_on")
-
-        player_off_events = sorted(player_off_events, key=lambda event: event.time)
-        player_on_events = sorted(player_on_events, key=lambda event: event.time)
-
+                                                      event_type="player_on").order_by("time")
         player_on: Event
         player_off: Event
         for player_off, player_on in zip(player_off_events, player_on_events):
@@ -137,8 +131,8 @@ class MatchInfoRetriever:
         pass_events: List[Pass] = Pass.objects(match_id=self.match_id,
                                                team_id=team_id,
                                                outcome=1,
-                                               time__gte=start_time,
-                                               time__lte=end_time,
+                                               time__gt=start_time,
+                                               time__lt=end_time,
                                                destination_player__ne="0",
                                                origin_player__ne="0",
                                                )
@@ -147,18 +141,34 @@ class MatchInfoRetriever:
         for pass_event in pass_events:
             passer = pass_event.origin_player
             passer_pos = PlayerCoordinate(pass_event.origin_pos_x, pass_event.origin_pos_y)
-            player_pos_dict[passer].append(passer_pos)
             receiver = pass_event.destination_player
             receiver_pos = PlayerCoordinate(pass_event.destination_pos_x, pass_event.destination_pos_y)
+            player_pos_dict[passer].append(passer_pos)
             player_pos_dict[receiver].append(receiver_pos)
 
         for player in player_pos_dict.keys():
             player_pos_list = player_pos_dict[player]
-            player_average_pos = get_average_pos(player_pos_list)
+            player_average_pos = self.get_average_pos(player_pos_list, player, start_time, end_time)
 
             # team_graph[player]["average_position"] = player_average_pos
             team_graph.add_node(player, average_position=player_average_pos)
             # nx.set_node_attributes(team_graph, player_average_pos, "average_position")
+
+    def get_average_pos(self, pos_list: List[PlayerCoordinate], player: str, start_time: int, end_time: int) -> PlayerCoordinate:
+        average_x = 0.0
+        average_y = 0.0
+        for position in pos_list:
+            average_x += position.x
+            average_y += position.y
+        if len(pos_list) > 0:
+            average_x /= len(pos_list)
+            average_y /= len(pos_list)
+        else:
+            average_x = 100
+            average_y = 100
+            print(f"In match {self.match_id}, no passes for player {player},  start time: {start_time}, end time: {end_time}.")
+
+        return PlayerCoordinate(average_x, average_y)
 
 
 def compare_substitution_time_points(end_time_point: int,
@@ -167,15 +177,3 @@ def compare_substitution_time_points(end_time_point: int,
         return True
 
     return False
-
-
-def get_average_pos(pos_list: List[PlayerCoordinate]) -> PlayerCoordinate:
-    average_x = 0.0
-    average_y = 0.0
-    for position in pos_list:
-        average_x += position.x
-        average_y += position.y
-    average_x /= len(pos_list)
-    average_y /= len(pos_list)
-
-    return PlayerCoordinate(average_x, average_y)

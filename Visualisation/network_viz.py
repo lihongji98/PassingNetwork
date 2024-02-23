@@ -1,14 +1,14 @@
 from mplsoccer import Pitch
 import networkx as nx
 from db_connect_utils import db_connect, db_disconnect
-from MatchRetrieve.match_passing_matrix import MatchPassingMatrix
+from MatchRetrieve.match_passing_matrix import MatchAdvancedPassingStats
 import typing
 import numpy as np
 import matplotlib.pyplot as plt
 
-def get_matrix(match_id="2372355", side='home') -> nx.DiGraph:
-    
-    passing_matrix = MatchPassingMatrix(match_id=match_id, side=side)
+
+def get_matrix(match_id="2372355", side='home'):
+    passing_matrix = MatchAdvancedPassingStats(match_id=match_id, side=side)
 
     passingMatrix = passing_matrix.get_pass_count_matrix()
     graph = passing_matrix.home_team_players if side == "home" else passing_matrix.away_team_players
@@ -20,15 +20,11 @@ def get_matrix(match_id="2372355", side='home') -> nx.DiGraph:
     plot_network(graph, players, passingMatrix, color=color)
 
 
-    return 
-
-
 def plot_network(graph, players, passingMatrix, color):
-
     locations = {}
     for player in players:
         locations[player] = graph.nodes(data='average_position')[player]
-    
+
     passers = []
     receivers = []
     for edge in graph.edges:
@@ -46,10 +42,12 @@ def plot_network(graph, players, passingMatrix, color):
         receivers_y.append(locations[receivers[i]].y)
 
     # {player_id : norm(received+pass count)}
-    
-    passing_dict = {list(players)[index]: passing_count for index, passing_count in enumerate(np.sum(passingMatrix, axis=1))}
-    receive_dict = {list(players)[index]: receive_count for index, receive_count in enumerate(np.sum(passingMatrix, axis=0))} 
-    
+
+    passing_dict = {list(players)[index]: passing_count for index, passing_count in
+                    enumerate(np.sum(passingMatrix, axis=1))}
+    receive_dict = {list(players)[index]: receive_count for index, receive_count in
+                    enumerate(np.sum(passingMatrix, axis=0))}
+
     touch_dict = {}
     for player_id in passing_dict.keys():
         touch_count = passing_dict[player_id] + receive_dict[player_id]
@@ -61,7 +59,7 @@ def plot_network(graph, players, passingMatrix, color):
     print(touch_dict)
 
     pitch = Pitch(
-    pitch_type="opta", pitch_color="white", line_color="black", linewidth=1,
+        pitch_type="opta", pitch_color="white", line_color="black", linewidth=1,
     )
     fig, axs = pitch.grid(
         figheight=10,
@@ -80,15 +78,15 @@ def plot_network(graph, players, passingMatrix, color):
         passers_y,
         receivers_x,
         receivers_y,
-        lw = np.array(list(nx.get_edge_attributes(graph, 'pass_value').values())),
-        color = color,
-        zorder = 1,
-        ax = axs["pitch"],
+        lw=np.array(list(nx.get_edge_attributes(graph, 'pass_value').values())),
+        color=color,
+        zorder=1,
+        ax=axs["pitch"],
     )
     pass_nodes = pitch.scatter(
         [pos.x for _, pos in graph.nodes(data='average_position')],
         [pos.y for _, pos in graph.nodes(data='average_position')],
-        s= list(touch_dict.values()),
+        s=list(touch_dict.values()),
         color=color,
         edgecolors="black",
         linewidth=0.5,
@@ -152,3 +150,9 @@ def plot_network(graph, players, passingMatrix, color):
     # )
 
     plt.show()
+
+
+if __name__ == "__main__":
+    db_connect()
+    get_matrix("2372229", side="away")
+    db_disconnect()

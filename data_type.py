@@ -61,3 +61,9 @@ class TileStatsFeatures:
     shot_count: int
     goal_count: int
     pass_count_surface: np.ndarray
+
+
+@dataclass
+class MatchPlayerEigenvectorCentralityInfo:
+    pass_eigenvector_centrality: float
+    xthreat_eigenvector_centrality: float
