@@ -130,13 +130,6 @@ class MatchPassingMatrix(MatchInfoRetriever):
 db_connect()
 aa = MatchPassingMatrix(match_id="2372355")
 
-for edge_info in aa.home_team_players.edges(data=True):
-    passer_id = edge_info[0]
-    receiver_id = edge_info[1]
-    edge_attribute_dict = edge_info[2]
-    print(passer_id, receiver_id, edge_attribute_dict)
-pass_value_dict = nx.get_edge_attributes(aa.home_team_players, "pass_value")
-print("*"*20)
-for edge in aa.home_team_players.edges():
-    print(pass_value_dict[edge])
+nodes = list(aa.home_team_players.nodes())
+print(nodes)
 db_disconnect()
