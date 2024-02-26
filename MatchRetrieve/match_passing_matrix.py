@@ -6,12 +6,11 @@ import numpy as np
 from data_type import PlayerCoordinate
 from MatchRetrieve.match_info_retriever import MatchInfoRetriever
 
-from database.database import Event, Pass
-from db_connect_utils import db_connect, db_disconnect
+from database.database import Pass
 from xThreat.xThreat import get_tile_id, xThreat
 
 
-class MatchPassingMatrix(MatchInfoRetriever):
+class MatchAdvancedPassingStats(MatchInfoRetriever):
     def __init__(self, match_id: str, side: str = "home"):
         super().__init__(match_id)
 
@@ -24,11 +23,12 @@ class MatchPassingMatrix(MatchInfoRetriever):
         start_time: int = self.home_longest_period_start_time if self.side == "home" \
             else self.away_longest_period_start_time
         end_time: int = self.home_longest_period_end_time if self.side == "home" else self.away_longest_period_end_time
+
         pass_events: List[Pass] = Pass.objects(match_id=self.match_id,
                                                team_id=team_id,
                                                outcome=1,
-                                               time__gte=start_time,
-                                               time__lte=end_time,
+                                               time__gt=start_time,
+                                               time__lt=end_time,
                                                destination_player__ne="0",
                                                origin_player__ne="0",
                                                )
@@ -70,8 +70,8 @@ class MatchPassingMatrix(MatchInfoRetriever):
         pass_events: List[Pass] = Pass.objects(match_id=self.match_id,
                                                team_id=team_id,
                                                outcome=1,
-                                               time__gte=start_time,
-                                               time__lte=end_time,
+                                               time__gt=start_time,
+                                               time__lt=end_time,
                                                destination_player__ne="0",
                                                origin_player__ne="0",
                                                )
@@ -106,37 +106,10 @@ class MatchPassingMatrix(MatchInfoRetriever):
 
         return passing_xThreat_matrix
 
-    def get_eigenvector_centrality(self, matrix_type="normal", max_iterations=100):
-        A = self.get_pass_count_matrix().astype(float) if matrix_type == "normal" else \
-            self.get_pass_xThreat_matrix().astype(float)
+    def get_eigenvector_centrality(self, matrix_type="normal"):
         weight_type = "pass_value" if matrix_type == "normal" else "xT_value"
         team_graph = self.home_team_players if self.side == "home" else self.away_team_players
 
-        t_node_vector = np.array([1.0 for _ in range(team_graph.number_of_nodes())]).astype(float).reshape(11, )
+        eigenvector_centrality = np.array(list(nx.eigenvector_centrality_numpy(team_graph, weight=weight_type).values()))
 
-        for _ in range(max_iterations):
-            t_1_node_vector = np.dot(A.T, t_node_vector)
-            t_node_vector = t_1_node_vector
-
-        EC1 = t_node_vector / np.max(t_node_vector)
-
-        EC2 = np.array(list(nx.eigenvector_centrality_numpy(team_graph, weight=weight_type).values()))
-        print(EC1)
-        print(EC2)
-        print(EC1 / EC2)
-        # return eigenvector_centrality
-
-if __name__ == "__main__":
-    db_connect()
-    aa = MatchPassingMatrix(match_id="2372355")
-
-    for edge_info in aa.home_team_players.edges(data=True):
-        passer_id = edge_info[0]
-        receiver_id = edge_info[1]
-        edge_attribute_dict = edge_info[2]
-        print(passer_id, receiver_id, edge_attribute_dict)
-    pass_value_dict = nx.get_edge_attributes(aa.home_team_players, "pass_value")
-    print("*"*20)
-    for edge in aa.home_team_players.edges():
-        print(pass_value_dict[edge])
-    db_disconnect()
+        return eigenvector_centrality
