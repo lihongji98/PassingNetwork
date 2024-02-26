@@ -66,9 +66,15 @@ def get_player_pass_xthreat_difference():
 
 
 def main():
-        db_connect()
-        get_matrix(side='home')
-        db_disconnect()
+    db_connect()
+    get_player_pass_xthreat_difference()
+    # aa = MatchAdvancedPassingStats(match_id="2372229", side="away")  # '73314'
+    # print(aa.away_team_players.nodes)
+    # pass_ec = aa.get_eigenvector_centrality(matrix_type="normal")
+    # print(pass_ec)
+    # print(xthreat_ec)
+    # print(pass_ec - xthreat_ec)
+    db_disconnect()
 
 
 if __name__ == '__main__':
