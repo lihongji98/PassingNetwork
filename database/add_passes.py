@@ -1,12 +1,10 @@
 import csv
-from database import *
+from database.database import *
 import mongoengine
-from util import get_game_codes, read_all_events, translate_event_type, translate_all_events_meta
+from database.util import get_game_codes, translate_all_events_meta, read_all_events, translate_event_type
 from db_connect_utils import db_connect, db_disconnect
 
-def main():
-    
-    db_connect()
+def add_passes():
 
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
@@ -20,9 +18,7 @@ def main():
 
     
     pass_instances = [Pass(**pass_event) for pass_event in passes]
-    Pass.objects.insert(pass_instances, load_bulk=False)
-
-    db_disconnect()
+    Pass.objects.insert(pass_instances)
 
 
 def add_time(game_code, game_passes, directory):
@@ -40,7 +36,7 @@ def add_time(game_code, game_passes, directory):
         if pass_event['period'] == '1':
             pass_event['time'] = int(pass_event['minute']) * 60 + int(pass_event['second'])
         elif pass_event['period'] == '2':
-            pass_event['time'] = period_one_end_time + (int(pass_event['minute']) - 45) * 60 + int(pass_event['second'])
+            pass_event['time'] = period_one_end_time + 1 + (int(pass_event['minute']) - 45) * 60 + int(pass_event['second'])
         else:
             pass_event['time'] = 'fail'
     return game_passes
@@ -88,4 +84,4 @@ def map_passes_meta(header):
     return remapped_header
 
 if __name__ == "__main__":
-    main()
+    add_passes()
