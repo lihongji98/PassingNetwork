@@ -7,20 +7,26 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def get_matrix(match_id="2372355", side='home'):
+def visualise_network(match_id="2372355", side='home', weight_type='pass_count', node_encoding='pass_and_receive'):
     passing_matrix = MatchAdvancedPassingStats(match_id=match_id, side=side)
-
-    passingMatrix = passing_matrix.get_pass_count_matrix()
     graph = passing_matrix.home_team_players if side == "home" else passing_matrix.away_team_players
 
     players = graph.nodes if side == 'home' else graph.nodes
 
     color = 'b' if side == 'home' else 'r'
 
-    plot_network(graph, players, passingMatrix, color=color)
+    if weight_type == 'pass_count':
+        passingMatrix = passing_matrix.get_pass_count_matrix()
+        lw = np.array(list(nx.get_edge_attributes(graph, 'pass_value').values()))
+    elif weight_type == 'xthreat':
+        passingMatrix = passing_matrix.get_pass_xThreat_matrix()
+        lw = np.array(list(nx.get_edge_attributes(graph, 'xThreat_value').values()))
 
 
-def plot_network(graph, players, passingMatrix, color):
+    plot_network(graph, players, passingMatrix, color=color, lw=lw, node_encoding=node_encoding)
+
+
+def plot_network(graph, players, passingMatrix, color, lw, node_encoding):
     locations = {}
     for player in players:
         locations[player] = graph.nodes(data='average_position')[player]
@@ -47,11 +53,19 @@ def plot_network(graph, players, passingMatrix, color):
                     enumerate(np.sum(passingMatrix, axis=1))}
     receive_dict = {list(players)[index]: receive_count for index, receive_count in
                     enumerate(np.sum(passingMatrix, axis=0))}
+    
+    if node_encoding == 'pass_and_receive':
+        touch_dict = {}
+        for player_id in passing_dict.keys():
+            touch_count = passing_dict[player_id] + receive_dict[player_id]
+            touch_dict[player_id] = touch_count
 
-    touch_dict = {}
-    for player_id in passing_dict.keys():
-        touch_count = passing_dict[player_id] + receive_dict[player_id]
-        touch_dict[player_id] = touch_count
+    # elif node_encoding == 'pass':
+        
+    # elif node_encoding == 'recieve':
+    #     ...
+    # elif node_encoding == 'eigenvalue_centrality':
+    #     ...
 
     max_touches = max(touch_dict.values())
     for player in touch_dict.keys():
@@ -78,7 +92,7 @@ def plot_network(graph, players, passingMatrix, color):
         passers_y,
         receivers_x,
         receivers_y,
-        lw=np.array(list(nx.get_edge_attributes(graph, 'pass_value').values())),
+        lw=lw,
         color=color,
         zorder=1,
         ax=axs["pitch"],
@@ -154,5 +168,5 @@ def plot_network(graph, players, passingMatrix, color):
 
 if __name__ == "__main__":
     db_connect()
-    get_matrix("2372229", side="away")
+    visualise_network("2372229", side="away")
     db_disconnect()
