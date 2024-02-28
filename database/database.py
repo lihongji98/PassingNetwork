@@ -95,7 +95,14 @@ class Player(meng.DynamicDocument):
 
     team_id = ListField()
     shirt_number = IntField()
-    position = ListField()
+    position = DictField(
+        striker = IntField(),
+        midfielder = IntField(),
+        defender = IntField(),
+        keeper = IntField(),
+        substitute = IntField()
+    )
+    
 
     starts = IntField()
     apps = IntField()

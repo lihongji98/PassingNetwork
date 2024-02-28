@@ -1,11 +1,10 @@
 import csv
-from database import *
+from database.database import *
 import mongoengine
-from util import get_game_codes
+from database.util import get_game_codes
 
 
-def main():
-    mongoengine.connect(db='LaLiga2023', host="")
+def add_players():
 
     directory = 'C:/Users/joemc/Documents/UPC_local/PassingNetwork/data/'
 
@@ -34,7 +33,13 @@ def process_player_data(player_data):
         player['player_id'] = player_id
 
         player['team_id'] = set()
-        player['position'] = set()
+        player['position'] = {
+            'striker': 0,
+            'midfielder': 0,
+            'defender': 0,
+            'goalkeeper': 0,
+            'substitute': 0
+        }
         player['starts'] = 0
         player['apps'] = 0
         player['minutes'] = 0
@@ -45,7 +50,7 @@ def process_player_data(player_data):
                 player['last_name'] = game_player_data['last_name']
                 player['known_name'] = game_player_data['known_name']
                 player['team_id'].add(game_player_data['team_id'])
-                player['position'].add(game_player_data['position'])
+                player['position'][game_player_data['position'].lower()] += 1
                 if game_player_data['start'] == 'Start':
                     player['starts'] += 1
                     player['apps'] += 1
@@ -91,4 +96,4 @@ def translate_players_meta(row):
 
 
 if __name__ == "__main__":
-    main()
+    add_players()
