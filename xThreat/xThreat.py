@@ -144,8 +144,8 @@ class xThreat:
             self.xThreat_surface = self._compute_xThreat(self.xThreat_surface)
             xThreat_error = np.sum(xThreat_buffer - self.xThreat_surface)
             print(f"epoch: {epoch+1} -> loss: {abs(xThreat_error)}")
-            if abs(xThreat_error) < 1e-6:
-                break
+            # if abs(xThreat_error) < 1e-6:
+            #     break
 
         # self.xThreat_surface = np.round(self.xThreat_surface, 1)
 
@@ -189,7 +189,10 @@ class xThreat:
         return self.xThreat_surface
 
 
+# from db_connect_utils import db_connect, db_disconnect
+# db_connect()
 # xx = xThreat()
-# xThreat = xx.get_team_xThreat()
-# print(xThreat.shape)
+# xThreat = xx.get_team_xThreat(train_epoch=100)
+# print(np.round(np.array(xThreat).reshape(12, 16), 1))
 # np.savetxt("seasonal_xThreat.csv", xThreat, delimiter=",")
+# db_disconnect()

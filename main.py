@@ -23,14 +23,13 @@ def get_player_pass_xthreat_difference():
     match_id_set = sorted(match_id_set)
 
     for match_id in tqdm(match_id_set):
-        match_pass_info = MatchAdvancedPassingStats(match_id=match_id)
         for side in ["home", "away"]:
-            match_pass_info.side = side
-            player_list = match_pass_info.home_team_players.nodes \
-                if side == "home" else match_pass_info.away_team_players.nodes
+            match_info_container = MatchAdvancedPassingStats(match_id=match_id, side=side)
+            player_list = match_info_container.home_team_players.nodes \
+                if side == "home" else match_info_container.away_team_players.nodes
 
-            pass_EC = match_pass_info.get_pass_count_matrix()
-            xThreat_EC = match_pass_info.get_pass_xThreat_matrix()
+            pass_EC = match_info_container.get_eigenvector_centrality(matrix_type="normal")
+            xThreat_EC = match_info_container.get_eigenvector_centrality(matrix_type="xThreat")
 
             for player_id, pass_EC, xThreat_EC in zip(player_list, pass_EC, xThreat_EC):
                 ec_info = MatchPlayerEigenvectorCentralityInfo(pass_EC, xThreat_EC)
@@ -42,14 +41,16 @@ def get_player_pass_xthreat_difference():
                 "difference_ec_mean", "difference_ec_std"]
     output_dict = {key_name: [] for key_name in key_list}
     for player_id in player_stats_eigenvector_centrality_dict.keys():
-        stats_items = player_stats_eigenvector_centrality_dict[player_id]
+        stats_items: List[MatchPlayerEigenvectorCentralityInfo] = player_stats_eigenvector_centrality_dict[player_id]
 
         pass_ec = np.array([stats_item.pass_eigenvector_centrality for stats_item in stats_items])
         xthreat_ec = np.array([stats_item.xthreat_eigenvector_centrality for stats_item in stats_items])
-        difference_ec = np.array([stats_item.pass_eigenvector_centrality - stats_item.xthreat_eigenvector_centrality \
+        difference_ec = np.array([stats_item.xthreat_eigenvector_centrality - stats_item.pass_eigenvector_centrality \
                                   for stats_item in stats_items])
 
         pass_ec_mean, pass_ec_std = np.mean(pass_ec), np.std(pass_ec)
+        if pass_ec_mean < 0:
+            print(pass_ec)
         xthreat_ec_mean, xthreat_ec_std = np.mean(xthreat_ec), np.std(xthreat_ec)
         difference_ec_mean, difference_ec_std = np.mean(difference_ec), np.std(difference_ec)
 
