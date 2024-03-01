@@ -1,0 +1,147 @@
+,player_team,player_name,player_minute,difference_ec_mean
+97,Granada CF,Wilson Manafá,241,0.2293028383823337
+243,Real Madrid,Lucas Vázquez,482,0.2169874134138288
+188,Atlético de Madrid,Yannick Carrasco,223,0.1536563554521345
+334,Real Betis,Youssouf Sabaly,270,0.1404821063191752
+113,Cádiz,Momo Mbaye,286,0.0530327326877397
+169,Real Betis,Aitor Ruibal,647,0.0452320572415696
+244,Las Palmas,Sergi Cardona,1464,0.037526446377361
+80,Osasuna,Rubén Peña,1171,0.030420122269128
+335,Villarreal,Alberto Moreno,599,0.0191016326930148
+189,Real Madrid,Dani Carvajal,1180,0.0064222270624133
+321,Rayo Vallecano,Pep Chavarría,245,0.002301716894864
+400,Girona,Miguel Gutiérrez,1682,-0.0022439162107773
+90,Almería,Marc Pubill,399,-0.0028832562633258
+326,Rayo Vallecano,Andrei Ratiu,260,-0.0094918962503601
+186,Osasuna,Jesús Areso,1264,-0.0186372703493158
+422,Mallorca,Toni Lato,657,-0.0187372639362933
+284,Barcelona,Alejandro Balde,1288,-0.0228750603863451
+77,Sevilla,Adrià Pedrosa,1157,-0.0245225015373611
+361,Sevilla,Juanlu Sánchez,877,-0.0291525142812468
+343,Real Madrid,Fran García,770,-0.0328637222969419
+256,Villarreal,Alfonso Pedraza,894,-0.0336664637875359
+401,Real Madrid,Ferland Mendy,725,-0.0542293603915687
+38,Sevilla,Jesús Navas,806,-0.0650500068065743
+21,Getafe,Juan Iglesias,797,-0.0682588350582198
+402,Valencia CF,José Gayà,1020,-0.0752600795809933
+165,Real Betis,Héctor Bellerín,939,-0.0786138319725823
+0,Athletic Club,Yuri Berchiche,981,-0.0835511458790196
+327,Almería,Álex Pozo,797,-0.088359207539501
+305,Las Palmas,Julián Araujo,995,-0.0911263840783948
+160,Mallorca,Giovanni González,1198,-0.0954063212639289
+211,Atlético de Madrid,Nahuel Molina,917,-0.0976590785169823
+227,Athletic Club,Óscar De Marcos,1165,-0.1005576190486087
+226,Mallorca,Jaume Costa,954,-0.100748722035687
+378,Granada CF,Ricard Sánchez,1355,-0.1023073541669527
+266,Rayo Vallecano,Alfonso Espino,1444,-0.1056980428570057
+56,Barcelona,João Cancelo,1267,-0.1085180697047247
+235,Villarreal,Carlos Romero,237,-0.11011393311045
+225,Alavés,Andoni Gorosabel,1613,-0.1191324402336096
+66,Celta de Vigo,Óscar Mingueza,1498,-0.1216135859341234
+73,Alavés,Javi López,990,-0.1222274453577348
+393,Almería,César Montes,958,-0.1274739262763493
+72,Getafe,Gastón Álvarez,1420,-0.1298724478578861
+353,Rayo Vallecano,Iván Balliu,1432,-0.1319769162864137
+248,Real Betis,Abner,880,-0.1437347751558385
+429,Celta de Vigo,Manu Sánchez,1079,-0.1461742399398461
+96,Celta de Vigo,Kevin Vázquez,626,-0.1477036963685038
+142,Celta de Vigo,Carl Starfelt,1359,-0.1484713137232711
+94,Osasuna,Johan Mojica,724,-0.1494393465266563
+141,Las Palmas,Álex Suárez,1191,-0.1522888683303176
+349,Real Sociedad,Hamari Traoré,1478,-0.1552610645733568
+330,Real Betis,Juan Miranda,830,-0.1553890651117463
+356,Cádiz,Lucas Pires,757,-0.1554604217153463
+120,Almería,Sergio Akieme,1530,-0.1562536497400877
+217,Las Palmas,Daley Sinkgraven,229,-0.1614432575134853
+64,Getafe,Stefan Mitrovic,700,-0.1643999454969013
+200,Cádiz,Jorge Meré,330,-0.1681524164679308
+359,Mallorca,Pablo Maffeo,1032,-0.1718616368423404
+296,Cádiz,Iza Carcelén,1498,-0.1730876971385407
+405,Villarreal,Juan Foyth,1063,-0.174920675909729
+173,Alavés,Rubén Duarte,980,-0.1806532156372497
+316,Cádiz,Fali,1519,-0.1839959422303229
+255,Celta de Vigo,Mihailo Ristic,499,-0.1859949173998587
+367,Valencia CF,Yarek Gasiorowski,273,-0.1862240159919266
+163,Sevilla,Sergio Ramos,898,-0.1868618843230855
+379,Sevilla,Marcos Acuña,456,-0.1898644348634506
+181,Celta de Vigo,Unai Núñez,1709,-0.1940654513715353
+410,Alavés,Abdelkabir Abqar,1255,-0.1966062992254562
+304,Almería,Houboulang Mendes,396,-0.1976701549415684
+407,Real Sociedad,Kieran Tierney,741,-0.19818016161755
+267,Mallorca,Copete,546,-0.2001010698903216
+292,Cádiz,Javi Hernández,1401,-0.2004250384527571
+215,Villarreal,Adrià Alti,723,-0.2018320129352459
+5,Real Betis,Chadi Riad,1104,-0.2020396723914117
+419,Osasuna,Alejandro Catena,1344,-0.2031608632294533
+224,Alavés,Rafa Marín,1086,-0.2083522748268978
+111,Getafe,Damián Suárez,1216,-0.2105089421689727
+223,Mallorca,Antonio Raíllo,713,-0.210539193598164
+291,Granada CF,Carlos Neva,1626,-0.2115492032203093
+375,Getafe,Diego Rico,1247,-0.2119460480989465
+47,Real Betis,Marc Bartra,225,-0.2149701795976428
+195,Atlético de Madrid,José Giménez,651,-0.2159325108781813
+126,Rayo Vallecano,Aridane Hernández,881,-0.2183063923129206
+220,Alavés,Aleksandar Sedlar,948,-0.2240957467251998
+257,Athletic Club,Dani Vivian,1779,-0.229604547289687
+423,Real Madrid,Nacho,584,-0.2306388480916217
+414,Mallorca,Martin Valjent,1374,-0.2316279962843209
+240,Celta de Vigo,Carlos Domínguez,492,-0.2320708366537
+362,Atlético de Madrid,César Azpilicueta,949,-0.2362457877900327
+7,Atlético de Madrid,Mario Hermoso,1492,-0.2402065826414863
+331,Real Betis,Germán Pezzella,1583,-0.2402999699366267
+247,Valencia CF,Thierry Correia,1380,-0.2431754662675794
+201,Sevilla,Kike Salas,508,-0.2443718483361103
+263,Real Betis,Luiz Felipe,360,-0.2460200310926026
+158,Real Sociedad,Aritz Elustondo,445,-0.2493864777655461
+303,Cádiz,Victor Chust,362,-0.2496538116239934
+190,Villarreal,Jorge Cuenca,981,-0.2520968648015838
+315,Rayo Vallecano,Abdul Mumin,795,-0.2522585574909803
+254,Getafe,Omar Alderete,638,-0.2526818873968424
+22,Osasuna,Juan Cruz,1005,-0.2532522311006357
+395,Real Sociedad,Aihen Muñoz,1081,-0.255709829944796
+101,Girona,Arnau Martínez,831,-0.2558918749235765
+285,Real Madrid,David Alaba,1156,-0.2566899320909223
+229,Almería,Álex Centelles,225,-0.2583430909200683
+103,Villarreal,Raúl Albiol,1279,-0.2679241877802596
+26,Athletic Club,Imanol García de Albéniz,259,-0.2683279685959616
+102,Granada CF,Miguel Rubio,570,-0.2684565891166934
+381,Athletic Club,Íñigo Lekue,1159,-0.2701650297171681
+11,Real Madrid,Antonio Rüdiger,1570,-0.2725308508763978
+123,Mallorca,Matija Nastasic,1177,-0.2732255478174012
+199,Barcelona,Ronald Araújo,1021,-0.2758091275398625
+202,Atlético de Madrid,Stefan Savic,724,-0.2787081421922455
+106,Getafe,Domingos Duarte,759,-0.2791515883560295
+294,Alavés,Nahuel Tenaglia,292,-0.2811722236133424
+1,Barcelona,Jules Koundé,1251,-0.2840820429300392
+333,Girona,Juanpe,275,-0.2860683388759578
+29,Las Palmas,Saúl Coco,1206,-0.2891003440938988
+216,Almería,Edgar González,1309,-0.2894212339024806
+213,Athletic Club,Aitor Paredes,1606,-0.2916124387947716
+41,Valencia CF,Cristhian Mosquera,1364,-0.2986872660400662
+182,Sevilla,Loïc Badé,952,-0.3000619515449998
+53,Mallorca,Siebe Van der Heyden,274,-0.3041523685832293
+191,Granada CF,Ignasi Miquel,1665,-0.3062971813381149
+19,Cádiz,Luis Hernández,632,-0.3102835623448062
+162,Sevilla,Nemanja Gudelj,1378,-0.3113133032021785
+352,Rayo Vallecano,Florian Lejeune,1708,-0.3120079512641547
+245,Celta de Vigo,Joseph Aidoo,407,-0.312382554480212
+311,Barcelona,Íñigo Martínez,543,-0.3137685364081473
+397,Osasuna,David García,1620,-0.31404377049386
+369,Almería,Chumi,1384,-0.3156924316552211
+366,Valencia CF,Mouctar Diakhaby,892,-0.3179988052136057
+337,Atlético de Madrid,Axel Witsel,1550,-0.322617899260379
+184,Osasuna,Jorge Herrando,215,-0.3255996437601096
+176,Las Palmas,Mika Mármol,1490,-0.3300646555457628
+308,Valencia CF,Cenk Özkacar,587,-0.3320558331736252
+264,Barcelona,Eric García,1279,-0.3351689851776919
+391,Girona,David López,1193,-0.3369566335438702
+295,Villarreal,Aïssa Mandi,645,-0.3374130337839763
+60,Valencia CF,Gabriel Paulista,1151,-0.3606175945974778
+35,Barcelona,Andreas Christensen,1093,-0.366070529468245
+198,Girona,Daley Blind,1711,-0.3677693030131849
+135,Real Sociedad,Igor Zubeldia,1591,-0.3748830278025212
+118,Almería,Kaiky,430,-0.3777787160712031
+156,Real Sociedad,Robin Le Normand,1407,-0.3981972018733173
+205,Villarreal,Matteo Gabbia,478,-0.4002779764642494
+246,Granada CF,Raúl Torrente,1033,-0.4056708219713592
+196,Real Sociedad,Jon Pacheco,344,-0.421586937416222

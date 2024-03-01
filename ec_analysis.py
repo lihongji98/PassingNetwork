@@ -59,9 +59,12 @@ def groupby_team_data():
     team_data = team_data[team_data['player_minute'] >= minute_threshold]
     team_groupby_data = team_data.groupby("player_position")
     print(team_data)
+    metric_name = "xthreat_ec_mean"
+    metric_type = "xthreat_ec"
     for index, team_data in team_groupby_data:
-        team_data = team_data.sort_values(by=["difference_ec_mean"], ascending=False)
-        team_data = team_data[["player_team", "player_name", "difference_ec_mean"]].head(10)
+        team_data = team_data.sort_values(by=[metric_name], ascending=False)
+        team_data = team_data[["player_team", "player_name", "player_minute", metric_name]]
+        team_data.to_csv(f"./player_ec_rank/{index}_{metric_type}.csv")
         print(index, team_data)
         print("\n")
 
