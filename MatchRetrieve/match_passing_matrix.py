@@ -3,6 +3,7 @@ from typing import List, Dict
 import networkx as nx
 import numpy as np
 
+import db_connect_utils
 from data_type import PlayerCoordinate
 from MatchRetrieve.match_info_retriever import MatchInfoRetriever
 
@@ -106,10 +107,22 @@ class MatchAdvancedPassingStats(MatchInfoRetriever):
 
         return passing_xThreat_matrix
 
-    def get_eigenvector_centrality(self, matrix_type="normal"):
+    def get_in_eigenvector_centrality(self, matrix_type="normal"):
         weight_type = "pass_value" if matrix_type == "normal" else "xT_value"
         team_graph = self.home_team_players if self.side == "home" else self.away_team_players
 
         eigenvector_centrality = np.array(list(nx.eigenvector_centrality_numpy(team_graph, weight=weight_type).values()))
+
+        return eigenvector_centrality
+
+    def get_out_eigenvector_centrality(self, matrix_type="normal"):
+        adjacency_matrix = self.get_pass_count_matrix() if matrix_type == "normal" else self.get_pass_xThreat_matrix()
+        adjacency_matrix = adjacency_matrix.transpose()
+        initial_vector = np.ones(shape=11)
+        for _ in range(100):
+            initial_vector = np.dot(initial_vector, adjacency_matrix)
+            initial_vector_norm = np.linalg.norm(initial_vector)
+            initial_vector /= initial_vector_norm
+            eigenvector_centrality = initial_vector
 
         return eigenvector_centrality

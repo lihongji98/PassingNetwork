@@ -4,7 +4,7 @@ from database.database import Player, Team
 
 
 def match_team():
-    ec_data = pd.read_csv("eigenvector_centrality.csv").dropna()
+    ec_data = pd.read_csv("Visualisation/out_eigenvector_centrality.csv").dropna()
     print(ec_data)
 
     team_dict = {}
@@ -46,7 +46,7 @@ def match_team():
 
     ec_data = ec_data[ec_data["player_position"] != "substitute"]
 
-    ec_data.to_csv('eigenvector_centrality.csv', index=False)
+    ec_data.to_csv('out_eigenvector_centrality.csv', index=False)
 
 
 def groupby_team_data():
@@ -55,7 +55,7 @@ def groupby_team_data():
     #             "xthreat_ec_mean", "xthreat_ec_std",
     #             "difference_ec_mean", "difference_ec_std"]
     minute_threshold = 200
-    team_data = pd.read_csv("eigenvector_centrality.csv")
+    team_data = pd.read_csv("Visualisation/eigenvector_centrality.csv")
     team_data = team_data[team_data['player_minute'] >= minute_threshold]
     team_groupby_data = team_data.groupby("player_position")
     print(team_data)
@@ -69,9 +69,15 @@ def groupby_team_data():
         print("\n")
 
 
+def filter_player():
+    data = pd.read_csv("Visualisation/in_eigenvector_centrality.csv")
+    data = data[data["player_minute"] > 200]
+    data.to_csv('in_eigenvector_centrality.csv', index=False)
+
+
 # db_connect()
 
 # match_team()
-groupby_team_data()
-
-db_disconnect()
+# groupby_team_data()
+filter_player()
+# db_disconnect()

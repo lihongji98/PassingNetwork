@@ -28,8 +28,8 @@ def get_player_pass_xthreat_difference():
             player_list = match_info_container.home_team_players.nodes \
                 if side == "home" else match_info_container.away_team_players.nodes
 
-            pass_EC = match_info_container.get_eigenvector_centrality(matrix_type="normal")
-            xThreat_EC = match_info_container.get_eigenvector_centrality(matrix_type="xThreat")
+            pass_EC = match_info_container.get_out_eigenvector_centrality(matrix_type="normal")
+            xThreat_EC = match_info_container.get_out_eigenvector_centrality(matrix_type="xThreat")
 
             for player_id, pass_EC, xThreat_EC in zip(player_list, pass_EC, xThreat_EC):
                 ec_info = MatchPlayerEigenvectorCentralityInfo(pass_EC, xThreat_EC)
@@ -63,7 +63,7 @@ def get_player_pass_xthreat_difference():
         output_dict["difference_ec_std"].append(difference_ec_std)
 
     eigenvector_centrality_stats = pd.DataFrame(output_dict)
-    eigenvector_centrality_stats.to_csv('eigenvector_centrality.csv', index=False)
+    eigenvector_centrality_stats.to_csv('out_eigenvector_centrality.csv', index=False)
 
 
 def main():
