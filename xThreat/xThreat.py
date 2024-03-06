@@ -177,6 +177,43 @@ class xThreat:
             plt.savefig('xThreat_surface_visualization.png', dpi=800)
         plt.show()
 
+    
+    def draw_xThreat_surface_2d(self, train_epoch=5, save=False):
+        """
+        run this member function to visualize the xThreat surface.
+        :param train_epoch: default is 5.
+        :param save: True if you want to save the fig
+        :return: None
+        """
+        self._fit_retrieve_data()
+        self._train(train_epoch)
+
+        xThreat_surface = self.xThreat_surface.copy().reshape(PitchMeta.y, PitchMeta.x)
+
+        x = np.arange(xThreat_surface.shape[1])
+        y = np.arange(xThreat_surface.shape[0])
+
+                # Create meshgrid
+        X, Y = np.meshgrid(x, y)
+
+        # Plot the 2D heatmap
+        plt.figure(figsize=(12, 7))
+        plt.imshow(xThreat_surface, cmap='coolwarm', aspect='auto')
+        cbar = plt.colorbar(label='xThreat')
+        cbar.ax.tick_params(labelsize=12)  # Set font size for color bar labels
+        cbar.set_label('xThreat', fontsize=14)
+        plt.xlabel('Width', fontsize=16)
+        plt.ylabel('Height', fontsize=16)
+        plt.title('xThreat Heatmap', fontsize=18)
+        plt.xticks(fontsize=12)
+        plt.yticks(fontsize=12)
+        plt.show()
+
+        if save:
+            plt.savefig('xThreat_surface_visualization_2d.png', dpi=800)
+        plt.show()
+
+
     def get_team_xThreat(self, train_epoch=5):
         """
         A training epoch is required to set up, and the default epoch is 5.
